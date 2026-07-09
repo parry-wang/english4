@@ -1,0 +1,85 @@
+gain|/ɡeɪn/|v. 获得 n. 利益|动词|2
+gallery|/ˈɡæləri/|n. 画廊|名词|2
+gallon|/ˈɡælən/|n. 加仑|名词|2
+game|/ɡeɪm/|n. 游戏；比赛|名词|1
+gang|/ɡæŋ/|n. 一伙人|名词|2
+gap|/ɡæp/|n. 缺口|名词|2
+garage|/ɡəˈrɑːʒ/|n. 车库|名词|2
+garbage|/ˈɑːrbɪdʒ/|n. 垃圾|名词|2
+garden|/ˈɑːrdən/|n. 花园|名词|1
+gas|/ɡæs/|n. 气体；汽油|名词|1
+gate|/ɡeɪt/|n. 大门|名词|1
+gather|/ˈɡæðər/|v. 聚集|动词|2
+generation|/ˌdʒenəˈreɪʃn/|n. 一代|名词|2
+generous|/ˈdʒenərəs/|adj. 慷慨的|形容词|2
+genius|/ˈdʒiːniəs/|n. 天才|名词|2
+gentle|/ˈdʒentl/|adj. 温柔的|形容词|2
+gentleman|/ˈdʒentlmən/|n. 绅士|名词|2
+genuine|/ˈdʒenjuɪn/|adj. 真正的|形容词|2
+geography|/dʒiˈɒɡrəfi/|n. 地理|名词|2
+geometry|/dʒiˈɒmətri/|n. 几何|名词|2
+gesture|/ˈdʒestʃər/|n. 手势|名词|2
+get|/ɡet/|v. 得到|动词|1
+ghost|/ɡoʊst/|n. 鬼魂|名词|2
+giant|/ˈdʒaɪənt/|n. 巨人 adj. 巨大的|名词|2
+gift|/ɡɪft/|n. 礼物|名词|1
+girl|/ɜːrl/|n. 女孩|名词|1
+give|/ɡɪv/|v. 给|动词|1
+glad|/ɡlæd/|adj. 高兴的|形容词|1
+glance|/ɡlæns/|v. 扫视|动词|2
+glare|/ɡleər/|v. 怒视|动词|2
+glass|/ɡlɑːs/|n. 玻璃|名词|1
+globe|/ɡloʊb/|n. 地球仪|名词|2
+glory|/ˈɡlɔːri/|n. 光荣|名词|2
+glove|/ɡlʌv/|n. 手套|名词|2
+go|/ɡoʊ/|v. 去|动词|1
+goal|/ɡoʊl/|n. 目标；进球|名词|1
+goat|/ɡoʊt/|n. 山羊|名词|2
+god|/ɡɒd/|n. 上帝；神|名词|1
+gold|/ɡoʊld/|n. 金 adj. 金色的|名词|1
+golden|/ˈɡoʊldən/|adj. 金色的|形容词|2
+golf|/ɡɒlf/|n. 高尔夫球|名词|2
+good|/ɡʊd/|adj. 好的|形容词|1
+goodbye|/ˌɡʊdˈbaɪ/|int. 再见|副词|1
+goods|/ɡʊdz/|n. 商品|名词|2
+goose|/ɡuːs/|n. 鹅|名词|2
+govern|/ˈɡʌvn/|v. 统治|动词|2
+government|/ˈɡʌvərnmənt/|n. 政府|名词|1
+governor|/ˈɡʌvərnər/|n. 州长|名词|2
+grace|/ɡreɪs/|n. 优雅|名词|2
+grade|/ɡreɪd/|n. 年级；成绩 v. 评分|名词|1
+gradual|/ˈɡrædʒuəl/|adj. 逐渐的|形容词|2
+gradually|/ˈɡrædʒuəli/|adv. 逐渐地|副词|2
+graduate|/ˈɡrædʒueɪt/|v. 毕业 n. 毕业生|动词|2
+grain|/ɡreɪn/|n. 粮食|名词|2
+grammar|/ˈɡræmər/|n. 语法|名词|2
+grand|/ɡrænd/|adj. 宏伟的|形容词|2
+grandfather|/ˈɡrænfɑːðər/|n. 爷爷|名词|1
+grandmother|/ˈɡrænmʌðər/|n. 奶奶|名词|1
+grant|/ɡrɑːnt/|v. 授予 n. 补助金|动词|2
+graph|/ɡræf/|n. 图表|名词|2
+grasp|/ɡrɑːsp/|v. 抓住；理解|动词|2
+grass|/ɡrɑːs/|n. 草|名词|1
+grateful|/ˈɡreɪtfl/|adj. 感激的|形容词|2
+grave|/ɡreɪv/|n. 坟墓 adj. 严肃的|名词|2
+great|/ɡreɪt/|adj. 伟大的|形容词|1
+greedy|/ˈɡriːdi/|adj. 贪婪的|形容词|2
+green|/ɡriːn/|adj. 绿色的|形容词|1
+greece|/ɡriːs/|n. 希腊|名词|1
+greet|/ɡriːt/|v. 问候|动词|2
+grey|/ɡreɪ/|adj. 灰色的|形容词|2
+grocer|/ˈɡroʊsər/|n. 杂货商|名词|2
+gross|/ɡroʊs/|adj. 总的|形容词|2
+ground|/ɡraʊnd/|n. 地面|名词|1
+group|/ɡruːp/|n. 组|名词|1
+grow|/ɡroʊ/|v. 生长|动词|1
+growth|/ɡroʊθ/|n. 生长|名词|2
+guarantee|/ˌɡærənˈtiː/|n. 保证 v. 保证|名词|2
+guard|/ɑːrd/|n. 守卫 v. 保卫|名词|2
+guess|/ɡes/|v. 猜测|动词|1
+guest|/ɡest/|n. 客人|名词|1
+guidance|/ˈɡaɪdns/|n. 指导|名词|2
+guide|/ɡaɪd/|n. 指南 v. 指引|名词|2
+guilty|/ˈɡɪlti/|adj. 有罪的|形容词|2
+gun|/ɡʌn/|n. 枪|名词|2
+gym|/dʒɪm/|n. 体育馆|名词|1

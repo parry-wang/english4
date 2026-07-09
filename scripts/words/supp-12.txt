@@ -1,0 +1,870 @@
+adorn|/əˈdɔːrn/|vt. 装饰；装扮|动词|2
+aerospace|/ˈerəspeɪs/|n. 航空航天|名词|3
+ale|/eɪl/|n. 麦酒；淡啤酒|名词|2
+alphabet|/ˈælfəbet/|n. 字母表；字母系统|名词|1
+amber|/ˈæmbər/|n. 琥珀；琥珀色|名词|2
+arch|/ɑːrtʃ/|n. 拱门；拱形 vt. 使成拱形|名词|2
+arid|/ˈærɪd/|adj. 干旱的；荒芜的|形容词|3
+atlas|/ˈætləs/|n. 地图集；图谱|名词|2
+auditor|/ˈɔːdɪtər/|n. 审计员；旁听生|名词|3
+aural|/ˈɔːrəl/|adj. 听觉的；耳的|形容词|3
+avalanche|/ˈævəlæntʃ/|n. 雪崩；大量涌来|名词|3
+avocado|/ˌævəˈkɑːdoʊ/|n. 鳄梨；牛油果|名词|2
+axis|/ˈæksɪs/|n. 轴；轴线|名词|2
+bald|/bɔːld/|adj. 秃的；光秃的|形容词|2
+bamboo|/bæmˈbuː/|n. 竹子|名词|2
+bathrobe|/ˈbæθroʊb/|n. 浴袍；晨衣|名词|2
+berry|/ˈberi/|n. 浆果；莓果|名词|2
+bog|/bɑːɡ/|n. 沼泽；泥塘|名词|3
+bolt|/boʊlt/|n. 螺栓；闪电 vt. 栓住|名词|2
+bonfire|/ˈbɑːnfaɪər/|n. 篝火；营火|名词|2
+bough|/baʊ/|n. 大树枝；主枝|名词|3
+brass|/bræs/|n. 黄铜；铜器|名词|2
+bruise|/bruːz/|n. 淤伤 vt. 使受淤伤|名词|2
+bug|/bʌɡ/|n. 虫子；故障 vt. 烦扰|名词|2
+bulge|/bʌldʒ/|n. 凸起；膨胀 vi. 凸出|名词|3
+bulky|/ˈbʌlki/|adj. 庞大的；笨重的|形容词|3
+bunk|/bʌŋk/|n. 铺位；床铺|名词|2
+burrow|/ˈbɜːroʊ/|n. 洞穴 v. 挖掘|名词|3
+bustle|/ˈbʌsəl/|vi. 奔忙；喧闹 n. 忙碌|动词|3
+buzz|/bʌz/|vi. 嗡嗡响 n. 嗡嗡声|动词|2
+cane|/keɪn/|n. 手杖；甘蔗|名词|2
+canvas|/ˈkænvəs/|n. 帆布；画布|名词|2
+carve|/kɑːrv/|vt. 雕刻；切|动词|2
+cassette|/kəˈset/|n. 盒式磁带|名词|2
+caterpillar|/ˈkætərpɪlər/|n. 毛毛虫|名词|2
+cedar|/ˈsiːdər/|n. 雪松；杉木|名词|3
+cereal|/ˈsɪriəl/|n. 谷物；麦片|名词|2
+chaos|/ˈkeɪɑːs/|n. 混乱；混沌|名词|2
+charm|/tʃɑːrm/|n. 魅力；护身符 vt. 迷住|名词|2
+chew|/tʃuː/|vt. 咀嚼；嚼碎|动词|1
+chord|/kɔːrd/|n. 和弦；弦|名词|3
+chorus|/ˈkɔːrəs/|n. 合唱；合唱队|名词|2
+cigar|/sɪˈɡɑːr/|n. 雪茄烟|名词|2
+circuit|/ˈsɜːrkɪt/|n. 电路；巡回|名词|2
+clam|/klæm/|n. 蛤蜊|名词|2
+clamp|/klæmp/|n. 夹子 vt. 夹紧|名词|3
+clan|/klæn/|n. 氏族；宗族|名词|3
+clay|/kleɪ/|n. 黏土；泥土|名词|2
+cling|/klɪŋ/|vi. 紧握；依附|动词|2
+clip|/klɪp/|n. 夹子；剪报 vt. 修剪|名词|2
+clockwise|/ˈklɑːkwaɪz/|adj./adv. 顺时针方向的|副词|2
+closet|/ˈklɑːzət/|n. 壁橱；储藏室|名词|2
+cobweb|/ˈkɑːbweb/|n. 蜘蛛网|名词|3
+coconut|/ˈkoʊkənʌt/|n. 椰子|名词|2
+cod|/kɑːd/|n. 鳕鱼|名词|3
+coil|/kɔɪl/|n. 线圈 v. 盘绕|名词|2
+colony|/ˈkɑːləni/|n. 殖民地；聚居地|名词|2
+coma|/ˈkoʊmə/|n. 昏迷|名词|3
+combat|/ˈkɑːmbæt/|n./vt. 战斗；对抗|动词|2
+comma|/ˈkɑːmə/|n. 逗号|名词|1
+commute|/kəˈmjuːt/|vi. 通勤；交换|动词|2
+compact|/kəmˈpækt/|adj. 紧凑的；简洁的|形容词|2
+compartment|/kəmˈpɑːrtmənt/|n. 隔间；车厢|名词|3
+compassion|/kəmˈpæʃn/|n. 同情；怜悯|名词|3
+compost|/ˈkɑːmpoʊst/|n. 堆肥 vt. 施堆肥|名词|3
+compound|/ˈkɑːmpaʊnd/|n. 化合物 adj. 复合的|名词|2
+comprehend|/ˌkɑːmprɪˈhend/|vt. 理解；领悟|动词|3
+confide|/kənˈfaɪd/|vt. 倾诉；信托|动词|3
+consent|/kənˈsent/|n./vi. 同意；许可|名词|2
+conspiracy|/kənˈspɪrəsi/|n. 阴谋；共谋|名词|3
+constitute|/ˈkɑːnstɪtuːt/|vt. 构成；组成|动词|2
+continental|/ˌkɑːntɪˈnentl/|adj. 大陆的；洲际的|形容词|2
+contour|/ˈkɑːntʊr/|n. 轮廓；等高线|名词|3
+convene|/kənˈviːn/|vi. 集合；召开|动词|3
+converse|/kənˈvɜːrs/|vi. 交谈 adj. 相反的|动词|2
+convict|/kənˈvɪkt/|vt. 定罪 n. 罪犯|动词|2
+coordinate|/koʊˈɔːrdɪneɪt/|vt. 协调；使协调|动词|2
+coral|/ˈkɔːrəl/|n. 珊瑚|名词|2
+cord|/kɔːrd/|n. 绳索；电线|名词|2
+cork|/kɔːrk/|n. 软木塞 vt. 用瓶塞塞住|名词|2
+corpse|/kɔːrps/|n. 尸体|名词|2
+corrupt|/kəˈrʌpt/|adj. 腐败的 vt. 使腐败|形容词|2
+couch|/kaʊtʃ/|n. 长沙发；睡椅|名词|2
+countdown|/ˈkaʊntdaʊn/|n. 倒计时|名词|2
+counterclockwise|/ˌkaʊntərˈklɑːkwaɪz/|adj./adv. 逆时针方向的|副词|3
+coupon|/ˈkuːpɑːn/|n. 优惠券；赠券|名词|2
+courteous|/ˈkɜːrtiəs/|adj. 有礼貌的；谦恭的|形容词|3
+covenant|/ˈkʌvənənt/|n. 契约；盟约|名词|3
+covert|/ˈkʌvərt/|adj. 隐蔽的；秘密的|形容词|3
+crab|/kræb/|n. 螃蟹|名词|2
+crane|/kreɪn/|n. 起重机；鹤|名词|2
+crate|/kreɪt/|n. 板条箱；篓|名词|3
+crater|/ˈkreɪtər/|n. 火山口；弹坑|名词|3
+crawl|/krɔːl/|vi. 爬行；缓慢行进|动词|2
+craze|/kreɪz/|n. 狂热；风尚|名词|3
+creak|/kriːk/|vi. 吱嘎作响 n. 吱嘎声|动词|3
+crease|/kriːs/|n. 折痕；皱褶|名词|3
+credence|/ˈkriːdns/|n. 信任；相信|名词|3
+creed|/kriːd/|n. 信条；信念|名词|3
+croak|/kroʊk/|vi. 呱呱叫 n. 蛙鸣|动词|3
+crochet|/kroʊˈʃeɪ/|n. 钩针编织|名词|3
+crook|/krʊk/|n. 弯曲处；骗子|名词|3
+crossroad|/ˈkrɔːsroʊd/|n. 十字路口；交叉路|名词|2
+crow|/kroʊ/|n. 乌鸦 vi. 啼叫|名词|2
+cruise|/kruːz/|n./vi. 巡航；巡游|名词|2
+crusade|/kruːˈseɪd/|n. 十字军东征；运动|名词|3
+crust|/krʌst/|n. 外壳；面包皮|名词|2
+cuff|/kʌf/|n. 袖口；手铐 vt. 掌击|名词|3
+cult|/kʌlt/|n. 邪教；狂热崇拜|名词|3
+curry|/ˈkɜːri/|n. 咖喱|名词|2
+curse|/kɜːrs/|n./vt. 诅咒；咒骂|动词|2
+customary|/ˈkʌstəmeri/|adj. 习惯的；惯例的|形容词|3
+cyclone|/ˈsaɪkloʊn/|n. 气旋；飓风|名词|3
+dagger|/ˈdæɡər/|n. 匕首；短剑|名词|3
+dale|/deɪl/|n. 山谷；溪谷|名词|3
+darn|/dɑːrn/|vt. 织补；缝补|动词|3
+dart|/dɑːrt/|n. 飞镖 vi. 飞奔|名词|2
+debris|/dəˈbriː/|n. 碎片；残骸|名词|3
+decent|/ˈdiːsnt/|adj. 正派的；得体的|形容词|2
+decimal|/ˈdesɪml/|adj. 小数的 n. 小数|形容词|2
+decor|/deɪˈkɔːr/|n. 装饰；装潢|名词|2
+decree|/dɪˈkriː/|n. 法令；判决 vt. 颁布|名词|3
+defect|/ˈdiːfekt/|n. 缺点；缺陷|名词|2
+degenerate|/dɪˈdʒenəreɪt/|vi. 退化；堕落 adj. 退化的|动词|3
+delta|/ˈdeltə/|n. 三角洲；希腊字母Δ|名词|2
+delusion|/dɪˈluːʒn/|n. 错觉；妄想|名词|3
+demise|/dɪˈmaɪz/|n. 死亡；终止|名词|3
+demolish|/dɪˈmɑːlɪʃ/|vt. 拆除；推翻|动词|3
+demon|/ˈdiːmən/|n. 恶魔；魔鬼|名词|2
+den|/den/|n. 兽穴；窝|名词|2
+deplete|/dɪˈpliːt/|vt. 耗尽；使减少|动词|3
+derelict|/ˈderəlɪkt/|adj. 废弃的；玩忽职守的|形容词|3
+descend|/dɪˈsend/|vi. 下降；下来|动词|2
+desolate|/ˈdesələt/|adj. 荒凉的；孤寂的|形容词|3
+despatch|/dɪˈspætʃ/|vt. 派遣；发送|动词|3
+detach|/dɪˈtætʃ/|vt. 分离；拆卸|动词|3
+detector|/dɪˈtektər/|n. 探测器；检测器|名词|2
+deter|/dɪˈtɜːr/|vt. 阻止；威慑|动词|3
+deteriorate|/dɪˈtɪriəreɪt/|vi. 恶化；变坏|动词|3
+detour|/ˈdiːtʊr/|n. 弯路；绕行 vi. 绕道|名词|2
+devastate|/ˈdevəsteɪt/|vt. 毁灭；破坏|动词|3
+deviate|/ˈdiːvieɪt/|vi. 偏离；背离|动词|3
+devour|/dɪˈvaʊər/|vt. 吞噬；贪婪地阅读|动词|3
+dial|/ˈdaɪəl/|n. 刻度盘；拨号 vt. 拨号|名词|2
+dialect|/ˈdaɪəlekt/|n. 方言；土语|名词|2
+dice|/daɪs/|n. 骰子 vt. 切成丁|名词|2
+dine|/daɪn/|vi. 进餐；用餐|动词|2
+dinosaur|/ˈdaɪnəsɔːr/|n. 恐龙|名词|2
+dioxide|/daɪˈɑːksaɪd/|n. 二氧化物|名词|2
+dire|/ˈdaɪər/|adj. 可怕的；极端的|形容词|3
+directory|/dəˈrektəri/|n. 目录；电话簿|名词|2
+dirt|/dɜːrt/|n. 污垢；泥土|名词|2
+disable|/dɪsˈeɪbl/|vt. 使残疾；使无效|动词|2
+discharge|/dɪsˈtʃɑːrdʒ/|vt. 排出；释放 n. 排出物|动词|2
+disclaimer|/dɪsˈkleɪmər/|n. 免责声明；否认|名词|3
+disco|/ˈdɪskoʊ/|n. 迪斯科舞厅|名词|2
+discontinue|/ˌdɪskənˈtɪnjuː/|vt. 中止；停止|动词|3
+discrete|/dɪˈskriːt/|adj. 离散的；不相关的|形容词|3
+discrimination|/dɪˌskrɪmɪˈneɪʃn/|n. 歧视；辨别|名词|2
+disdain|/dɪsˈdeɪn/|n./vt. 蔑视；鄙视|名词|3
+disgrace|/dɪsˈɡreɪs/|n. 耻辱 vt. 使丢脸|名词|3
+disillusion|/ˌdɪsɪˈluːʒn/|vt. 使幻灭 n. 幻灭|动词|3
+dismantle|/dɪsˈmæntl/|vt. 拆除；拆开|动词|3
+displace|/dɪsˈpleɪs/|vt. 取代；使离开|动词|3
+dispose|/dɪˈspoʊz/|vt. 处理；安排|动词|2
+distil|/dɪˈstɪl/|vt. 蒸馏；提取精华|动词|3
+distract|/dɪˈstrækt/|vt. 转移注意力；使分心|动词|2
+distress|/dɪˈstres/|n. 痛苦；危难 vt. 使苦恼|名词|2
+ditch|/dɪtʃ/|n. 沟渠 vt. 抛弃|名词|2
+diverge|/daɪˈvɜːrdʒ/|vi. 分歧；偏离|动词|3
+diverse|/daɪˈvɜːrs/|adj. 多样的；不同的|形容词|2
+dividend|/ˈdɪvɪdend/|n. 红利；股息|名词|2
+divine|/dɪˈvaɪn/|adj. 神圣的；神的|形容词|3
+doctrine|/ˈdɑːktrɪn/|n. 教义；学说|名词|3
+documentary|/ˌdɑːkjuˈmentri/|n. 纪录片 adj. 文献的|名词|2
+dodge|/dɑːdʒ/|vt. 躲避；闪开 vi. 闪避|动词|3
+dome|/doʊm/|n. 圆顶；穹顶|名词|2
+donor|/ˈdoʊnər/|n. 捐赠者；施主|名词|2
+doom|/duːm/|n. 厄运 vt. 注定|名词|3
+doorway|/ˈdɔːrweɪ/|n. 门口；出入口|名词|2
+dorm|/dɔːrm/|n. 宿舍|名词|1
+doubtful|/ˈdaʊtfəl/|adj. 怀疑的；不确定的|形容词|2
+dough|/doʊ/|n. 面团；生面|名词|2
+dove|/dʌv/|n. 鸽子|名词|2
+downfall|/ˈdaʊnfɔːl/|n. 垮台；衰败|名词|3
+downside|/ˈdaʊnsaɪd/|n. 缺点；不利方面|名词|2
+downturn|/ˈdaʊntɜːrn/|n. 衰退；下降趋势|名词|3
+doze|/doʊz/|vi. 打瞌睡；小睡|动词|2
+drank|/dræŋk/|v. 喝（drink的过去式）|动词|1
+dread|/dred/|vt./n. 恐惧；担忧|动词|2
+drench|/drentʃ/|vt. 使湿透；浸透|动词|3
+drip|/drɪp/|vi. 滴下 n. 滴|动词|2
+drone|/droʊn/|n. 无人机；嗡嗡声|名词|2
+droop|/druːp/|vi. 下垂；萎靡|动词|3
+drown|/draʊn/|vt. 淹死；淹没|动词|2
+drum|/drʌm/|n. 鼓；鼓声|名词|2
+drunk|/drʌŋk/|adj. 醉的；醉酒的|形容词|1
+dryer|/ˈdraɪər/|n. 烘干机；干燥剂|名词|2
+dub|/dʌb/|vt. 称为；配音|动词|3
+duct|/dʌkt/|n. 管道；导管|名词|3
+dune|/duːn/|n. 沙丘|名词|3
+dungeon|/ˈdʌndʒən/|n. 地牢；城壕|名词|3
+dusk|/dʌsk/|n. 黄昏；薄暮|名词|2
+dwell|/dwel/|vi. 居住；细想|动词|2
+dye|/daɪ/|n. 染料 vt. 染色|名词|2
+dynasty|/ˈdaɪnəsti/|n. 朝代；王朝|名词|2
+earl|/ɜːrl/|n. 伯爵|名词|3
+earthen|/ˈɜːrθən/|adj. 土制的；陶制的|形容词|3
+eaves|/iːvz/|n. 屋檐|名词|3
+eclipse|/ɪˈklɪps/|n. 日食；月食 vt. 使黯然失色|名词|2
+economical|/ˌiːkəˈnɑːmɪkl/|adj. 节约的；经济的|形容词|2
+ecosystem|/ˈiːkoʊsɪstəm/|n. 生态系统|名词|2
+edible|/ˈedəbl/|adj. 可食用的|形容词|2
+edit|/ˈedɪt/|vt. 编辑；修改|动词|2
+eel|/iːl/|n. 鳗鱼|名词|3
+effectively|/ɪˈfektɪvli/|adv. 有效地；实际上|副词|2
+ego|/ˈiːɡoʊ/|n. 自我；自尊心|名词|2
+elapse|/ɪˈlæps/|vi. 消逝；过去|动词|3
+embargo|/emˈbɑːrɡoʊ/|n. 禁运；封锁 vt. 禁止|名词|3
+embed|/emˈbed/|vt. 嵌入；使插入|动词|3
+emblem|/ˈembləm/|n. 象征；徽章|名词|3
+emigrate|/ˈemɪɡreɪt/|vi. 移居国外|动词|3
+eminent|/ˈemɪnənt/|adj. 杰出的；著名的|形容词|3
+emphatic|/ɪmˈfætɪk/|adj. 强调的；有力的|形容词|3
+emulate|/ˈemjuleɪt/|vt. 仿效；模仿|动词|3
+enchant|/ɪnˈtʃænt/|vt. 使陶醉；施魔法|动词|3
+encyclopedia|/ɪnˌsaɪkləˈpiːdiə/|n. 百科全书|名词|2
+endanger|/ɪnˈdeɪndʒər/|vt. 危及；危害|动词|2
+endow|/ɪnˈdaʊ/|vt. 赋予；捐赠|动词|3
+endurance|/ɪnˈdʊrəns/|n. 忍耐力；持久力|名词|2
+energetic|/ˌenərˈdʒetɪk/|adj. 精力充沛的；积极的|形容词|2
+engagement|/ɪnˈɡeɪdʒmənt/|n. 订婚；约定|名词|2
+engrave|/ɪnˈɡreɪv/|vt. 雕刻；铭刻|动词|3
+enhance|/ɪnˈhæns/|vt. 增强；提高|动词|2
+ensue|/ɪnˈsuː/|vi. 接着发生；因而产生|动词|3
+entitle|/ɪnˈtaɪtl/|vt. 使有权；给…取名|动词|2
+entrepreneur|/ˌɑːntrəprəˈnɜːr/|n. 企业家；创业者|名词|3
+envision|/ɪnˈvɪʒn/|vt. 想象；展望|动词|3
+episode|/ˈepɪsoʊd/|n. 一段经历；剧集|名词|2
+equity|/ˈekwəti/|n. 公平；股本|名词|3
+erosion|/ɪˈroʊʒn/|n. 侵蚀；腐蚀|名词|2
+errand|/ˈerənd/|n. 差使；差事|名词|3
+erupt|/ɪˈrʌpt/|vi. 爆发；喷发|动词|2
+espionage|/ˈespiənɑːʒ/|n. 间谍活动|名词|3
+eternal|/ɪˈtɜːrnl/|adj. 永恒的；不朽的|形容词|3
+ethic|/ˈeθɪk/|n. 伦理；道德规范|名词|3
+evoke|/ɪˈvoʊk/|vt. 唤起；引起|动词|3
+exalt|/ɪɡˈzɔːlt/|vt. 提升；赞扬|动词|3
+exasperate|/ɪɡˈzæspəreɪt/|vt. 激怒；使恶化|动词|3
+excavate|/ˈekskəveɪt/|vt. 挖掘；发掘|动词|3
+excel|/ɪkˈsel/|vi. 擅长；突出|动词|2
+excerpt|/ˈeksɜːrpt/|n. 摘录；节选|名词|3
+excess|/ɪkˈses/|n. 过量；过度 adj. 额外的|名词|2
+execute|/ˈeksɪkjuːt/|vt. 执行；处决|动词|2
+exert|/ɪɡˈzɜːrt/|vt. 施加；发挥|动词|2
+exhaust|/ɪɡˈzɔːst/|vt. 耗尽；使筋疲力尽 n. 排气|动词|2
+exotic|/ɪɡˈzɑːtɪk/|adj. 异国的；外来的|形容词|2
+expel|/ɪkˈspel/|vt. 驱逐；开除|动词|3
+expend|/ɪkˈspend/|vt. 花费；消耗|动词|3
+expertise|/ˌekspɜːrˈtiːz/|n. 专业知识；专长|名词|2
+exploration|/ˌekspləˈreɪʃn/|n. 探索；勘探|名词|2
+fable|/ˈfeɪbl/|n. 寓言；神话|名词|2
+facade|/fəˈsɑːd/|n. 正面；外表|名词|3
+facet|/ˈfæsɪt/|n. 方面；刻面|名词|3
+faction|/ˈfækʃn/|n. 派系；小集团|名词|3
+factual|/ˈfæktʃuəl/|adj. 事实的；真实的|形容词|2
+falcon|/ˈfælkən/|n. 猎鹰；隼|名词|3
+fanatic|/fəˈnætɪk/|n. 狂热者 adj. 狂热的|名词|3
+farmhouse|/ˈfɑːrmhaʊs/|n. 农舍|名词|2
+fatigue|/fəˈtiːɡ/|n. 疲劳；疲乏 vt. 使疲劳|名词|2
+faucet|/ˈfɔːsɪt/|n. 水龙头|名词|2
+feeble|/ˈfiːbl/|adj. 虚弱的；微弱的|形容词|3
+feign|/feɪn/|vt. 假装；捏造|动词|3
+feline|/ˈfiːlaɪn/|adj. 猫科的 n. 猫科动物|形容词|3
+felt|/felt/|n. 毛毡 vt. 感觉（feel的过去式）|名词|2
+feminine|/ˈfemənɪn/|adj. 女性的；柔弱的|形容词|2
+ferment|/fərˈment/|v. 发酵 n. 发酵|动词|3
+fern|/fɜːrn/|n. 蕨类植物|名词|3
+ferocious|/fəˈroʊʃəs/|adj. 凶猛的；残酷的|形容词|3
+fervent|/ˈfɜːrvənt/|adj. 热烈的；强烈的|形容词|3
+festive|/ˈfestɪv/|adj. 节日的；欢乐的|形容词|2
+feud|/fjuːd/|n. 世仇；长期争斗|名词|3
+fiber|/ˈfaɪbər/|n. 纤维；光纤|名词|2
+fig|/fɪɡ/|n. 无花果|名词|3
+filth|/fɪlθ/|n. 污秽；肮脏|名词|3
+fin|/fɪn/|n. 鳍；鳍状物|名词|3
+finite|/ˈfaɪnaɪt/|adj. 有限的；限定的|形容词|2
+fireplace|/ˈfaɪərpleɪs/|n. 壁炉|名词|2
+fisherman|/ˈfɪʃərmən/|n. 渔夫|名词|2
+fist|/fɪst/|n. 拳头|名词|2
+fitness|/ˈfɪtnəs/|n. 健康；适合|名词|2
+fixture|/ˈfɪkstʃər/|n. 固定装置； fixtures|名词|3
+flare|/fler/|vi. 闪耀 n. 闪光信号|动词|3
+flask|/flæsk/|n. 烧瓶；酒壶|名词|2
+flea|/fliː/|n. 跳蚤|名词|3
+fleet|/fliːt/|n. 舰队；车队 adj. 快速的|名词|2
+flex|/fleks/|vt. 弯曲；收缩 n. 花线|动词|3
+flicker|/ˈflɪkər/|vi. 闪烁；摇曳 n. 闪烁|动词|3
+flimsy|/ˈflɪmzi/|adj. 脆弱的；不足信的|形容词|3
+flora|/ˈflɔːrə/|n. 植物群；植物区系|名词|3
+floss|/flɔːs/|n. 牙线；丝棉|名词|2
+fluctuate|/ˈflʌktʃueɪt/|vi. 波动；涨落|动词|3
+flu|/fluː/|n. 流感|名词|1
+flute|/fluːt/|n. 长笛|名词|2
+foil|/fɔɪl/|n. 箔；陪衬 vt. 挫败|名词|2
+footstep|/ˈfʊtstep/|n. 脚步；脚步声|名词|2
+format|/ˈfɔːrmæt/|n. 格式 vt. 格式化|名词|2
+fort|/fɔːrt/|n. 堡垒；要塞|名词|2
+foul|/faʊl/|adj. 恶臭的；肮脏的|形容词|2
+fraction|/ˈfrækʃn/|n. 分数；小部分|名词|2
+fragile|/ˈfrædʒəl/|adj. 脆弱的；易碎的|形容词|2
+fragrant|/ˈfreɪɡrənt/|adj. 芳香的；愉快的|形容词|2
+frantic|/ˈfræntɪk/|adj. 疯狂的；狂乱的|形容词|3
+frown|/fraʊn/|vi. 皱眉；不赞成|动词|2
+froze|/froʊz/|v. 冻结（freeze的过去式）|动词|1
+fume|/fjuːm/|n. 烟气 vi. 冒烟；发怒|名词|3
+fungal|/ˈfʌŋɡl/|adj. 真菌的|形容词|3
+furnace|/ˈfɜːrnɪs/|n. 熔炉；火炉|名词|2
+furnish|/ˈfɜːrnɪʃ/|vt. 供应；装修|动词|2
+furry|/ˈfɜːri/|adj. 毛皮的；毛茸茸的|形容词|2
+fuse|/fjuːz/|n. 保险丝；导火线 v. 熔合|名词|2
+futile|/ˈfjuːtl/|adj. 无用的；徒劳的|形容词|3
+gale|/ɡeɪl/|n. 大风；风暴|名词|3
+garment|/ˈɡɑːrmənt/|n. 衣服；服装|名词|2
+garrison|/ˈɡærɪsn/|n. 卫戍部队；驻军|名词|3
+gear|/ɡɪr/|n. 齿轮；装置 vt. 调整|名词|2
+generate|/ˈdʒenəreɪt/|vt. 产生；发生|动词|2
+glorious|/ˈɡlɔːriəs/|adj. 光荣的；辉煌的|形容词|2
+glossary|/ˈɡlɑːseri/|n. 术语表；词汇表|名词|2
+glow|/ɡloʊ/|vi. 发光 n. 光辉|动词|2
+glucose|/ˈɡluːkoʊs/|n. 葡萄糖|名词|3
+gnaw|/nɔː/|vt. 咬；侵蚀|动词|3
+goad|/ɡoʊd/|vt. 刺激；驱使 n. 刺棒|动词|3
+goblet|/ˈɡɑːblət/|n. 高脚杯；酒杯|名词|3
+graft|/ɡræft/|n. 嫁接；移植 vt. 嫁接|名词|3
+granite|/ˈɡrænɪt/|n. 花岗岩|名词|3
+grape|/ɡreɪp/|n. 葡萄|名词|1
+grease|/ɡriːs/|n. 油脂 vt. 涂油脂|名词|2
+greenhouse|/ˈɡriːnhaʊs/|n. 温室；花房|名词|2
+grief|/ɡriːf/|n. 悲伤；悲痛|名词|2
+grit|/ɡrɪt/|n. 砂砾；勇气 vt. 咬紧|名词|3
+groom|/ɡruːm/|n. 新郎 vt. 打扮|名词|2
+groove|/ɡruːv/|n. 凹槽；惯例|名词|3
+grope|/ɡroʊp/|vi. 摸索；探索|动词|3
+grotesque|/ɡroʊˈtesk/|adj. 怪诞的；荒唐的|形容词|3
+growl|/ɡraʊl/|vi. 咆哮；怒吼 n. 咆哮声|动词|3
+guilt|/ɡɪlt/|n. 罪行；内疚|名词|2
+hamburger|/ˈhæmbɜːrɡər/|n. 汉堡包|名词|1
+hamper|/ˈhæmpər/|vt. 妨碍；阻碍|动词|3
+handbook|/ˈhændbʊk/|n. 手册；指南|名词|2
+handmade|/ˌhændˈmeɪd/|adj. 手工的；手制的|形容词|2
+harness|/ˈhɑːrnɪs/|n. 马具 vt. 利用|名词|3
+hatred|/ˈheɪtrɪd/|n. 仇恨；憎恶|名词|2
+haul|/hɔːl/|vt. 拖拉；搬运 n. 拖拉|动词|2
+heap|/hiːp/|n. 堆；大量 vt. 堆积|名词|2
+helicopter|/ˈhelɪkɑːptər/|n. 直升机|名词|2
+hibernate|/ˈhaɪbərneɪt/|vi. 冬眠；蛰伏|动词|3
+highland|/ˈhaɪlənd/|n. 高地；高原|名词|2
+hip|/hɪp/|n. 臀部；蔷薇果|名词|2
+historic|/hɪˈstɔːrɪk/|adj. 有历史意义的|形容词|2
+holder|/ˈhoʊldər/|n. 持有者；支架|名词|2
+homeland|/ˈhoʊmlænd/|n. 祖国；家园|名词|2
+horn|/hɔːrn/|n. 角；喇叭|名词|2
+horrific|/həˈrɪfɪk/|adj. 可怕的；恐怖的|形容词|3
+hospitality|/ˌhɑːspɪˈtæləti/|n. 好客；殷勤|名词|2
+hover|/ˈhʌvər/|vi. 盘旋；徘徊|动词|2
+hug|/hʌɡ/|vt./n. 拥抱|动词|1
+hurl|/hɜːrl/|vt. 猛投；大声叫骂|动词|3
+hydrogen|/ˈhaɪdrədʒən/|n. 氢|名词|2
+identification|/aɪˌdentɪfɪˈkeɪʃn/|n. 识别；身份证明|名词|2
+ignorance|/ˈɪɡnərəns/|n. 无知；愚昧|名词|2
+illiterate|/ɪˈlɪtərət/|adj. 文盲的；不识字的|形容词|2
+illustrate|/ˈɪləstreɪt/|vt. 说明；阐明|动词|2
+immortal|/ɪˈmɔːrtl/|adj. 不朽的；长生的|形容词|3
+impartial|/ɪmˈpɑːrʃl/|adj. 公正的；中立的|形容词|3
+imperative|/ɪmˈperətɪv/|adj. 必要的；命令的 n. 祈使语气|形容词|3
+implication|/ˌɪmplɪˈkeɪʃn/|n. 含义；暗示|名词|2
+implore|/ɪmˈplɔːr/|vt. 恳求；乞求|动词|3
+impress|/ɪmˈpres/|vt. 给…深刻印象；使钦佩|动词|2
+impromptu|/ɪmˈprɑːmptuː/|adj./adv. 即席的；即兴的|副词|3
+improper|/ɪmˈprɑːpər/|adj. 不适当的；不正确的|形容词|2
+improvise|/ˈɪmprəvaɪz/|vt. 即兴创作；临时准备|动词|3
+incapable|/ɪnˈkeɪpəbl/|adj. 无能力的；不能的|形容词|2
+incoherent|/ˌɪnkoʊˈhɪrənt/|adj. 语无伦次的；不连贯的|形容词|3
+indication|/ˌɪndɪˈkeɪʃn/|n. 指示；迹象|名词|2
+indicator|/ˈɪndɪkeɪtər/|n. 指示器；指标|名词|2
+indifferent|/ɪnˈdɪfərənt/|adj. 冷漠的；不关心的|形容词|2
+indignant|/ɪnˈdɪɡnənt/|adj. 愤慨的；义愤的|形容词|3
+indoors|/ˌɪnˈdɔːrz/|adv. 在室内|副词|1
+induce|/ɪnˈduːs/|vt. 引起；诱导|动词|3
+industrious|/ɪnˈdʌstriəs/|adj. 勤勉的；刻苦的|形容词|3
+inequality|/ˌɪnɪˈkwɑːləti/|n. 不平等；不等式|名词|2
+infamous|/ˈɪnfəməs/|adj. 臭名昭著的；声名狼藉的|形容词|3
+infect|/ɪnˈfekt/|vt. 感染；传染|动词|2
+inferior|/ɪnˈfɪriər/|adj. 低等的；差的|形容词|2
+influential|/ˌɪnfluˈenʃl/|adj. 有影响的；有权势的|形容词|2
+influx|/ˈɪnflʌks/|n. 流入；涌入|名词|3
+inheritance|/ɪnˈherɪtəns/|n. 继承；遗产|名词|2
+innate|/ɪˈneɪt/|adj. 天生的；固有的|形容词|3
+inquiry|/ˈɪnkwaɪri/|n. 询问；调查|名词|2
+inspector|/ɪnˈspektər/|n. 检查员；督察|名词|2
+instinct|/ˈɪnstɪŋkt/|n. 本能；直觉|名词|2
+intake|/ˈɪnteɪk/|n. 摄入量；入口|名词|2
+intellect|/ˈɪntəlekt/|n. 智力；理智|名词|3
+interim|/ˈɪntərɪm/|n. 过渡期 adj. 临时的|名词|3
+intersect|/ˌɪntərˈsekt/|vi. 相交；交叉|动词|3
+intervene|/ˌɪntərˈviːn/|vi. 干涉；介入|动词|2
+invariable|/ɪnˈveriəbl/|adj. 不变的；始终如一的|形容词|3
+invasion|/ɪnˈveɪʒn/|n. 入侵；侵略|名词|2
+inward|/ˈɪnwərd/|adj. 向内的 adv. 向内|副词|2
+irony|/ˈaɪrəni/|n. 讽刺；反讽|名词|3
+irregular|/ɪˈreɡjələr/|adj. 不规则的；不规律的|形容词|2
+irrigate|/ˈɪrɪɡeɪt/|vt. 灌溉；冲洗|动词|3
+jeopardy|/ˈdʒepərdi/|n. 危险；危难|名词|3
+jest|/dʒest/|n./vi. 笑话；玩笑|名词|3
+jug|/dʒʌɡ/|n. 壶；罐|名词|2
+knight|/naɪt/|n. 骑士；爵士 vt. 封为爵士|名词|2
+knot|/nɑːt/|n. 结；节 vt. 打结|名词|2
+lair|/ler/|n. 巢穴；藏身处|名词|3
+lame|/leɪm/|adj. 跛的；站不住脚的|形容词|2
+lament|/ləˈment/|vt./n. 悲叹；哀悼|动词|3
+landlord|/ˈlændlɔːrd/|n. 房东；地主|名词|2
+lapse|/læps/|n. 失误；流逝 vi. 陷入|名词|3
+laser|/ˈleɪzər/|n. 激光|名词|2
+lash|/læʃ/|vt. 鞭打；绑扎 n. 睫毛|动词|3
+latch|/lætʃ/|n. 门闩 vt. 锁上|名词|3
+lava|/ˈlɑːvə/|n. 熔岩；岩浆|名词|3
+lavish|/ˈlævɪʃ/|adj. 挥霍的；慷慨的 vt. 滥施|形容词|3
+lease|/liːs/|n. 租约 vt. 出租|名词|2
+legion|/ˈliːdʒən/|n. 军团；大量|名词|3
+legislate|/ˈledʒɪsleɪt/|vt. 立法；制定法律|动词|3
+lemon|/ˈlemən/|n. 柠檬|名词|1
+lesion|/ˈliːʒn/|n. 损害；病变|名词|3
+lest|/lest/|conj. 唯恐；以免|连词|2
+lieutenant|/lefˈtenənt/|n. 中尉；副手|名词|3
+lifeboat|/ˈlaɪfboʊt/|n. 救生艇|名词|2
+lifestyle|/ˈlaɪfstaɪl/|n. 生活方式|名词|1
+lily|/ˈlɪli/|n. 百合花|名词|2
+lime|/laɪm/|n. 石灰；酸橙|名词|2
+limitation|/ˌlɪmɪˈteɪʃn/|n. 限制；局限性|名词|2
+lineage|/ˈlɪniɪdʒ/|n. 血统；世系|名词|3
+linguistic|/lɪŋˈɡwɪstɪk/|adj. 语言的；语言学的|形容词|3
+literal|/ˈlɪtərəl/|adj. 字面的；原意的|形容词|2
+litter|/ˈlɪtər/|n. 垃圾；一窝 vt. 乱丢|名词|2
+locality|/loʊˈkæləti/|n. 地点；位置|名词|3
+loophole|/ˈluːphoʊl/|n. 漏洞；逃避手段|名词|3
+loudspeaker|/ˌlaʊdˈspiːkər/|n. 扬声器；喇叭|名词|2
+lounge|/laʊndʒ/|n. 休息室 vi. 闲荡|名词|2
+lucid|/ˈluːsɪd/|adj. 清晰的；头脑清醒的|形容词|3
+lumber|/ˈlʌmbər/|n. 木材 vi. 笨重地移动|名词|3
+luminous|/ˈluːmɪnəs/|adj. 发光的；明亮的|形容词|3
+lump|/lʌmp/|n. 块；肿块 vt. 把…归并一起|名词|2
+lurk|/lɜːrk/|vi. 潜伏；隐藏|动词|3
+luscious|/ˈlʌʃəs/|adj. 甘美的；诱人的|形容词|3
+lyric|/ˈlɪrɪk/|n. 歌词 adj. 抒情的|名词|2
+machinery|məˈʃiːnəri/|n. 机器；机械|名词|2
+magnet|/ˈmæɡnət/|n. 磁铁；有吸引力的人|名词|2
+maid|/meɪd/|n. 女仆；少女|名词|2
+maiden|/ˈmeɪdn/|n. 少女 adj. 首次的|名词|3
+mainstream|/ˈmeɪnstriːm/|n. 主流 adj. 主流的|名词|2
+malignant|məˈlɪɡnənt/|adj. 恶性的；恶意的|形容词|3
+malpractice|/mælˈpræktɪs/|n. 玩忽职守；渎职|名词|3
+mammal|/ˈmæml/|n. 哺乳动物|名词|2
+mandate|/ˈmændeɪt/|n. 授权；命令 vt. 托管|名词|3
+mango|/ˈmæŋɡoʊ/|n. 芒果|名词|2
+mansion|/ˈmænʃn/|n. 大厦；宅邸|名词|2
+mantle|/ˈmæntl/|n. 斗篷；覆盖物 vt. 覆盖|名词|3
+manual|/ˈmænjuəl/|adj. 手工的 n. 手册|形容词|2
+maple|/ˈmeɪpl/|n. 枫树|名词|3
+marble|/ˈmɑːrbl/|n. 大理石；弹珠|名词|2
+marsh|mɑːrʃ/|n. 沼泽；湿地|名词|2
+martyr|/ˈmɑːrtər/|n. 烈士；殉道者|名词|3
+marvel|/ˈmɑːrvl/|n. 奇迹 vi. 惊异|名词|2
+massage|məˈsɑːʒ/|n./vt. 按摩；推拿|名词|2
+masterpiece|/ˈmæstərpiːs/|n. 杰作；名著|名词|2
+maximize|/ˈmæksɪmaɪz/|vt. 使最大化；充分利用|动词|2
+medal|/ˈmedl/|n. 奖章；勋章|名词|2
+mediate|/ˈmiːdieɪt/|vt. 调解；斡旋|动词|3
+medieval|/ˌmiːˈiːvl/|adj. 中世纪的|形容词|2
+melody|/ˈmelədi/|n. 旋律；曲调|名词|2
+memorial|məˈmɔːriəl/|n. 纪念碑 adj. 纪念的|名词|2
+mentor|/ˈmentɔːr/|n. 导师；指导者|名词|2
+mid|/mɪd/|adj. 中间的；中央的|形容词|1
+midst|mɪdst/|n. 中间；当中|名词|2
+militia|məˈlɪʃə/|n. 民兵；国民警卫队|名词|3
+mischief|/ˈmɪstʃɪf/|n. 恶作剧；伤害|名词|2
+mislead|mɪsˈliːd/|vt. 误导；使误入歧途|动词|2
+mitigate|/ˈmɪtɪɡeɪt/|vt. 减轻；缓和|动词|3
+moan|/moʊn/|vi. 呻吟；抱怨 n. 呻吟声|动词|2
+mode|/moʊd/|n. 模式；方式|名词|2
+modify|/ˈmɑːdɪfaɪ/|vt. 修改；修饰|动词|2
+moist|mɔɪst/|adj. 潮湿的；湿润的|形容词|2
+molecule|/ˈmɑːlɪkjuːl/|n. 分子；微粒|名词|2
+monarch|/ˈmɑːnərk/|n. 君主；帝王|名词|3
+monastery|/ˈmɑːnəsteri/|n. 修道院|名词|3
+monetary|/ˈmɑːnɪteri/|adj. 货币的；金融的|形容词|2
+monument|/ˈmɑːnjumənt/|n. 纪念碑；遗迹|名词|2
+moreover|mɔːrˈoʊvər/|adv. 此外；而且|副词|2
+moth|mɔːθ/|n. 蛾子|名词|3
+mug|mʌɡ/|n. 杯子；脸 vt. 抢劫|名词|2
+mumble|/ˈmʌmbl/|vi. 喃喃自语；含糊地说|动词|3
+muse|mjuːz/|vi. 沉思；冥想 n. 缪斯|动词|3
+mushroom|/ˈmʌʃruːm/|n. 蘑菇 vi. 迅速增长|名词|2
+muzzle|/ˈmʌzl/|n. 口套；枪口 vt. 给…戴口罩|名词|3
+myriad|/ˈmɪriəd/|n./adj. 无数；大量|名词|3
+necessitate|/nəˈsesɪteɪt/|vt. 需要；使成为必要|动词|3
+necklace|/ˈnekləs/|n. 项链|名词|2
+neutral|/ˈnuːtrəl/|adj. 中立的；中性的|形容词|2
+nibble|/ˈnɪbl/|vi. 轻咬；一点一点地吃|动词|3
+nimble|/ˈnɪmbl/|adj. 敏捷的；灵活的|形容词|3
+nozzle|/ˈnɑːzl/|n. 喷嘴；管嘴|名词|3
+numb|/nʌm/|adj. 麻木的；失去感觉的 vt. 使麻木|形容词|2
+oak|/oʊk/|n. 橡树；橡木|名词|2
+obesity|/oʊˈbiːsəti/|n. 肥胖；肥胖症|名词|2
+obstacle|/ˈɑːbstəkl/|n. 障碍；阻碍|名词|2
+obstinate|/ˈɑːbstɪnət/|adj. 固执的；顽强的|形容词|3
+offset|/ˈɔːfset/|vt. 抵消；补偿 n. 偏移|动词|3
+offshore|/ˌɔːfˈʃɔːr/|adj./adv. 近海的；离岸的|副词|2
+omission|/oʊˈmɪʃn/|n. 省略；遗漏|名词|3
+ongoing|/ˈɑːnɡoʊɪŋ/|adj. 进行中的；继续的|形容词|2
+onward|/ˈɑːnwərd/|adv. 向前；前进|副词|2
+opera|/ˈɑːprə/|n. 歌剧|名词|2
+oppress|/əˈpres/|vt. 压迫；压制|动词|3
+optimism|/ˈɑːptɪmɪzəm/|n. 乐观；乐观主义|名词|2
+ordeal|/ɔːrˈdiːl/|n. 严酷考验；折磨|名词|3
+outfit|/ˈaʊtfɪt/|n. 全套服装；装备|名词|2
+outline|/ˈaʊtlaɪn/|n. 大纲；轮廓 vt. 概述|名词|2
+outrage|/ˈaʊtreɪdʒ/|n. 愤怒；暴行 vt. 激怒|名词|3
+overflow|/ˌoʊvərˈfloʊ/|vi. 溢出 n. 溢流|动词|2
+oversee|/ˌoʊvərˈsiː/|vt. 监督；管理|动词|3
+oyster|/ˈɔɪstər/|n. 牡蛎；蚝|名词|3
+paddle|/ˈpædl/|n. 桨 vi. 划桨|名词|2
+pail|/peɪl/|n. 桶；提桶|名词|2
+panda|/ˈpændə/|n. 熊猫|名词|1
+pane|/peɪn/|n. 窗格；面板|名词|3
+panic|/ˈpænɪk/|n. 恐慌 vt. 使恐慌|名词|2
+paradise|/ˈpærədaɪs/|n. 天堂；乐园|名词|2
+parole|/pəˈroʊl/|n. 假释 vt. 假释出狱|名词|3
+partial|/ˈpɑːrʃl/|adj. 部分的；偏袒的|形容词|2
+partition|/pɑːrˈtɪʃn/|n. 分割；隔墙 vt. 分隔|名词|3
+pastime|/ˈpæstaɪm/|n. 消遣；娱乐|名词|2
+pathetic|/pəˈθetɪk/|adj. 可怜的；可悲的|形容词|2
+pavilion|/pəˈvɪljən/|n. 亭子；展馆|名词|3
+pea|/piː/|n. 豌豆|名词|1
+peach|/piːtʃ/|n. 桃子|名词|1
+peasant|/ˈpeznt/|n. 农民；乡下人|名词|2
+pepper|/ˈpepər/|n. 胡椒；辣椒|名词|2
+perplex|/pərˈpleks/|vt. 使困惑；使迷惑|动词|3
+personnel|/ˌpɜːrsəˈnel/|n. 人员；人事部门|名词|2
+pessimism|/ˈpesɪmɪzəm/|n. 悲观；悲观主义|名词|2
+petty|/ˈpeti/|adj. 琐碎的；小气的|形容词|3
+pigeon|/ˈpɪdʒɪn/|n. 鸽子|名词|2
+pillar|/ˈpɪlər/|n. 柱子；栋梁|名词|2
+pillow|/ˈpɪloʊ/|n. 枕头|名词|1
+pipeline|/ˈpaɪplaɪn/|n. 管道；管线|名词|2
+pistol|/ˈpɪstl/|n. 手枪|名词|2
+pit|/pɪt/|n. 坑；深渊 vt. 使竞争|名词|2
+plaster|/ˈplæstər/|n. 灰泥；膏药 vt. 涂抹|名词|3
+plausible|/ˈplɔːzəbl/|adj. 似乎合理的；貌似可信的|形容词|3
+plenary|/ˈpliːnəri/|adj. 全体的；充分的|形容词|3
+plural|/ˈplʊrəl/|adj. 复数的 n. 复数|形容词|2
+pod|/pɑːd/|n. 荚；舱|名词|3
+polygon|/ˈpɑːliɡɑːn/|n. 多边形|名词|3
+pope|/poʊp/|n. 教皇|名词|2
+populate|/ˈpɑːpjuleɪt/|vt. 居住于；填充|动词|3
+porcelain|/ˈpɔːrsəlɪn/|n. 瓷器 adj. 精致的|名词|2
+porch|/pɔːrtʃ/|n. 门廊；走廊|名词|2
+pore|/pɔːr/|n. 毛孔 vi. 钻研|名词|3
+portion|/ˈpɔːrʃn/|n. 部分；一份|名词|2
+portray|/pɔːrˈtreɪ/|vt. 描绘；扮演|动词|2
+postpone|/poʊstˈpoʊn/|vt. 推迟；延期|动词|2
+poultry|/ˈpoʊltri/|n. 家禽；禽肉|名词|2
+prairie|/ˈpreri/|n. 大草原|名词|3
+precipitate|/prɪˈsɪpɪteɪt/|vt. 促成；使沉淀 adj. 仓促的|动词|3
+preclude|/prɪˈkluːd/|vt. 排除；阻止|动词|3
+preface|/ˈprefəs/|n. 序言；开端 vt. 作序|名词|2
+prey|/preɪ/|n. 猎物 vi. 捕食|名词|2
+prick|/prɪk/|vt. 刺；戳 n. 刺痛|动词|3
+prodigy|/ˈprɑːdədʒi/|n. 奇才；奇迹|名词|3
+productive|/prəˈdʌktɪv/|adj. 多产的；富有成效的|形容词|2
+profess|/prəˈfes/|vt. 声称；自称|动词|3
+profile|/ˈproʊfaɪl/|n. 侧面；简介 vt. 描述|名词|2
+progressive|/prəˈɡresɪv/|adj. 进步的；渐进的|形容词|2
+prolong|/prəˈlɔːŋ/|vt. 延长；拖延|动词|3
+prominent|/ˈprɑːmɪnənt/|adj. 突出的；著名的|形容词|2
+prone|/proʊn/|adj. 易于…的；俯卧的|形容词|2
+prose|/proʊz/|n. 散文|名词|2
+protective|/prəˈtektɪv/|adj. 保护的；防护的|形容词|2
+prototype|/ˈproʊtətaɪp/|n. 原型；典型|名词|3
+pulse|/pʌls/|n. 脉搏；脉冲 vi. 跳动|名词|2
+pump|/pʌmp/|n. 泵 vt. 抽水；打气|名词|2
+punctual|/ˈpʌŋktʃuəl/|adj. 准时的；守时的|形容词|2
+purity|/ˈpjʊrəti/|n. 纯净；纯洁|名词|2
+pyramid|/ˈpɪrəmɪd/|n. 金字塔；锥体|名词|2
+quarantine|/ˈkwɔːrəntiːn/|n. 隔离 vt. 隔离|名词|3
+query|/ˈkwɪri/|n./vt. 疑问；询问|名词|2
+quotation|/kwoʊˈteɪʃn/|n. 引用语；报价|名词|2
+radar|/ˈreɪdɑːr/|n. 雷达|名词|2
+radius|/ˈreɪdiəs/|n. 半径；范围|名词|2
+raid|/reɪd/|n./vt. 袭击；突袭|名词|2
+rally|/ˈræli/|n./vi. 集会；恢复|名词|2
+ranch|ræntʃ/|n. 牧场；大农场|名词|3
+ransom|/ˈrænsəm/|n. 赎金 vt. 赎回|名词|3
+ration|/ˈræʃn/|n. 配给量 vt. 配给|名词|3
+rattle|/ˈrætl/|vi. 发出嘎嘎声 vt. 使慌乱|动词|3
+ravage|/ˈrævɪdʒ/|vt./n. 毁坏；蹂躏|动词|3
+rebound|/riːˈbaʊnd/|vi. 弹回；回升 n. 篮板球|动词|3
+recess|rɪˈses/|n. 休息；凹处 vi. 休假|名词|3
+reckless|/ˈrekləs/|adj. 鲁莽的；不顾后果的|形容词|3
+reclaim|rɪˈkleɪm/|vt. 开垦；回收|动词|3
+recruit|rɪˈkruːt/|n. 新兵 vt. 招募|名词|2
+regulate|/ˈreɡjuleɪt/|vt. 管理；调节|动词|2
+rehabilitate|/ˌriːəˈbɪlɪteɪt/|vt. 使康复；使恢复名誉|动词|3
+rehearsal|rɪˈhɜːrsl/|n. 排练；彩排|名词|2
+reinforce|/ˌriːɪnˈfɔːrs/|vt. 加强；增援|动词|2
+relay|rɪˈleɪ/|n. 接力；转播 vt. 转播|名词|2
+relevance|/ˈreləvəns/|n. 相关性；关联|名词|2
+reliant|rɪˈlaɪənt/|adj. 依赖的；依靠的|形容词|3
+remainder|rɪˈmeɪndər/|n. 剩余物；余数|名词|2
+remit|rɪˈmɪt/|vt. 汇款；赦免 vi. 汇款|动词|3
+repay|rɪˈpeɪ/|vt. 偿还；报答|动词|2
+repent|rɪˈpent/|vi. 后悔；悔改|动词|3
+replica|/ˈreplɪkə/|n. 复制品；摹本|名词|3
+reptile|/ˈreptaɪl/|n. 爬行动物|名词|2
+requisite|/ˈrekwɪzɪt/|adj. 必需的 n. 必需品|形容词|3
+resolute|/ˈrezəluːt/|adj. 坚决的；果断的|形容词|3
+resurrection|/ˌrezəˈrekʃn/|n. 复活；复兴|名词|3
+retreat|rɪˈtriːt/|n./vi. 撤退；退避|名词|2
+retrospect|/ˈretrəspekt/|n. 回顾 vt. 回顾|名词|3
+revel|/ˈrevl/|vi. 狂欢；陶醉|动词|3
+revenge|rɪˈvendʒ/|n./vt. 报复；复仇|名词|2
+reverse|rɪˈvɜːrs/|adj. 相反的 vt. 颠倒 n. 相反|形容词|2
+revert|rɪˈvɜːrt/|vi. 恢复；回到|动词|3
+revise|rɪˈvaɪz/|vt. 修订；修改|动词|2
+revive|rɪˈvaɪv/|vt. 使复兴；使苏醒|动词|2
+revolve|rɪˈvɑːlv/|vi. 旋转；循环|动词|2
+rhetoric|/ˈretərɪk/|n. 修辞学；花言巧语|名词|3
+roam|roʊm/|vi. 漫游；闲逛|动词|2
+romance|roʊˈmæns/|n. 浪漫；传奇|名词|2
+rotary|/ˈroʊtəri/|adj. 旋转的；转动的|形容词|3
+rotate|/ˈroʊteɪt/|v. 旋转；轮流|动词|2
+rumor|/ˈruːmər/|n. 谣言；传闻|名词|2
+rust|rʌst/|n. 铁锈 vi. 生锈|名词|2
+sacred|/ˈseɪkrɪd/|adj. 神圣的；庄严的|形容词|2
+saddle|/ˈsædl/|n. 鞍子 vt. 使承担|名词|2
+safeguard|/ˈseɪfɡɑːrd/|n. 保护措施 vt. 保护|名词|2
+saint|seɪnt/|n. 圣人；圣徒|名词|2
+salon|səˈlɑːn/|n. 沙龙；美容院|名词|2
+salvage|/ˈsælvɪdʒ/|vt. 抢救；挽救 n. 抢救|动词|3
+sanction|/ˈsæŋkʃn/|n. 制裁；批准 vt. 批准|名词|3
+sanctuary|/ˈsæŋktʃueri/|n. 避难所；圣所|名词|3
+saturate|/ˈsætʃəreɪt/|vt. 使饱和；浸透|动词|3
+savage|/ˈsævɪdʒ/|adj. 野蛮的；凶猛的 n. 野蛮人|形容词|3
+savvy|/ˈsævi/|adj. 精明的 n. 见识|形容词|3
+scald|skɔːld/|vt. 烫伤；加热 n. 烫伤|动词|3
+scam|skæm/|n. 骗局；诡计|名词|3
+scatter|/ˈskætər/|vt. 使散开；撒播|动词|2
+scenic|/ˈsiːnɪk/|adj. 风景优美的|形容词|2
+scent|sent/|n. 气味；香味 vt. 嗅出|名词|2
+scoff|skɔːf/|vi. 嘲笑；嘲弄|动词|3
+scout|skaʊt/|n. 侦察兵 vt. 侦察|名词|2
+scrap|skræp/|n. 碎片；废料 vt. 废弃|名词|2
+seam|siːm/|n. 缝；接缝|名词|3
+seminar|/ˈsemɪnɑːr/|n. 研讨会|名词|2
+serial|/ˈsɪriəl/|adj. 连续的；系列的 n. 连续剧|形容词|2
+shack|ʃæk/|n. 棚屋；简陋的小屋|名词|3
+shaft|ʃæft/|n. 轴；杆|名词|3
+shepherd|/ˈʃepərd/|n. 牧羊人 vt. 引导|名词|2
+shield|ʃiːld/|n. 盾牌 vt. 保护|名词|2
+shiver|/ˈʃɪvər/|vi. 颤抖；哆嗦 n. 颤抖|动词|2
+shorthand|/ˈʃɔːrthænd/|n. 速记；简写|名词|3
+shove|ʃʌv/|vt. 推；挤 n. 猛推|动词|2
+silicon|/ˈsɪlɪkən/|n. 硅|名词|2
+simmer|/ˈsɪmər/|vi. 炖；酝酿 vt. 炖|动词|3
+singular|/ˈsɪŋɡjələr/|adj. 单数的；非凡的|形容词|2
+sketch|sketʃ/|n. 素描；略图 vt. 画素描|名词|2
+skim|skɪm/|vt. 撇去；浏览 vi. 掠过|动词|2
+skip|skɪp/|vi. 跳跃；跳过 vt. 跳过|动词|2
+skull|skʌl/|n. 头骨；颅骨|名词|2
+slam|slæm/|vt. 猛然关上；猛击|动词|2
+slap|slæp/|vt. 掴；拍 n. 一巴掌|动词|2
+slash|slæʃ/|vt. 砍；大幅度削减 n. 砍痕|动词|3
+slate|sleɪt/|n. 板岩；石板 vt. 提名|名词|3
+slaughter|/ˈslɔːtər/|n./vt. 屠杀；屠宰|名词|3
+slender|/ˈslendər/|adj. 纤细的；微薄的|形容词|2
+slit|slɪt/|n. 裂缝；狭缝 vt. 切开|名词|3
+slogan|/ˈsloʊɡən/|n. 标语；口号|名词|2
+slump|slʌmp/|vi. 大幅下降；倒下 n. 衰退|动词|3
+smelt|smelt/|vt. 冶炼；熔炼|动词|3
+smog|smɑːɡ/|n. 烟雾|名词|2
+snap|snæp/|vt. 折断；猛咬 vi. 啪地打开|动词|2
+snatch|snætʃ/|vt. 夺取；抢走 n. 片刻|动词|3
+sneak|sniːk/|vi. 潜行；偷偷地走|动词|2
+sneer|snɪr/|vi. 嘲笑；冷笑|动词|3
+snore|snɔːr/|vi. 打鼾 n. 鼾声|动词|2
+sociology|/ˌsoʊsiˈɑːlədʒi/|n. 社会学|名词|2
+solely|/ˈsoʊlli/|adv. 唯一地；仅|副词|2
+solicitor|/səˈlɪsɪtər/|n. 律师；法务官|名词|3
+solitary|/ˈsɑːlɪteri/|adj. 孤独的；独居的|形容词|3
+somber|/ˈsɑːmbər/|adj. 忧郁的；暗淡的|形容词|3
+sophomore|/ˈsɑːfəmɔːr/|n. 大二学生|名词|2
+spacecraft|/ˈspeɪskræft/|n. 航天器；宇宙飞船|名词|2
+span|spæn/|n. 跨度；范围 vt. 横跨|名词|2
+spark|spɑːrk/|n. 火花；闪光 vi. 发火花|名词|2
+spatial|/ˈspeɪʃl/|adj. 空间的；与空间有关的|形容词|3
+spawn|spɔːn/|vt. 产卵；大量产生 n. 卵|动词|3
+spice|spaɪs/|n. 香料；调味品 vt. 加香料|名词|2
+spill|spɪl/|vt. 使溢出；洒出 n. 溢出|动词|2
+spin|spɪn/|vi. 旋转；纺纱 vt. 编造|动词|2
+splash|splæʃ/|vi. 飞溅；溅 n. 飞溅声|动词|2
+splendid|/ˈsplendɪd/|adj. 壮丽的；极好的|形容词|2
+spokesman|/ˈspoʊksmən/|n. 发言人|名词|2
+sponge|spʌndʒ/|n. 海绵 vt. 用海绵擦拭|名词|2
+spontaneous|/spɑːnˈteɪniəs/|adj. 自发的；自然的|形容词|3
+sprain|spreɪn/|n./vt. 扭伤|名词|3
+sprawl|sprɔːl/|vi. 蔓延；伸开手足躺|动词|3
+sprout|spraʊt/|vi. 发芽；萌芽 n. 新芽|动词|2
+spur|spɜːr/|n. 马刺；激励 vt. 激励|名词|2
+squander|/ˈskwɑːndər/|vt. 浪费；挥霍|动词|3
+squeeze|skwiːz/|vt. 挤；压榨 n. 挤压|动词|2
+stab|stæb/|vt. 刺；戳 n. 刺伤|动词|3
+stagger|/ˈstæɡər/|vi. 蹒跚；摇晃 vt. 使错开|动词|3
+stalk|stɔːk/|n. 茎；柄 vt. 跟踪|名词|2
+stall|stɔːl/|n. 货摊；畜栏 v. 拖延|名词|2
+standpoint|/ˈstændpɔɪnt/|n. 立场；观点|名词|2
+startle|/ˈstɑːrtl/|vt. 使惊吓；使吃惊|动词|2
+statesman|/ˈsteɪtsmən/|n. 政治家；国务活动家|名词|2
+static|/ˈstætɪk/|adj. 静态的；静止的|形容词|2
+statue|/ˈstætʃuː/|n. 雕像；塑像|名词|2
+steadily|/ˈstedɪli/|adv. 稳定地；持续地|副词|2
+stern|stɜːrn/|adj. 严厉的；坚定的 n. 船尾|形容词|2
+steward|/ˈstuːərd/|n. 乘务员；管家|名词|2
+sticky|/ˈstɪki/|adj. 粘的；棘手的|形容词|2
+stiff|stɪf/|adj. 僵硬的；严厉的|形容词|2
+sting|stɪŋ/|vt. 刺；叮 n. 刺痛|动词|2
+stir|stɜːr/|vt. 搅拌；激起 n. 搅动|动词|2
+stock|stɑːk/|n. 库存；股票 vt. 储备|名词|2
+stoop|stuːp/|vi. 弯腰；屈服 n. 弯腰|动词|2
+streak|striːk/|n. 条纹；特征 vi. 飞跑|名词|3
+strife|straɪf/|n. 冲突；争斗|名词|3
+strut|strʌt/|vi. 趾高气扬地走 n. 支柱|动词|3
+stump|stʌmp/|n. 树桩 vt. 难住|名词|3
+subsequent|/ˈsʌbsɪkwənt/|adj. 随后的；后来的|形容词|2
+subtle|/ˈsʌtl/|adj. 微妙的；精细的|形容词|2
+suburb|/ˈsʌbɜːrb/|n. 郊区；市郊|名词|2
+subway|/ˈsʌbweɪ/|n. 地铁；地下通道|名词|1
+succession|/səkˈseʃn/|n. 连续；继承|名词|2
+succinct|/səkˈsɪŋkt/|adj. 简明的；简洁的|形容词|3
+succumb|/səˈkʌm/|vi. 屈服；死于|动词|3
+suffice|/səˈfaɪs/|vi. 足够；满足需要|动词|3
+suite|swiːt/|n. 套房；套间|名词|2
+summit|/ˈsʌmɪt/|n. 顶峰；峰会|名词|2
+superfluous|/suːˈpɜːrfluəs/|adj. 多余的；过剩的|形容词|3
+suspense|/səˈspens/|n. 悬念；焦虑|名词|3
+swamp|swɑːmp/|n. 沼泽 vt. 淹没|名词|2
+swarm|swɔːrm/|n. 蜂群；一大群 vi. 蜂拥|名词|2
+swell|swel/|vi. 膨胀；增大 n. 膨胀|动词|2
+swift|swɪft/|adj. 迅速的；敏捷的|形容词|2
+symmetry|/ˈsɪmətri/|n. 对称；匀称|名词|3
+sympathize|/ˈsɪmpəθaɪz/|vi. 同情；赞同|动词|2
+synonym|/ˈsɪnənɪm/|n. 同义词|名词|2
+tailor|/ˈteɪlər/|n. 裁缝 vt. 裁制；量身定制|名词|2
+tame|teɪm/|adj. 驯服的 vt. 驯服|形容词|2
+tan|tæn/|n. 棕褐色 vi. 晒黑|名词|2
+tangle|/ˈtæŋɡl/|n. 缠结；纠纷 vt. 使缠结|名词|2
+tar|tɑːr/|n. 焦油；柏油 vt. 涂焦油|名词|3
+teamwork|/ˈtiːmwɜːrk/|n. 团队合作；协作|名词|2
+tender|/ˈtendər/|adj. 嫩的；温柔的|形容词|2
+tenure|/ˈtenjər/|n. 任期；终身职位|名词|3
+thereafter|/ˌðerˈæftər/|adv. 此后；在那之后|副词|3
+tick|tɪk/|n. 滴答声 vi. 滴答作响|名词|2
+tile|taɪl/|n. 瓷砖；瓦片 vt. 铺瓦|名词|2
+timid|/ˈtɪmɪd/|adj. 胆小的；羞怯的|形容词|2
+toad|toʊd/|n. 蟾蜍；蛤蟆|名词|3
+torment|/ˈtɔːrment/|n./vt. 折磨；痛苦|名词|3
+tornado|tɔːrˈneɪdoʊ/|n. 龙卷风|名词|2
+torrent|/ˈtɔːrənt/|n. 洪流；急流|名词|3
+trample|/ˈtræmpl/|vt. 践踏；蹂躏|动词|3
+transaction|/trænˈzækʃn/|n. 交易；事务|名词|2
+transition|/trænˈzɪʃn/|n. 过渡；转变|名词|2
+transparent|/trænsˈpærənt/|adj. 透明的；坦率的|形容词|2
+transplant|/trænsˈplænt/|vt. 移植 n. 移植|动词|3
+treason|/ˈtriːzn/|n. 叛国；谋反|名词|3
+tremble|/ˈtrembl/|vi. 颤抖；摇晃|动词|2
+trickle|/ˈtrɪkl/|vi. 滴流；细流|动词|3
+trifle|/ˈtraɪfl/|n. 琐事；少量 vi. 不认真对待|名词|3
+trio|/ˈtriːoʊ/|n. 三重奏；三人组|名词|3
+trophy|/ˈtroʊfi/|n. 奖杯；战利品|名词|2
+truce|truːs/|n. 停战；休战|名词|3
+trumpet|/ˈtrʌmpɪt/|n. 喇叭；小号 vt. 大声宣告|名词|2
+trunk|trʌŋk/|n. 树干；行李箱|名词|2
+tuck|tʌk/|vt. 塞进；折叠 n. 褶|动词|2
+tuition|tuˈɪʃn/|n. 学费；教学|名词|2
+tumble|/ˈtʌmbl/|vi. 跌倒；翻滚 n. 跌倒|动词|2
+tuna|/ˈtuːnə/|n. 金枪鱼|名词|3
+turmoil|/ˈtɜːrmɔɪl/|n. 混乱；动荡|名词|3
+tyre|/ˈtaɪər/|n. 轮胎|名词|2
+ulcer|/ˈʌlsər/|n. 溃疡|名词|3
+unanimously|/juˈnænɪməsli/|adv. 一致地；无异议地|副词|3
+underlie|/ˌʌndərˈlaɪ/|vt. 构成…的基础；位于…之下|动词|3
+undo|ʌnˈduː/|vt. 取消；解开|动词|2
+unprecedented|/ʌnˈpresɪdentɪd/|adj. 史无前例的；空前的|形容词|3
+unveil|/ʌnˈveɪl/|vt. 揭幕；公布|动词|3
+upward|/ˈʌpwərd/|adv. 向上地 adj. 上升的|副词|2
+vacancy|/ˈveɪkənsi/|n. 空缺；空房|名词|2
+varnish|/ˈvɑːrnɪʃ/|n. 清漆 vt. 涂清漆|名词|3
+vault|vɔːlt/|n. 拱顶；地下室 vi. 跳跃|名词|3
+vegetation|/ˌvedʒəˈteɪʃn/|n. 植被；草木|名词|2
+vein|veɪn/|n. 静脉；叶脉|名词|2
+velocity|/vəˈlɑːsəti/|n. 速度；速率|名词|3
+vendor|/ˈvendər/|n. 卖主；供应商|名词|2
+venue|/ˈvenjuː/|n. 场地；会场|名词|2
+verdict|/ˈvɜːrdɪkt/|n. 裁决；判决|名词|3
+verify|/ˈverɪfaɪ/|vt. 核实；证实|动词|2
+versatile|/ˈvɜːrsətl/|adj. 多才多艺的；通用的|形容词|3
+verse|vɜːrs/|n. 诗；韵文|名词|2
+version|/ˈvɜːrʒn/|n. 版本；译本|名词|2
+versus|/ˈvɜːrsəs/|prep. 与…相对；对抗|介词|2
+vertical|/ˈvɜːrtɪkl/|adj. 垂直的；直立的|形容词|2
+vessel|/ˈvesl/|n. 船；容器|名词|2
+veteran|/ˈvetərən/|n. 老兵；老手 adj. 经验丰富的|名词|2
+veto|/ˈviːtoʊ/|n./vt. 否决；禁止|名词|3
+vibrate|/vaɪˈbreɪt/|vi. 振动；颤动|动词|2
+vice|vaɪs/|n. 恶习；缺点 adj. 副的|名词|2
+vicinity|/vɪˈsɪnəti/|n. 附近；邻近|名词|3
+vigor|/ˈvɪɡər/|n. 活力；精力|名词|2
+villa|/ˈvɪlə/|n. 别墅；城郊住宅|名词|2
+vineyard|/ˈvɪnjərd/|n. 葡萄园|名词|3
+vintage|/ˈvɪntɪdʒ/|n. 年份；佳酿 adj. 古老的|名词|3
+violate|/ˈvaɪəleɪt/|vt. 违反；侵犯|动词|2
+virtue|/ˈvɜːrtʃuː/|n. 美德；优点|名词|2
+volt|voʊlt/|n. 伏特|名词|2
+waist|weɪst/|n. 腰；腰部|名词|1
+waken|/ˈweɪkən/|vi./vt. 醒来；唤醒|动词|2
+wallet|/ˈwɑːlɪt/|n. 钱包|名词|1
+ward|wɔːrd/|n. 病房；行政区 vt. 避开|名词|2
+warehouse|/ˈwerhaʊs/|n. 仓库；货栈|名词|2
+warfare|/ˈwɔːrfer/|n. 战争；冲突|名词|3
+warmth|wɔːrmθ/|n. 温暖；热情|名词|2
+warranty|/ˈwɔːrənti/|n. 保修；保证|名词|2
+waver|/ˈweɪvər/|vi. 摇摆；犹豫|动词|3
+weary|/ˈwɪri/|adj. 疲倦的 vt. 使厌倦|形容词|2
+weep|wiːp/|vi. 哭泣；流泪|动词|2
+weld|weld/|vt. 焊接；结合|动词|3
+whale|weɪl/|n. 鲸鱼|名词|1
+whatsoever|/ˌwɑːtsoʊˈevər/|adj./adv. 任何的（用于加强语气）|副词|3
+whisker|/ˈwɪskər/|n. 胡须；连鬓胡子|名词|3
+whistle|/ˈwɪsl/|n. 口哨 vi. 吹口哨|名词|2
+wholesome|/ˈhoʊlsəm/|adj. 有益健康的；健全的|形容词|3
+wicked|/ˈwɪkɪd/|adj. 邪恶的；恶毒的|形容词|2
+widget|/ˈwɪdʒɪt/|n. 小器具；小部件|名词|3
+widow|/ˈwɪdoʊ/|n. 寡妇；遗孀|名词|2
+width|wɪdθ/|n. 宽度；广度|名词|2
+wield|wiːld/|vt. 挥舞；行使|动词|3
+willow|/ˈwɪloʊ/|n. 柳树|名词|3
+winding|/ˈwaɪndɪŋ/|adj. 蜿蜒的；弯曲的|形容词|2
+windmill|/ˈwɪndmɪl/|n. 风车|名词|2
+witty|/ˈwɪti/|adj. 机智的；诙谐的|形容词|2
+woe|woʊ/|n. 悲哀；苦恼|名词|3
+woodpecker|/ˈwʊdpekər/|n. 啄木鸟|名词|3
+wrestle|/ˈresl/|vi. 摔跤；搏斗 vt. 与…摔跤|动词|3
+wring|rɪŋ/|vt. 绞；拧；扭|动词|3
+wrinkle|/ˈrɪŋkl/|n. 皱纹 vt. 使起皱纹|名词|2
+wrist|rɪst/|n. 手腕；腕关节|名词|2
+yeast|jiːst/|n. 酵母；酵母菌|名词|3
+yolk|joʊk/|n. 蛋黄|名词|3
+zeal|ziːl/|n. 热情；热忱|名词|2
+zenith|/ˈziːnɪθ/|n. 顶点；巅峰|名词|3
+zinc|zɪŋk/|n. 锌|名词|3
+zoology|/zuˈɑːlədʒi/|n. 动物学|名词|3

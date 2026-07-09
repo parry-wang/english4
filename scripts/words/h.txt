@@ -1,0 +1,98 @@
+habit|/ˈhæbɪt/|n. 习惯|名词|1
+hair|/heər/|n. 头发|名词|1
+half|/hɑːf/|n. 半|名词|1
+hall|/hɔːl/|n. 大厅|名词|1
+ham|hæm/|n. 火腿|名词|2
+hammer|/ˈhæmər/|n. 锤子|名词|2
+hand|hænd/|n. 手 v. 递|名词|1
+handbag|/ˈhændbæɡ/|n. 手提包|名词|1
+handful|/ˈhændfʊl/|n. 少数|名词|2
+handle|/ˈhændl/|n. 把手 v. 处理|动词|2
+handsome|/ˈhænsəm/|adj. 英俊的|形容词|1
+hang|hæŋ/|v. 悬挂|动词|1
+happen|/ˈhæpən/|v. 发生|动词|1
+happy|/ˈhæpi/|adj. 快乐的|形容词|1
+harbour|/ˈhɑːbər/|n. 港口|名词|2
+hard|hɑːrd/|adj. 努力的 adv. 努力|形容词|1
+hardly|/ˈhɑːrdli/|adv. 几乎不|副词|1
+hardship|/ˈhɑːrdʃɪp/|n. 困难|名词|2
+hardware|/ˈhɑːrdwer/|n. 硬件|名词|2
+harm|hɑːrm/|n. 伤害 v. 伤害|名词|2
+harmony|/ˈhɑːrməni/|n. 和谐|名词|2
+harvest|/ˈhɑːrvɪst/|n. 收获 v. 收割|名词|2
+haste|/heɪst/|n. 匆忙|名词|2
+hasty|/ˈheɪsti/|adj. 匆忙的|形容词|2
+hat|hæt/|n. 帽子|名词|1
+hate|/heɪt/|v. 讨厌|动词|1
+have|hæv/|v. 有|动词|1
+hay|/heɪ/|n. 干草|名词|2
+hazard|/ˈhæzərd/|n. 危险|名词|2
+head|/hed/|n. 头 v. 领头|名词|1
+headache|/ˈhedeɪk/|n. 头痛|名词|2
+heading|/ˈhedɪŋ/|n. 标题|名词|2
+headline|/ˈhedlaɪn/|n. 标题|名词|2
+headquarters|/ˈhedkwɔːrtərz/|n. 总部|名词|2
+health|/helθ/|n. 健康|名词|1
+healthy|/ˈhelθi/|adj. 健康的|形容词|1
+hear|hɪər/|v. 听见|动词|1
+heart|hɑːrt/|n. 心脏|名词|1
+heat|/hiːt/|n. 热量 v. 加热|名词|2
+heaven|/ˈhevn/|n. 天堂|名词|2
+heavy|/ˈhevi/|adj. 重的|形容词|1
+height|/haɪt/|n. 高度|名词|2
+hell|/hel/|n. 地狱|名词|2
+hello|həˈloʊ/|int. 你好|副词|1
+help|/help/|v. 帮助 n. 帮助|动词|1
+helpful|/ˈhelpfl/|adj. 有帮助的|形容词|2
+hen|hen/|n. 母鸡|名词|2
+hence|hens/|adv. 因此|副词|2
+here|hɪər/|adv. 这里|副词|1
+hero|/ˈhɪəroʊ/|n. 英雄|名词|2
+heritage|/ˈherɪtɪdʒ/|n. 遗产|名词|2
+hesitate|/ˈhezɪteɪt/|v. 犹豫|动词|2
+hide|/haɪd/|v. 藏|动词|1
+high|/haɪ/|adj. 高的|形容词|1
+highlight|/ˈhaɪlaɪt/|v. 强调 n. 亮点|动词|2
+highly|/ˈhaɪli/|adv. 高度地|副词|2
+highway|/ˈhaɪweɪ/|n. 公路|名词|2
+hill|hɪl/|n. 小山|名词|1
+hint|hɪnt/|n. 提示 v. 暗示|名词|2
+hire|/ˈhaɪər/|v. 雇用|动词|2
+history|/ˈhɪstri/|n. 历史|名词|1
+hit|hɪt/|v. 打击|动词|1
+hobby|/ˈhɒbi/|n. 爱好|名词|1
+hold|həʊld/|v. 拿住|动词|1
+hole|həʊl/|n. 洞|名词|1
+holiday|/ˈhɒlədeɪ/|n. 假期|名词|1
+hollow|/ˈhɒloʊ/|adj. 中空的|形容词|2
+holy|/ˈhoʊli/|adj. 神圣的|形容词|2
+home|/hoʊm/|n. 家 adv. 在家|名词|1
+homework|/ˈhoʊmwɜːrk/|n. 家庭作业|名词|1
+honest|/ˈɒnɪst/|adj. 诚实的|形容词|1
+honey|/ˈhʌni/|n. 蜂蜜|名词|2
+honour|/ˈɒnər/|n. 荣誉 v. 尊敬|名词|2
+hope|həʊp/|v. 希望 n. 希望|动词|1
+hopeful|/ˈhoʊpfl/|adj. 有希望的|形容词|2
+horizon|həˈraɪzn/|n. 地平线|名词|2
+horrible|/ˈhɒrəbl/|adj. 可怕的|形容词|2
+horse|hɔːrs/|n. 马|名词|1
+hospital|/ˈhɒspɪtl/|n. 医院|名词|1
+host|həʊst/|n. 主人|名词|2
+hot|hɒt/|adj. 热的|形容词|1
+hotel|həʊˈtel/|n. 旅馆|名词|1
+hour|/aʊər/|n. 小时|名词|1
+house|/haʊs/|n. 房子|名词|1
+household|/ˈhaʊshoʊld/|n. 家庭|名词|2
+housewife|/ˈhaʊswaɪf/|n. 家庭主妇|名词|2
+how|/haʊ/|adv. 如何|副词|1
+however|/haʊˈevər/|adv. 然而|副词|1
+huge|hjuːdʒ/|adj. 巨大的|形容词|1
+human|/ˈhjuːmən/|n. 人类 adj. 人类的|名词|1
+humorous|/ˈhjuːmərəs/|adj. 幽默的|形容词|2
+humor|/ˈhjuːmər/|n. 幽默|名词|2
+hundred|/ˈhʌndrəd/|num. 一百|名词|1
+hungry|/ˈhʌŋɡri/|adj. 饥饿的|形容词|1
+hunt|hʌnt/|v. 打猎|动词|2
+hurry|/ˈhʌri/|v. 匆忙|动词|1
+hurt|hɜːrt/|v. 受伤|动词|1
+husband|/ˈhʌzbənd/|n. 丈夫|名词|1

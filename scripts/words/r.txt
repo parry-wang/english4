@@ -1,0 +1,182 @@
+rabbit|/ˈræbɪt/|n. 兔子|名词|2
+race|/reɪs/|n. 比赛 v. 赛跑|名词|1
+racial|/ˈreɪʃl/|adj. 种族的|形容词|2
+radiation|/ˌreɪdiˈeɪʃn/|n. 辐射|名词|2
+radical|/ˈrædɪkl/|adj. 激进的|形容词|2
+radio|/ˈreɪdioʊ/|n. 收音机|名词|1
+rage|/reɪdʒ/|n. 愤怒|名词|2
+rail|/reɪl/|n. 铁轨|名词|2
+railroad|/ˈreɪlroʊd/|n. 铁路|名词|2
+railway|/ˈreɪlweɪ/|n. 铁路|名词|2
+rain|/reɪn/|n. 雨 v. 下雨|名词|1
+rainbow|/ˈreɪnboʊ/|n. 彩虹|名词|2
+rainy|/ˈreɪni/|adj. 下雨的|形容词|2
+raise|/reɪz/|v. 举起；提高|动词|2
+range|/reɪndʒ/|n. 范围|名词|2
+rank|/ræŋk/|n. 等级 v. 排列|名词|2
+rapid|/ˈræpɪd/|adj. 迅速的|形容词|2
+rare|/reər/|adj. 稀有的|形容词|2
+rarely|/ˈreərli/|adv. 很少|副词|2
+rat|/ræt/|n. 老鼠|名词|2
+rate|/reɪt/|n. 速率|名词|2
+rather|/ˈrɑːðər/|adv. 相当|副词|2
+raw|rɔː/|adj. 生的|形容词|2
+ray|/reɪ/|n. 光线|名词|2
+reach|/riːtʃ/|v. 到达|动词|1
+react|/riˈækt/|v. 反应|动词|2
+reaction|/riˈækʃn/|n. 反应|名词|2
+read|/riːd/|v. 读|动词|1
+reader|/ˈriːdər/|n. 读者|名词|2
+reading|/ˈriːdɪŋ/|n. 阅读|名词|2
+ready|/ˈredi/|adj. 准备好的|形容词|1
+real|/riːəl/|adj. 真实的|形容词|1
+realistic|/riːəˈlɪstɪk/|adj. 现实的|形容词|2
+reality|/riˈæləti/|n. 现实|名词|2
+realize|/ˈriːəlaɪz/|v. 意识到|动词|2
+really|/ˈriːəli/|adv. 真正地|副词|1
+reason|/ˈriːzn/|n. 原因 v. 推理|名词|1
+reasonable|/ˈriːznəbl/|adj. 合理的|形容词|2
+recall|/rɪˈkɔːl/|v. 回忆|动词|2
+receipt|/rɪˈsiːt/|n. 收据|名词|2
+receive|/rɪˈsiːv/|v. 收到|动词|1
+recent|/ˈriːsnt/|adj. 最近的|形容词|2
+recently|/ˈriːsntli/|adv. 最近|副词|2
+reception|/rɪˈsepʃn/|n. 接待|名词|2
+recipe|/ˈresəpi/|n. 食谱|名词|2
+recite|/rɪˈsaɪt/|v. 背诵|动词|2
+recognize|/ˈrekəɡnaɪz/|v. 认出|动词|2
+recommend|/ˌrekəˈmend/|v. 推荐|动词|2
+recommendation|/ˌrekəmenˈdeɪʃn/|n. 推荐|名词|2
+record|/ˈrekɔːrd/|n. 记录 v. 记录|名词|2
+recover|/rɪˈkʌvər/|v. 恢复|动词|2
+recovery|/rɪˈkʌvəri/|n. 恢复|名词|2
+recreation|/ˌrekriˈeɪʃn/|n. 娱乐|名词|2
+recycle|/riːˈsaɪkl/|v. 回收|动词|2
+red|/red/|adj. 红色的|形容词|1
+reduce|/rɪˈdjuːs/|v. 减少|动词|2
+reduction|/rɪˈdʌkʃn/|n. 减少|名词|2
+refer|rɪˈfɜːr/|v. 参考|动词|2
+reference|/ˈrefərəns/|n. 参考|名词|2
+reflect|/rɪˈflekt/|v. 反映|动词|2
+reflection|/rɪˈflekʃn/|n. 反映|名词|2
+reform|/rɪˈfɔːrm/|v. 改革|动词|2
+refresh|rɪˈfreʃ/|v. 使恢复|动词|2
+refrigerator|rɪˈfrɪdʒəreɪtər/|n. 冰箱|名词|2
+refuse|rɪˈfjuːz/|v. 拒绝|动词|2
+regard|rɪˈɡɑːrd/|v. 认为|动词|2
+regarding|rɪˈɡɑːrdɪŋ/|prep. 关于|介词|2
+region|/ˈriːdʒən/|n. 地区|名词|2
+register|/ˈredʒɪstər/|v. 注册|动词|2
+regret|rɪˈɡret/|v. 后悔|动词|2
+regular|/ˈreɡjələr/|adj. 规则的|形容词|2
+regulation|/ˌreɡjuˈleɪʃn/|n. 规定|名词|2
+reject|rɪˈdʒekt/|v. 拒绝|动词|2
+relate|rɪˈleɪt/|v. 联系|动词|2
+relation|rɪˈleɪʃn/|n. 关系|名词|2
+relationship|rɪˈleɪʃnʃɪp/|n. 关系|名词|2
+relative|/ˈrelətɪv/|n. 亲戚 adj. 相对的|名词|2
+relativity|/ˌreləˈtɪvəti/|n. 相对论|名词|2
+relax|rɪˈlæks/|v. 放松|动词|2
+release|rɪˈliːs/|v. 释放|动词|2
+relevant|/ˈreləvənt/|adj. 相关的|形容词|2
+relief|rɪˈliːf/|n. 减轻|名词|2
+religion|rɪˈlɪdʒən/|n. 宗教|名词|2
+religious|rɪˈlɪdʒəs/|adj. 宗教的|形容词|2
+reluctant|rɪˈlʌktənt/|adj. 不情愿的|形容词|2
+rely|rɪˈlaɪ/|v. 依赖|动词|2
+remain|rɪˈmeɪn/|v. 保持|动词|2
+remark|rɪˈmɑːrk/|n. 评论 v. 评论|名词|2
+remarkable|rɪˈmɑːrkəbl/|adj. 显著的|形容词|2
+remedy|/ˈremədi/|n. 补救办法|名词|2
+remember|rɪˈmembər/|v. 记得|动词|1
+remind|rɪˈmaɪnd/|v. 提醒|动词|2
+remote|rɪˈmoʊt/|adj. 遥远的|形容词|2
+remove|rɪˈmuːv/|v. 移除|动词|2
+renew|rɪˈnjuː/|v. 更新|动词|2
+rent|/rent/|n. 租金 v. 租|名词|2
+repair|rɪˈpeər/|v. 修理|动词|2
+repeat|rɪˈpiːt/|v. 重复|动词|1
+replace|rɪˈpleɪs/|v. 替换|动词|2
+replacement|rɪˈpleɪsmənt/|n. 替换|名词|2
+reply|rɪˈplaɪ/|v. 回复|动词|1
+report|rɪˈpɔːrt/|n. 报告 v. 报告|名词|1
+reporter|rɪˈpɔːrtər/|n. 记者|名词|2
+represent|ˌreprɪˈzent/|v. 代表|动词|2
+representative|ˌreprɪˈzentətɪv/|n. 代表|名词|2
+republic|rɪˈpʌblɪk/|n. 共和国|名词|2
+reputation|ˌrepjuˈteɪʃn/|n. 名声|名词|2
+request|rɪˈkwest/|n. 请求 v. 请求|名词|2
+require|rɪˈkwaɪər/|v. 要求|动词|2
+requirement|rɪˈkwaɪərmənt/|n. 要求|名词|2
+rescue|/ˈreskjuː/|v. 救援|动词|2
+research|rɪˈsɜːrtʃ/|n. 研究|名词|2
+researcher|/rɪˈsɜːrtʃər/|n. 研究者|名词|2
+reserve|rɪˈzɜːrv/|v. 预订|动词|2
+resident|/ˈrezɪdənt/|n. 居民|名词|2
+resign|rɪˈzaɪn/|v. 辞职|动词|2
+resist|rɪˈzɪst/|v. 抵抗|动词|2
+resistance|rɪˈzɪstəns/|n. 抵抗|名词|2
+resolve|rɪˈzɒlv/|v. 解决|动词|2
+resort|rɪˈzɔːrt/|n. 度假地|名词|2
+resource|/rɪˈsɔːrs/|n. 资源|名词|2
+respond|rɪˈspɒnd/|v. 回应|动词|2
+response|rɪˈspɒns/|n. 回应|名词|2
+responsibility|rɪˌspɒnsəˈbɪləti/|n. 责任|名词|2
+responsible|rɪˈspɒnsəbl/|adj. 负责任的|形容词|2
+rest|/rest/|n. 休息 v. 休息|名词|1
+restaurant|/ˈrestrɒnt/|n. 餐厅|名词|1
+restore|rɪˈstɔːr/|v. 恢复|动词|2
+restrict|rɪˈstrɪkt/|v. 限制|动词|2
+restriction|rɪˈstrɪkʃn/|n. 限制|名词|2
+result|rɪˈzʌlt/|n. 结果|名词|1
+retire|rɪˈtaɪər/|v. 退休|动词|2
+retirement|rɪˈtaɪərmənt/|n. 退休|名词|2
+return|rɪˈtɜːrn/|v. 返回|动词|1
+reveal|rɪˈviːl/|v. 揭示|动词|2
+revenue|/ˈrevənjuː/|n. 收入|名词|2
+review|rɪˈvjuː/|v. 复习 n. 评论|动词|2
+revolution|ˌrevəˈluːʃn/|n. 革命|名词|2
+reward|rɪˈwɔːrd/|n. 奖赏|名词|2
+rhythm|/ˈrɪðəm/|n. 节奏|名词|2
+rice|/raɪs/|n. 米|名词|1
+rich|rɪtʃ/|adj. 富有的|形容词|1
+rid|rɪd/|v. 使摆脱|动词|2
+ride|/raɪd/|v. 骑|动词|1
+ridge|rɪdʒ/|n. 山脊|名词|2
+ridiculous|rɪˈdɪkjələs/|adj. 荒谬的|形容词|2
+right|/raɪt/|adj. 正确的 n. 权利|形容词|1
+rigid|/ˈrɪdʒɪd/|adj. 严格的|形容词|2
+ring|rɪŋ/|n. 戒指 v. 响铃|名词|1
+ripe|/raɪp/|adj. 成熟的|形容词|2
+rise|/raɪz/|v. 上升|动词|1
+risk|rɪsk/|n. 风险 v. 冒险|名词|2
+rival|/ˈraɪvl/|n. 对手|名词|2
+river|/ˈrɪvər/|n. 河|名词|1
+road|/roʊd/|n. 路|名词|1
+robot|/ˈroʊbɒt/|n. 机器人|名词|2
+rock|rɒk/|n. 岩石|名词|2
+role|/roʊl/|n. 角色|名词|2
+roll|/roʊl/|v. 滚动 n. 面包卷|动词|2
+romantic|/roʊˈmæntɪk/|adj. 浪漫的|形容词|2
+roof|/ruːf/|n. 屋顶|名词|2
+room|/ruːm/|n. 房间|名词|1
+root|/ruːt/|n. 根|名词|2
+rope|/roʊp/|n. 绳子|名词|2
+rose|/roʊz/|n. 玫瑰|名词|1
+rotten|/ˈrɒtn/|adj. 腐烂的|形容词|2
+rough|rʌf/|adj. 粗糙的|形容词|2
+round|/raʊnd/|adj. 圆的|形容词|1
+route|/ruːt/|n. 路线|名词|2
+routine|/ruːˈtiːn/|n. 日常 adj. 常规的|名词|2
+row|/roʊ/|n. 排 v. 划船|名词|2
+royal|/ˈrɔɪəl/|adj. 皇家的|形容词|2
+rub|rʌb/|v. 摩擦|动词|2
+rubber|/ˈrʌbər/|n. 橡胶|名词|2
+rubbish|/ˈrʌbɪʃ/|n. 垃圾|名词|2
+rude|/ruːd/|adj. 粗鲁的|形容词|2
+ruin|/ˈruːɪn/|v. 毁灭|动词|2
+rule|/ruːl/|n. 规则 v. 统治|名词|1
+ruler|/ˈruːlər/|n. 尺子|名词|1
+run|rʌn/|v. 跑|动词|1
+rural|/ˈrʊrəl/|adj. 农村的|形容词|2
+rush|rʌʃ/|v. 冲|动词|2

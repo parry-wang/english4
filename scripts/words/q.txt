@@ -1,0 +1,13 @@
+qualify|/ˈkwɒlɪfaɪ/|v. 使有资格|动词|2
+quality|/ˈkwɒləti/|n. 质量|名词|1
+quantity|/ˈkwɒntəti/|n. 数量|名词|2
+quarrel|/ˈkwɒrəl/|v. 争吵|动词|2
+quarter|/ˈkwɔːrtər/|n. 四分之一|名词|2
+queen|/kwiːn/|n. 女王|名词|1
+question|/ˈkwestʃən/|n. 问题|名词|1
+queue|/kjuː/|n. 队伍 v. 排队|名词|2
+quick|/kwɪk/|adj. 快的|形容词|1
+quiet|/ˈkwaɪət/|adj. 安静的|形容词|1
+quit|/kwɪt/|v. 退出|动词|2
+quite|/kwaɪt/|adv. 相当|副词|1
+quote|/kwoʊt/|v. 引用|动词|2

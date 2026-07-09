@@ -1,0 +1,316 @@
+cabin|/ˈkæbɪn/|n. 小屋；船舱|名词|2
+cabinet|/ˈkæbɪnət/|n. 橱柜；内阁|名词|2
+cable|/ˈkeɪbl/|n. 电缆；缆绳|名词|2
+cafe|/ˈkæfeɪ/|n. 咖啡馆|名词|1
+cage|/keɪdʒ/|n. 笼子|名词|2
+cake|/keɪk/|n. 蛋糕|名词|1
+calculate|/ˈkælkjuleɪt/|v. 计算|动词|2
+calendar|/ˈkælɪndər/|n. 日历|名词|2
+call|/kɔːl/|v. 叫；打电话|动词|1
+calm|/kɑːm/|adj. 平静的|形容词|2
+camel|/ˈkæml/|n. 骆驼|名词|2
+camera|/ˈkæmərə/|n. 照相机|名词|1
+camp|/kæmp/|n. 营地 v. 露营|名词|1
+campaign|/kæmˈpeɪn/|n. 运动；战役|名词|2
+campus|/ˈkæmpəs/|n. 校园|名词|1
+can|/kæn/|v. 能够 n. 罐头|动词|1
+canal|/kəˈnæl/|n. 运河|名词|2
+cancel|/ˈkænsl/|v. 取消|动词|2
+cancer|/ˈkænsər/|n. 癌症|名词|2
+candidate|/ˈkændɪdət/|n. 候选人|名词|2
+candle|/ˈkændl/|n. 蜡烛|名词|1
+capable|/ˈkeɪpəbl/|adj. 有能力的|形容词|2
+capacity|/kəˈpæsəti/|n. 容量；能力|名词|2
+capital|/ˈkæpɪtl/|n. 首都；资本|名词|1
+captain|/ˈkæptɪn/|n. 队长；船长|名词|2
+capture|/ˈkæptʃər/|v. 捕获；俘获|动词|2
+car|/kɑːr/|n. 汽车|名词|1
+carbon|/ˈkɑːrbən/|n. 碳|名词|2
+card|/kɑːrd/|n. 卡片；纸牌|名词|1
+care|/keər/|v. 关心；照顾|动词|1
+career|/kəˈrɪər/|n. 职业；生涯|名词|1
+careful|/ˈkeərfl/|adj. 小心的|形容词|1
+careless|/ˈkeərləs/|adj. 粗心的|形容词|2
+cargo|/ˈkɑːrɡoʊ/|n. 货物|名词|2
+carry|/ˈkæri/|v. 携带；搬运|动词|1
+cart|/kɑːrt/|n. 手推车|名词|2
+case|/keɪs/|n. 情况；案例|名词|1
+cash|/kæʃ/|n. 现金|名词|1
+cast|/kɑːst/|v. 投；扔|动词|2
+castle|/ˈkɑːsl/|n. 城堡|名词|2
+casual|/ˈkæʒuəl/|adj. 随便的|形容词|2
+cat|/kæt/|n. 猫|名词|1
+catalog|/ˈkætəlɒɡ/|n. 目录|名词|2
+catch|/kætʃ/|v. 抓住；赶上|动词|1
+category|/ˈkætəɡəri/|n. 类别|名词|2
+cattle|/ˈkætl/|n. 牛|名词|2
+cause|/kɔːz/|n. 原因 v. 引起|名词|1
+cautious|/ˈkɔːʃəs/|adj. 谨慎的|形容词|2
+cave|/keɪv/|n. 洞穴|名词|2
+cease|/siːs/|v. 停止|动词|2
+ceiling|/ˈsiːlɪŋ/|n. 天花板|名词|2
+celebrate|/ˈselɪbreɪt/|v. 庆祝|动词|1
+cell|/sel/|n. 细胞；小房间|名词|2
+cent|/sent/|n. 分|名词|1
+center|/ˈsentər/|n. 中心|名词|1
+central|/ˈsentrəl/|adj. 中心的|形容词|2
+century|/ˈsentʃəri/|n. 世纪|名词|1
+ceremony|/ˈserəməni/|n. 仪式|名词|2
+certain|/ˈsɜːrtn/|adj. 确定的|形容词|1
+certainly|/ˈsɜːrtnli/|adv. 当然|副词|1
+certificate|/sərˈtɪfɪkət/|n. 证书|名词|2
+chain|/tʃeɪn/|n. 链条|名词|2
+chair|/tʃeər/|n. 椅子|名词|1
+chairman|/ˈtʃeərmən/|n. 主席|名词|2
+challenge|/ˈtʃælɪndʒ/|n. 挑战|名词|2
+champion|/ˈtʃæmpiən/|n. 冠军|名词|2
+chance|/tʃɑːns/|n. 机会|名词|1
+change|/tʃeɪndʒ/|v. 改变 n. 零钱|动词|1
+channel|/ˈtʃænl/|n. 频道；海峡|名词|2
+chapter|/ˈtʃæptər/|n. 章节|名词|2
+character|/ˈkærɪktər/|n. 性格；角色|名词|1
+characteristic|/ˌkærɪktəˈrɪstɪk/|n. 特征 adj. 特有的|名词|2
+charge|/tʃɑːrdʒ/|v. 收费；指控|动词|2
+charity|/ˈtʃærəti/|n. 慈善|名词|2
+chart|/tʃɑːrt/|n. 图表|名词|2
+chase|/tʃeɪs/|v. 追赶|动词|2
+cheap|/tʃiːp/|adj. 便宜的|形容词|1
+cheat|/tʃiːt/|v. 欺骗|动词|2
+check|/tʃek/|v. 检查 n. 支票|动词|1
+cheek|/tʃiːk/|n. 脸颊|名词|2
+cheer|/tʃɪər/|v. 欢呼|动词|2
+cheerful|/ˈtʃɪərfl/|adj. 快乐的|形容词|2
+cheese|/tʃiːz/|n. 奶酪|名词|1
+chemical|/ˈkemɪkl/|adj. 化学的 n. 化学品|形容词|2
+chemistry|/ˈkemɪstri/|n. 化学|名词|2
+cheque|/tʃek/|n. 支票|名词|2
+chest|/tʃest/|n. 胸部|名词|2
+chicken|/ˈtʃɪkɪn/|n. 鸡；鸡肉|名词|1
+chief|/tʃiːf/|adj. 主要的 n. 首领|形容词|2
+child|/tʃaɪld/|n. 孩子|名词|1
+childhood|/ˈtʃaɪldhʊd/|n. 童年|名词|2
+chin|/tʃɪn/|n. 下巴|名词|2
+china|/ˈtʃaɪnə/|n. 瓷器|名词|2
+chip|/tʃɪp/|n. 芯片；碎片|名词|2
+chocolate|/ˈtʃɒklət/|n. 巧克力|名词|1
+choice|/tʃɔɪs/|n. 选择|名词|1
+choose|/tʃuːz/|v. 选择|动词|1
+church|/tʃɜːrtʃ/|n. 教堂|名词|1
+cigarette|/ˌsɪɡəˈret/|n. 香烟|名词|2
+circle|/ˈsɜːrkl/|n. 圆 v. 环绕|名词|1
+circumstance|/ˈsɜːrkəmstæns/|n. 情况；环境|名词|2
+citizen|/ˈsɪtɪzn/|n. 公民|名词|2
+city|/ˈsɪti/|n. 城市|名词|1
+civil|/ˈsɪvl/|adj. 公民的；民用的|形容词|2
+claim|/kleɪm/|v. 声称；要求|动词|2
+clap|/klæp/|v. 拍手|动词|2
+class|/klɑːs/|n. 班级；课|名词|1
+classic|/ˈklæsɪk/|adj. 经典的|形容词|2
+classroom|/ˈklɑːsruːm/|n. 教室|名词|1
+clean|/kliːn/|adj. 干净的 v. 打扫|形容词|1
+clear|/klɪər/|adj. 清楚的 v. 清除|形容词|1
+clerk|/klɜːrk/|n. 职员|名词|2
+clever|/ˈklevər/|adj. 聪明的|形容词|1
+click|/klɪk/|v. 点击|动词|2
+client|/ˈklaɪənt/|n. 客户|名词|2
+cliff|/klɪf/|n. 悬崖|名词|2
+climate|/ˈklaɪmət/|n. 气候|名词|2
+climb|/klaɪm/|v. 攀登|动词|1
+clinic|/ˈklɪnɪk/|n. 诊所|名词|2
+clock|/klɒk/|n. 时钟|名词|1
+close|/kloʊz/|v. 关闭 adj. 亲近的|动词|1
+cloth|/klɒθ/|n. 布|名词|2
+clothes|/kloʊðz/|n. 衣服|名词|1
+clothing|/ˈkloʊðɪŋ/|n. 服装|名词|2
+cloud|/klaʊd/|n. 云|名词|1
+club|/klʌb/|n. 俱乐部|名词|1
+clue|/kluː/|n. 线索|名词|2
+coach|/koʊtʃ/|n. 教练|名词|2
+coal|/koʊl/|n. 煤|名词|2
+coast|/koʊst/|n. 海岸|名词|2
+coat|/koʊt/|n. 外套|名词|1
+code|/koʊd/|n. 代码；密码|名词|2
+coffee|/ˈkɒfi/|n. 咖啡|名词|1
+coin|/kɔɪn/|n. 硬币|名词|1
+cold|/koʊld/|adj. 冷的 n. 感冒|形容词|1
+collapse|/kəˈlæps/|v. 倒塌；崩溃|动词|2
+colleague|/ˈkɒliːɡ/|n. 同事|名词|2
+collect|/kəˈlekt/|v. 收集|动词|1
+collection|/kəˈlekʃn/|n. 收集；收藏品|名词|2
+college|/ˈkɒlɪdʒ/|n. 学院|名词|1
+collision|/kəˈlɪʒn/|n. 碰撞|名词|2
+color|/ˈkʌlər/|n. 颜色|名词|1
+column|/ˈkɒləm/|n. 柱；专栏|名词|2
+combination|/ˌkɒmbɪˈneɪʃn/|n. 组合|名词|2
+combine|/kəmˈbaɪn/|v. 结合|动词|2
+come|/kʌm/|v. 来|动词|1
+comedy|/ˈkɒmədi/|n. 喜剧|名词|2
+comfort|/ˈkʌmfərt/|n. 舒适 v. 安慰|名词|2
+comfortable|/ˈkʌmftəbl/|adj. 舒适的|形容词|1
+command|/kəˈmɑːnd/|v. 命令|动词|2
+comment|/ˈkɒment/|n. 评论 v. 评论|名词|2
+commerce|/ˈkɒmɜːrs/|n. 商业|名词|2
+commercial|/kəˈmɜːrʃl/|adj. 商业的|形容词|2
+commission|/kəˈmɪʃn/|n. 委员会；佣金|名词|2
+commit|/kəˈmɪt/|v. 犯(罪)；承诺|动词|2
+committee|/kəˈmɪti/|n. 委员会|名词|2
+common|/ˈkɒmən/|adj. 常见的；普通的|形容词|1
+communicate|/kəˈmjuːnɪkeɪt/|v. 交流|动词|2
+communication|/kəˌmjuːnɪˈkeɪʃn/|n. 交流；通信|名词|2
+community|/kəˈmjuːnəti/|n. 社区|名词|2
+companion|/kəmˈpænjən/|n. 伴侣|名词|2
+company|/ˈkʌmpəni/|n. 公司；陪伴|名词|1
+compare|/kəmˈpeər/|v. 比较|动词|2
+comparison|/kəmˈpærɪsn/|n. 比较|名词|2
+compel|/kəmˈpel/|v. 强迫|动词|2
+compete|/kəmˈpiːt/|v. 竞争|动词|2
+competition|/ˌkɒmpəˈtɪʃn/|n. 竞争|名词|2
+competitor|/kəmˈpetɪtər/|n. 竞争者|名词|2
+complain|/kəmˈpleɪn/|v. 抱怨|动词|2
+complaint|/kəmˈpleɪnt/|n. 投诉|名词|2
+complete|/kəmˈpliːt/|adj. 完整的 v. 完成|动词|1
+complex|/ˈkɒmpleks/|adj. 复杂的|形容词|2
+complicated|/ˈkɒmplɪkeɪtɪd/|adj. 复杂的|形容词|2
+component|/kəmˈpoʊnənt/|n. 组成部分|名词|2
+compose|/kəmˈpoʊz/|v. 组成；创作|动词|2
+composition|/ˌkɒmpəˈzɪʃn/|n. 作文；组成|名词|2
+comprehensive|/ˌkɒmprɪˈhensɪv/|adj. 全面的|形容词|2
+compress|/kəmˈpres/|v. 压缩|动词|2
+comprise|/kəmˈpraɪz/|v. 包含；构成|动词|2
+compromise|/ˈkɒmprəmaɪz/|n. 妥协 v. 妥协|名词|2
+compute|/kəmˈpjuːt/|v. 计算|动词|2
+computer|/kəmˈpjuːtər/|n. 计算机|名词|1
+concentrate|/ˈkɒnsntreɪt/|v. 集中；专心|动词|2
+concept|/ˈkɒnsept/|n. 概念|名词|2
+concern|/kənˈsɜːrn/|v. 关心；涉及|动词|2
+concerning|/kənˈsɜːrnɪŋ/|prep. 关于|介词|2
+concert|/ˈkɒnsərt/|n. 音乐会|名词|2
+conclude|/kənˈkluːd/|v. 结束；得出结论|动词|2
+conclusion|/kənˈkluːʒn/|n. 结论|名词|2
+concrete|/ˈkɒŋkriːt/|adj. 具体的 n. 混凝土|形容词|2
+condition|/kənˈdɪʃn/|n. 条件；状况|名词|1
+conduct|/kənˈdʌkt/|v. 进行；指挥|动词|2
+conference|/ˈkɒnfərəns/|n. 会议|名词|2
+confess|/kənˈfes/|v. 坦白|动词|2
+confidence|/ˈkɒnfɪdəns/|n. 信心|名词|2
+confident|/ˈkɒnfɪdənt/|adj. 自信的|形容词|2
+confirm|/kənˈfɜːrm/|v. 确认|动词|2
+conflict|/ˈkɒnflɪkt/|n. 冲突|名词|2
+confuse|/kənˈfjuːz/|v. 使困惑|动词|2
+confusion|/kənˈfjuːʒn/|n. 困惑|名词|2
+congratulate|/kənˈɡrætʃuleɪt/|v. 祝贺|动词|2
+connect|/kənˈnekt/|v. 连接|动词|1
+connection|/kəˈnekʃn/|n. 连接|名词|2
+conquer|/ˈkɒŋkər/|v. 征服|动词|2
+conscious|/ˈkɒnʃəs/|adj. 有意识的|形容词|2
+consequence|/ˈkɒnsɪkwəns/|n. 后果|名词|2
+conservation|/ˌkɒnsərˈveɪʃn/|n. 保护|名词|2
+conservative|/kənˈsɜːrvətɪv/|adj. 保守的|形容词|2
+consider|/kənˈsɪdər/|v. 考虑|动词|1
+considerable|/kənˈsɪdərəbl/|adj. 相当大的|形容词|2
+considerate|/kənˈsɪdərət/|adj. 体贴的|形容词|2
+consist|/kənˈsɪst/|v. 由...组成|动词|2
+consistent|/kənˈsɪstənt/|adj. 一致的|形容词|2
+constant|/ˈkɒnstənt/|adj. 不断的|形容词|2
+constitution|/ˌkɒnstɪˈtjuːʃn/|n. 宪法|名词|2
+construct|/kənˈstrʌkt/|v. 建造|动词|2
+construction|/kənˈstrʌkʃn/|n. 建设|名词|2
+consult|/kənˈsʌlt/|v. 咨询|动词|2
+consume|/kənˈsjuːm/|v. 消耗|动词|2
+consumer|/kənˈsjuːmər/|n. 消费者|名词|2
+consumption|/kənˈsʌmpʃn/|n. 消耗|名词|2
+contact|/ˈkɒntækt/|n. 接触 v. 联系|名词|2
+contain|/kənˈteɪn/|v. 包含|动词|1
+container|/kənˈteɪnər/|n. 容器|名词|2
+contemporary|/kənˈtempəreri/|adj. 当代的|形容词|2
+content|/ˈkɒntent/|n. 内容 adj. 满足的|名词|2
+contest|/ˈkɒntest/|n. 竞赛|名词|2
+context|/ˈkɒntekst/|n. 上下文|名词|2
+continent|/ˈkɒntɪnənt/|n. 大陆|名词|2
+continue|/kənˈtɪnjuː/|v. 继续|动词|1
+continuous|/kənˈtɪnjuəs/|adj. 持续的|形容词|2
+contract|/ˈkɒntrækt/|n. 合同|名词|2
+contradiction|/ˌkɒntrəˈdɪkʃn/|n. 矛盾|名词|2
+contrary|/ˈkɒntrəri/|adj. 相反的|形容词|2
+contrast|/ˈkɒntrɑːst/|n. 对比|名词|2
+contribute|/kənˈtrɪbjuːt/|v. 贡献|动词|2
+contribution|/ˌkɒntrɪˈbjuːʃn/|n. 贡献|名词|2
+control|/kənˈtroʊl/|v. 控制|动词|1
+controversial|/ˌkɒntrəˈvɜːrʃl/|adj. 有争议的|形容词|2
+convenience|/kənˈviːniəns/|n. 方便|名词|2
+convenient|/kənˈviːniənt/|adj. 方便的|形容词|2
+convention|/kənˈvenʃn/|n. 惯例；大会|名词|2
+conversation|/ˌkɒnvərˈseɪʃn/|n. 对话|名词|1
+convert|/kənˈvɜːrt/|v. 转换|动词|2
+convey|/kənˈveɪ/|v. 传达|动词|2
+convince|/kənˈvɪns/|v. 说服|动词|2
+cook|/kʊk/|v. 烹饪 n. 厨师|动词|1
+cool|/kuːl/|adj. 凉爽的|形容词|1
+cooperate|/koʊˈɒpəreɪt/|v. 合作|动词|2
+cooperation|/koʊˌɒpəˈreɪʃn/|n. 合作|名词|2
+cope|/koʊp/|v. 应对|动词|2
+copper|/ˈkɒpər/|n. 铜|名词|2
+copy|/ˈkɒpi/|n. 副本 v. 复制|名词|1
+core|/kɔːr/|n. 核心|名词|2
+corn|/kɔːrn/|n. 玉米|名词|1
+corner|/ˈkɔːrnər/|n. 角落|名词|1
+corporate|/ˈkɔːrpərət/|adj. 公司的|形容词|2
+correct|/kəˈrekt/|adj. 正确的 v. 纠正|形容词|1
+correspond|/ˌkɒrɪˈspɒnd/|v. 相符；通信|动词|2
+corresponding|/ˌkɒrɪˈspɒndɪŋ/|adj. 相应的|形容词|2
+corridor|/ˈkɒrɪdɔːr/|n. 走廊|名词|2
+cost|/kɒst/|n. 成本 v. 花费|名词|1
+cottage|/ˈkɒtɪdʒ/|n. 小屋|名词|2
+cotton|/ˈkɒtn/|n. 棉花|名词|2
+could|/kʊd/|v. 能；可以|动词|1
+council|/ˈkaʊnsl/|n. 委员会|名词|2
+count|/kaʊnt/|v. 数；计算|动词|1
+counter|/ˈkaʊntər/|n. 柜台|名词|2
+country|/ˈkʌntri/|n. 国家|名词|1
+countryside|/ˈkʌntrisaɪd/|n. 乡村|名词|1
+county|/ˈkaʊnti/|n. 县|名词|2
+couple|/ˈkʌpl/|n. 一对；夫妇|名词|1
+courage|/ˈkʌrɪdʒ/|n. 勇气|名词|2
+course|/kɔːrs/|n. 课程；过程|名词|1
+court|/kɔːrt/|n. 法院；球场|名词|2
+cousin|/ˈkʌzn/|n. 堂(表)兄弟姐妹|名词|1
+cover|/ˈkʌvər/|v. 覆盖 n. 封面|动词|1
+cow|/kaʊ/|n. 奶牛|名词|1
+crack|/kræk/|n. 裂缝 v. 破裂|名词|2
+craft|/krɑːft/|n. 工艺；手艺|名词|2
+crash|/kræʃ/|v. 碰撞；坠毁|动词|2
+crazy|/ˈkreɪzi/|adj. 疯狂的|形容词|1
+cream|/kriːm/|n. 奶油|名词|1
+create|/kriˈeɪt/|v. 创造|动词|1
+creative|/kriˈeɪtɪv/|adj. 创造性的|形容词|2
+creature|/ˈkriːtʃər/|n. 生物|名词|2
+credit|/ˈkredɪt/|n. 信用；学分|名词|2
+crew|/kruː/|n. 全体人员|名词|2
+crime|/kraɪm/|n. 犯罪|名词|2
+criminal|/ˈkrɪmɪnl/|n. 罪犯 adj. 刑事的|名词|2
+crisis|/ˈkraɪsɪs/|n. 危机|名词|2
+critical|/ˈkrɪtɪkl/|adj. 批评的；关键的|形容词|2
+criticism|/ˈkrɪtɪsɪzəm/|n. 批评|名词|2
+criticize|/ˈkrɪtɪsaɪz/|v. 批评|动词|2
+crop|/krɒp/|n. 农作物|名词|2
+cross|/krɒs/|v. 穿过 adj. 交叉的|动词|1
+crowd|/kraʊd/|n. 人群|名词|2
+crowded|/ˈkraʊdɪd/|adj. 拥挤的|形容词|1
+crucial|/ˈkruːʃl/|adj. 关键的|形容词|2
+cruel|/ˈkruːəl/|adj. 残忍的|形容词|2
+cry|/kraɪ/|v. 哭泣 n. 叫声|动词|1
+crystal|/ˈkrɪstl/|n. 水晶 adj. 清澈的|名词|2
+culture|/ˈkʌltʃər/|n. 文化|名词|1
+cup|/kʌp/|n. 杯子|名词|1
+cure|/kjʊər/|v. 治愈 n. 疗法|动词|2
+curious|/ˈkjʊəriəs/|adj. 好奇的|形容词|2
+curiosity|/ˌkjʊəriˈɒsəti/|n. 好奇心|名词|2
+currency|/ˈkʌrənsi/|n. 货币|名词|2
+current|/ˈkʌrənt/|adj. 当前的 n. 水流|形容词|2
+curriculum|/kəˈrɪkjələm/|n. 课程|名词|2
+curtain|/ˈkɜːrtn/|n. 窗帘|名词|2
+curve|/kɜːrv/|n. 曲线 v. 弯曲|名词|2
+cushion|/ˈkʊʃn/|n. 垫子|名词|2
+custom|/ˈkʌstəm/|n. 习俗|名词|2
+customer|/ˈkʌstəmər/|n. 顾客|名词|1
+cycle|/ˈsaɪkl/|n. 循环；自行车|名词|2

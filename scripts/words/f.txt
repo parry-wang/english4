@@ -1,0 +1,173 @@
+fabric|/ˈfæbrɪk/|n. 织物；结构|名词|2
+face|/feɪs/|n. 脸 v. 面对|名词|1
+facility|/fəˈsɪləti/|n. 设施|名词|2
+fact|/fækt/|n. 事实|名词|1
+factor|/ˈfæktər/|n. 因素|名词|2
+factory|/ˈfæktəri/|n. 工厂|名词|1
+faculty|/ˈfæklti/|n. 才能；学院|名词|2
+fail|/feɪl/|v. 失败|动词|1
+failure|/ˈfeɪljər/|n. 失败|名词|2
+faint|/feɪnt/|adj. 微弱的|形容词|2
+fair|/feər/|adj. 公平的|形容词|1
+fairly|/ˈfeəli/|adv. 相当；公平地|副词|2
+faith|/feɪθ/|n. 信仰|名词|2
+faithful|/ˈfeɪθfl/|adj. 忠实的|形容词|2
+fall|/fɔːl/|v. 落下 n. 秋天|动词|1
+false|/fɔːls/|adj. 错误的|形容词|2
+fame|/feɪm/|n. 名声|名词|2
+familiar|/fəˈmɪliər/|adj. 熟悉的|形容词|1
+family|/ˈfæməli/|n. 家庭|名词|1
+famous|/ˈfeɪməs/|adj. 著名的|形容词|1
+fan|/fæn/|n. 扇子；粉丝|名词|1
+fancy|/ˈfænsi/|adj. 花哨的|形容词|2
+fantastic|/fænˈtæstɪk/|adj. 极好的|形容词|2
+far|/fɑːr/|adj./adv. 远的(地)|形容词|1
+fare|/feər/|n. 车费|名词|2
+farm|/fɑːrm/|n. 农场|名词|1
+farmer|/ˈfɑːrmər/|n. 农民|名词|1
+fascinate|/ˈfæsɪneɪt/|v. 使着迷|动词|2
+fashion|/ˈfæʃn/|n. 时尚|名词|2
+fashionable|/ˈfæʃnəbl/|adj. 时尚的|形容词|2
+fast|/fɑːst/|adj. 快的 adv. 快地|形容词|1
+fasten|/ˈfɑːsn/|v. 系紧|动词|2
+fat|/fæt/|adj. 胖的 n. 脂肪|形容词|1
+fate|/feɪt/|n. 命运|名词|2
+father|/ˈfɑːðər/|n. 父亲|名词|1
+fault|/fɔːlt/|n. 过错|名词|2
+favor|/ˈfeɪvər/|n. 好意 v. 赞成|名词|2
+favorable|/ˈfeɪvərəbl/|adj. 有利的|形容词|2
+favorite|/ˈfeɪvərɪt/|adj. 最喜欢的|形容词|1
+fear|/fɪər/|n. 恐惧 v. 害怕|名词|1
+feasible|/ˈfiːzəbl/|adj. 可行的|形容词|2
+feast|/fiːst/|n. 盛宴|名词|2
+feather|/ˈfeðər/|n. 羽毛|名词|2
+feature|/ˈfiːtʃər/|n. 特征|名词|2
+February|/ˈfebruəri/|n. 二月|名词|1
+federal|/ˈfedərəl/|adj. 联邦的|形容词|2
+fee|/fiː/|n. 费用|名词|2
+feed|/fiːd/|v. 喂养|动词|1
+feel|/fiːl/|v. 感觉|动词|1
+feeling|/ˈfiːlɪŋ/|n. 感觉|名词|1
+fellow|/ˈfeloʊ/|n. 家伙|名词|2
+female|/ˈfiːmeɪl/|adj. 女性的|形容词|2
+fence|/fens/|n. 栅栏|名词|2
+festival|/ˈfestɪvl/|n. 节日|名词|1
+fetch|/fetʃ/|v. 拿来|动词|2
+fever|/ˈfiːvər/|n. 发烧|名词|2
+few|/fjuː/|adj. 少数的|形容词|1
+fiction|/ˈfɪkʃn/|n. 小说；虚构|名词|2
+field|/fiːld/|n. 田地；领域|名词|1
+fierce|/fɪərs/|adj. 凶猛的|形容词|2
+fifteen|/ˌfɪfˈtiːn/|num. 十五|名词|1
+fifty|/ˈfɪfti/|num. 五十|名词|1
+fight|/faɪt/|v. 打架 n. 战斗|动词|1
+figure|/ˈfɪɡər/|n. 数字；人物|名词|2
+file|/faɪl/|n. 文件 v. 归档|名词|2
+fill|/fɪl/|v. 填满|动词|1
+film|/fɪlm/|n. 电影|名词|1
+final|/ˈfaɪnl/|adj. 最后的|形容词|1
+finally|/ˈfaɪnəli/|adv. 最后|副词|2
+finance|/ˈfaɪnæns/|n. 金融|名词|2
+financial|/faɪˈnænʃl/|adj. 金融的|形容词|2
+find|/faɪnd/|v. 找到|动词|1
+finding|/ˈfaɪndɪŋ/|n. 发现|名词|2
+fine|/faɪn/|adj. 好的 n. 罚款|形容词|1
+finger|/ˈfɪŋɡər/|n. 手指|名词|1
+finish|/ˈfɪnɪʃ/|v. 完成|动词|1
+fire|/faɪər/|n. 火 v. 解雇|名词|1
+firm|/fɜːrm/|adj. 坚定的 n. 公司|形容词|2
+first|/fɜːrst/|adj. 第一的|形容词|1
+fish|/fɪʃ/|n. 鱼|名词|1
+fit|/fɪt/|v. 适合 adj. 健康的|动词|1
+five|/faɪv/|num. 五|名词|1
+fix|/fɪks/|v. 修理|动词|1
+flag|/flæɡ/|n. 旗|名词|1
+flame|/fleɪm/|n. 火焰|名词|2
+flash|/flæʃ/|n. 闪光 v. 闪烁|名词|2
+flat|/flæt/|adj. 平的 n. 公寓|形容词|1
+flavor|/ˈfleɪvər/|n. 味道|名词|2
+flee|/fliː/|v. 逃跑|动词|2
+flesh|/fleʃ/|n. 肉|名词|2
+flexible|/ˈfleksəbl/|adj. 灵活的|形容词|2
+flight|/flaɪt/|n. 航班|名词|2
+float|/floʊt/|v. 漂浮|动词|2
+flood|/flʌd/|n. 洪水 v. 淹没|名词|2
+floor|/flɔːr/|n. 地板；楼层|名词|1
+flour|/ˈflaʊər/|n. 面粉|名词|2
+flow|/floʊ/|v. 流动 n. 流动|动词|2
+flower|/ˈflaʊər/|n. 花|名词|1
+fluent|/ˈfluːənt/|adj. 流利的|形容词|2
+fly|/flaɪ/|v. 飞|动词|1
+focus|/ˈfoʊkəs/|v. 集中 n. 焦点|动词|2
+fog|/fɒɡ/|n. 雾|名词|2
+fold|/foʊld/|v. 折叠|动词|2
+folk|/foʊk/|n. 人们 adj. 民间的|名词|2
+follow|/ˈfɒloʊ/|v. 跟随|动词|1
+following|/ˈfɒloʊɪŋ/|adj. 接着的|形容词|2
+fond|/fɒnd/|adj. 喜爱的|形容词|2
+food|/fuːd/|n. 食物|名词|1
+fool|/fuːl/|n. 傻瓜 v. 愚弄|名词|2
+foolish|/ˈfuːlɪʃ/|adj. 愚蠢的|形容词|2
+foot|/fʊt/|n. 脚|名词|1
+football|/ˈfʊtbɔːl/|n. 足球|名词|1
+for|/fɔːr/|prep. 为了|介词|1
+forbid|/fərˈbɪd/|v. 禁止|动词|2
+force|/fɔːrs/|n. 力量 v. 强迫|名词|1
+forecast|/ˈfɔːrkɑːst/|v. 预测|动词|2
+forehead|/ˈfɒrɪd/|n. 额头|名词|2
+foreign|/ˈfɒrɪn/|adj. 外国的|形容词|1
+foreigner|/ˈfɒrɪnər/|n. 外国人|名词|2
+forest|/ˈfɒrɪst/|n. 森林|名词|1
+forever|/fərˈevər/|adv. 永远|副词|1
+forget|/fərˈɡet/|v. 忘记|动词|1
+forgive|/fərˈɡɪv/|v. 原谅|动词|2
+fork|/fɔːrk/|n. 叉子|名词|1
+form|/fɔːrm/|n. 形式 v. 形成|名词|1
+formal|/ˈfɔːrml/|adj. 正式的|形容词|2
+former|/ˈfɔːrmər/|adj. 以前的|形容词|2
+formula|/ˈfɔːrmjələ/|n. 公式|名词|2
+forth|/fɔːrθ/|adv. 向前|副词|2
+fortune|/ˈfɔːrtʃuːn/|n. 财富；运气|名词|2
+forty|/ˈfɔːrti/|num. 四十|名词|1
+forward|/ˈfɔːrwərd/|adv. 向前|副词|1
+found|/faʊnd/|v. 建立|动词|2
+foundation|/faʊnˈdeɪʃn/|n. 基础；基金会|名词|2
+fountain|/ˈfaʊntɪn/|n. 喷泉|名词|2
+four|/fɔːr/|num. 四|名词|1
+fourteen|/ˌfɔːrˈtiːn/|num. 十四|名词|1
+fox|/fɒks/|n. 狐狸|名词|2
+frame|/freɪm/|n. 框架|名词|2
+framework|/ˈfreɪmwɜːrk/|n. 框架|名词|2
+frank|/fræŋk/|adj. 坦白的|形容词|2
+free|/friː/|adj. 自由的；免费的|形容词|1
+freedom|/ˈfriːdəm/|n. 自由|名词|2
+freeze|/friːz/|v. 冻结|动词|2
+frequency|/ˈfriːkwənsi/|n. 频率|名词|2
+frequent|/ˈfriːkwənt/|adj. 频繁的|形容词|2
+fresh|/freʃ/|adj. 新鲜的|形容词|1
+Friday|/ˈfraɪdeɪ/|n. 星期五|名词|1
+friend|/frend/|n. 朋友|名词|1
+friendly|/ˈfrendli/|adj. 友好的|形容词|1
+friendship|/ˈfrendʃɪp/|n. 友谊|名词|1
+frighten|/ˈfraɪtn/|v. 使害怕|动词|2
+frog|/frɒɡ/|n. 青蛙|名词|2
+from|/frɒm/|prep. 从|介词|1
+front|/frʌnt/|n. 前面 adj. 前面的|名词|1
+frontier|/frʌnˈtɪər/|n. 边境|名词|2
+frost|/frɒst/|n. 霜|名词|2
+fruit|/fruːt/|n. 水果|名词|1
+frustrate|/frʌˈstreɪt/|v. 使沮丧|动词|2
+fuel|/fjuːəl/|n. 燃料|名词|2
+fulfill|/fʊlˈfɪl/|v. 实现|动词|2
+full|/fʊl/|adj. 满的|形容词|1
+fun|/fʌn/|n. 乐趣|名词|1
+function|/ˈfʌŋkʃn/|n. 功能 v. 运行|名词|2
+fund|/fʌnd/|n. 基金|名词|2
+fundamental|/ˌfʌndəˈmentl/|adj. 基本的|形容词|2
+funeral|/ˈfjuːnərəl/|n. 葬礼|名词|2
+funny|/ˈfʌni/|adj. 有趣的|形容词|1
+fur|/fɜːr/|n. 毛皮|名词|2
+furniture|/ˈfɜːrnɪtʃər/|n. 家具|名词|2
+further|/ˈfɜːrðər/|adv. 进一步地|副词|2
+furthermore|/ˌfɜːrðərˈmɔːr/|adv. 此外|副词|2
+future|/ˈfjuːtʃər/|n. 未来|名词|1

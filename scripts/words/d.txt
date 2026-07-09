@@ -1,0 +1,197 @@
+daily|/ˈdeɪli/|adj. 每日的 adv. 每天|形容词|1
+dairy|/ˈdeəri/|n. 乳制品|名词|2
+dam|/dæm/|n. 水坝|名词|2
+damage|/ˈdæmɪdʒ/|n. 损害 v. 损害|名词|2
+damp|/dæmp/|adj. 潮湿的|形容词|2
+dance|/dɑːns/|v. 跳舞 n. 舞蹈|动词|1
+danger|/ˈdeɪndʒər/|n. 危险|名词|1
+dangerous|/ˈdeɪndʒərəs/|adj. 危险的|形容词|1
+dare|/deər/|v. 敢|动词|2
+dark|/dɑːrk/|adj. 黑暗的|形容词|1
+darkness|/ˈdɑːrknəs/|n. 黑暗|名词|2
+dash|/dæʃ/|v. 猛冲 n. 破折号|动词|2
+data|/ˈdeɪtə/|n. 数据|名词|2
+database|/ˈdeɪtəbeɪs/|n. 数据库|名词|2
+date|/deɪt/|n. 日期 v. 约会|名词|1
+daughter|/ˈdɔːtər/|n. 女儿|名词|1
+dawn|/dɔːn/|n. 黎明|名词|2
+day|/deɪ/|n. 天；白天|名词|1
+deadline|/ˈdedlaɪn/|n. 截止日期|名词|2
+dead|/ded/|adj. 死的|形容词|1
+deaf|/def/|adj. 聋的|形容词|2
+deal|/diːl/|v. 处理 n. 交易|动词|1
+dear|/dɪər/|adj. 亲爱的|形容词|1
+death|/deθ/|n. 死亡|名词|1
+debate|/dɪˈbeɪt/|n. 辩论 v. 辩论|名词|2
+debt|/det/|n. 债务|名词|2
+decade|/ˈdekeɪd/|n. 十年|名词|2
+decay|/dɪˈkeɪ/|v. 腐烂|动词|2
+deceive|/dɪˈsiːv/|v. 欺骗|动词|2
+December|/dɪˈsembər/|n. 十二月|名词|1
+decide|/dɪˈsaɪd/|v. 决定|动词|1
+decision|/dɪˈsɪʒn/|n. 决定|名词|1
+declare|/dɪˈkleər/|v. 宣布|动词|2
+decline|/dɪˈklaɪn/|v. 下降；拒绝|动词|2
+decorate|/ˈdekəreɪt/|v. 装饰|动词|2
+decrease|/dɪˈkriːs/|v. 减少|动词|2
+deduce|/dɪˈdjuːs/|v. 推论|动词|2
+deed|/diːd/|n. 行为|名词|2
+deep|/diːp/|adj. 深的|形容词|1
+deeply|/ˈdiːpli/|adv. 深深地|副词|2
+deer|/dɪər/|n. 鹿|名词|2
+defeat|/dɪˈfiːt/|v. 打败|动词|2
+defend|/dɪˈfend/|v. 防御；辩护|动词|2
+defense|/dɪˈfens/|n. 防御|名词|2
+define|/dɪˈfaɪn/|v. 定义|动词|2
+definite|/ˈdefɪnət/|adj. 明确的|形容词|2
+definitely|/ˈdefɪnətli/|adv. 明确地|副词|2
+definition|/ˌdefɪˈnɪʃn/|n. 定义|名词|2
+degree|/dɪˈɡriː/|n. 度；学位|名词|2
+delay|/dɪˈleɪ/|v. 延迟|动词|2
+delete|/dɪˈliːt/|v. 删除|动词|2
+deliberate|/dɪˈlɪbərət/|adj. 故意的|形容词|2
+delicate|/ˈdelɪkət/|adj. 精致的；脆弱的|形容词|2
+delicious|/dɪˈlɪʃəs/|adj. 美味的|形容词|1
+delight|/dɪˈlaɪt/|n. 高兴 v. 使高兴|名词|2
+deliver|/dɪˈlɪvər/|v. 递送|动词|2
+delivery|/dɪˈlɪvəri/|n. 递送|名词|2
+demand|/dɪˈmɑːnd/|v. 要求 n. 需求|动词|2
+democracy|/dɪˈmɒkrəsi/|n. 民主|名词|2
+demonstrate|/ˈdemənstreɪt/|v. 证明；示范|动词|2
+demonstration|/ˌdemənˈstreɪʃn/|n. 示范；示威|名词|2
+deny|/dɪˈnaɪ/|v. 否认|动词|2
+depart|/dɪˈpɑːrt/|v. 出发|动词|2
+department|/dɪˈpɑːrtmənt/|n. 部门|名词|1
+departure|/dɪˈpɑːrtʃər/|n. 出发|名词|2
+depend|/dɪˈpend/|v. 依赖|动词|1
+dependent|/dɪˈpendənt/|adj. 依赖的|形容词|2
+deposit|/dɪˈpɒzɪt/|n. 存款 v. 存放|名词|2
+depress|/dɪˈpres/|v. 使沮丧|动词|2
+depression|/dɪˈpreʃn/|n. 抑郁；萧条|名词|2
+depth|/depθ/|n. 深度|名词|2
+derive|/dɪˈraɪv/|v. 来源于|动词|2
+describe|/dɪˈskraɪb/|v. 描述|动词|1
+description|/dɪˈskrɪpʃn/|n. 描述|名词|2
+desert|/ˈdezərt/|n. 沙漠|名词|2
+deserve|/dɪˈzɜːrv/|v. 应得|动词|2
+design|/dɪˈzaɪn/|n. 设计 v. 设计|名词|2
+desire|/dɪˈzaɪər/|n. 渴望 v. 渴望|名词|2
+desk|/desk/|n. 书桌|名词|1
+despair|/dɪˈspeər/|n. 绝望|名词|2
+desperate|/ˈdespərət/|adj. 绝望的|形容词|2
+despite|/dɪˈspaɪt/|prep. 尽管|介词|2
+dessert|/dɪˈzɜːrt/|n. 甜点|名词|2
+destination|/ˌdestɪˈneɪʃn/|n. 目的地|名词|2
+destroy|/dɪˈstrɔɪ/|v. 摧毁|动词|2
+destruction|/dɪˈstrʌkʃn/|n. 破坏|名词|2
+detail|/ˈdiːteɪl/|n. 细节|名词|2
+detect|/dɪˈtekt/|v. 发现；检测|动词|2
+determine|/dɪˈtɜːrmɪn/|v. 决定|动词|2
+develop|/dɪˈveləp/|v. 发展|动词|1
+development|/dɪˈveləpmənt/|n. 发展|名词|1
+device|/dɪˈvaɪs/|n. 设备|名词|2
+devote|/dɪˈvoʊt/|v. 奉献|动词|2
+diagram|/ˈdaɪəɡræm/|n. 图表|名词|2
+dialog|/ˈdaɪəlɒɡ/|n. 对话|名词|2
+diameter|/daɪˈæmɪtər/|n. 直径|名词|2
+diamond|/ˈdaɪəmənd/|n. 钻石|名词|2
+diary|/ˈdaɪəri/|n. 日记|名词|1
+dictionary|/ˈdɪkʃənəri/|n. 词典|名词|1
+die|/daɪ/|v. 死|动词|1
+diet|/ˈdaɪət/|n. 饮食|名词|2
+differ|/ˈdɪfər/|v. 不同|动词|2
+difference|/ˈdɪfrəns/|n. 差异|名词|1
+different|/ˈdɪfrənt/|adj. 不同的|形容词|1
+difficult|/ˈdɪfɪkəlt/|adj. 困难的|形容词|1
+difficulty|/ˈdɪfɪkəlti/|n. 困难|名词|1
+dig|/dɪɡ/|v. 挖|动词|2
+digest|/daɪˈdʒest/|v. 消化|动词|2
+digital|/ˈdɪdʒɪtl/|adj. 数字的|形容词|2
+dignity|/ˈdɪɡnəti/|n. 尊严|名词|2
+dimension|/daɪˈmenʃn/|n. 维度|名词|2
+dinner|/ˈdɪnər/|n. 晚餐|名词|1
+dip|/dɪp/|v. 浸泡|动词|2
+direct|/dəˈrekt/|adj. 直接的 v. 指导|形容词|1
+direction|/dəˈrekʃn/|n. 方向|名词|1
+director|/dəˈrektər/|n. 导演；主管|名词|2
+dirty|/ˈdɜːrti/|adj. 脏的|形容词|1
+disability|/ˌdɪsəˈbɪləti/|n. 残疾|名词|2
+disadvantage|/ˌdɪsədˈvɑːntɪdʒ/|n. 劣势|名词|2
+disagree|/ˌdɪsəˈɡriː/|v. 不同意|动词|2
+disappear|/ˌdɪsəˈpɪər/|v. 消失|动词|2
+disappoint|/ˌdɪsəˈpɔɪnt/|v. 使失望|动词|2
+disappointment|/ˌdɪsəˈpɔɪntmənt/|n. 失望|名词|2
+disaster|/dɪˈzɑːstər/|n. 灾难|名词|2
+discipline|/ˈdɪsəplɪn/|n. 纪律；学科|名词|2
+discount|/ˈdɪskaʊnt/|n. 折扣|名词|2
+discover|/dɪˈskʌvər/|v. 发现|动词|1
+discovery|/dɪˈskʌvəri/|n. 发现|名词|2
+discuss|/dɪˈskʌs/|v. 讨论|动词|1
+discussion|/dɪˈskʌʃn/|n. 讨论|名词|2
+disease|/dɪˈziːz/|n. 疾病|名词|2
+disguise|/dɪsˈɡaɪz/|v. 伪装|动词|2
+disgust|/dɪsˈɡʌst/|n. 厌恶|名词|2
+dish|/dɪʃ/|n. 盘子；菜肴|名词|1
+dismiss|/dɪsˈmɪs/|v. 解雇；驳回|动词|2
+disorder|/dɪsˈɔːrdər/|n. 混乱；疾病|名词|2
+display|/dɪˈspleɪ/|v. 展示 n. 展览|动词|2
+dispute|/dɪˈspjuːt/|n. 争论|名词|2
+distance|/ˈdɪstəns/|n. 距离|名词|2
+distant|/ˈdɪstənt/|adj. 遥远的|形容词|2
+distinct|/dɪˈstɪŋkt/|adj. 明显的；不同的|形容词|2
+distinction|/dɪˈstɪŋkʃn/|n. 区别|名词|2
+distinguish|/dɪˈstɪŋɡwɪʃ/|v. 区分|动词|2
+distribute|/dɪˈstrɪbjuːt/|v. 分配|动词|2
+distribution|/ˌdɪstrɪˈbjuːʃn/|n. 分配|名词|2
+district|/ˈdɪstrɪkt/|n. 地区|名词|2
+disturb|/dɪˈstɜːrb/|v. 打扰|动词|2
+divide|/dɪˈvaɪd/|v. 分开|动词|1
+division|/dɪˈvɪʒn/|n. 分割；部门|名词|2
+divorce|/dɪˈvɔːrs/|n. 离婚|名词|2
+do|/duː/|v. 做|动词|1
+doctor|/ˈdɒktər/|n. 医生|名词|1
+document|/ˈdɒkjumənt/|n. 文件|名词|2
+dog|/dɒɡ/|n. 狗|名词|1
+dollar|/ˈdɒlər/|n. 美元|名词|1
+domestic|/dəˈmestɪk/|adj. 国内的；家庭的|形容词|2
+dominant|/ˈdɒmɪnənt/|adj. 占主导地位的|形容词|2
+dominate|/ˈdɒmɪneɪt/|v. 统治；支配|动词|2
+door|/dɔːr/|n. 门|名词|1
+dormitory|/ˈdɔːrmɪtəri/|n. 宿舍|名词|2
+dot|/dɒt/|n. 点|名词|2
+double|/ˈdʌbl/|adj. 双倍的|形容词|1
+doubt|/daʊt/|v. 怀疑 n. 疑问|动词|2
+down|/daʊn/|adv. 向下|副词|1
+download|/ˈdaʊnloʊd/|v. 下载|动词|2
+downstairs|/ˌdaʊnˈsteərz/|adv. 在楼下|副词|2
+downtown|/ˈdaʊntaʊn/|n. 市中心|名词|2
+dozen|/ˈdʌzn/|n. 一打|名词|2
+draft|/drɑːft/|n. 草稿|名词|2
+drag|/dræɡ/|v. 拖|动词|2
+dragon|/ˈdræɡən/|n. 龙|名词|2
+drama|/ˈdrɑːmə/|n. 戏剧|名词|2
+dramatic|/drəˈmætɪk/|adj. 戏剧性的|形容词|2
+draw|/drɔː/|v. 画；拉|动词|1
+drawer|/drɔːr/|n. 抽屉|名词|2
+drawing|/ˈdrɔːɪŋ/|n. 图画|名词|2
+dream|/driːm/|n. 梦想 v. 做梦|名词|1
+dress|/dres/|n. 衣服 v. 穿衣|名词|1
+drift|/drɪft/|v. 漂流|动词|2
+drill|/drɪl/|v. 训练 n. 钻头|动词|2
+drink|/drɪŋk/|v. 喝 n. 饮料|动词|1
+drive|/draɪv/|v. 驾驶|动词|1
+driver|/ˈdraɪvər/|n. 司机|名词|1
+drop|/drɒp/|v. 掉落 n. 滴|动词|1
+drug|/drʌɡ/|n. 药物|名词|2
+dry|/draɪ/|adj. 干的 v. 弄干|形容词|1
+duck|/dʌk/|n. 鸭子|名词|1
+due|/djuː/|adj. 到期的|形容词|2
+dull|/dʌl/|adj. 迟钝的；无聊的|形容词|2
+dumb|/dʌm/|adj. 哑的|形容词|2
+dump|/dʌmp/|v. 倾倒|动词|2
+durable|/ˈdjʊərəbl/|adj. 耐用的|形容词|2
+duration|/djʊˈreɪʃn/|n. 持续时间|名词|2
+during|/ˈdjʊərɪŋ/|prep. 在...期间|介词|1
+dust|/dʌst/|n. 灰尘|名词|2
+duty|/ˈdjuːti/|n. 责任|名词|2
+dynamic|/daɪˈnæmɪk/|adj. 动态的|形容词|2
