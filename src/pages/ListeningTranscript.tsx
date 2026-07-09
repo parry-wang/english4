@@ -1,18 +1,19 @@
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useCallback, useMemo, useEffect, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import {
   ChevronLeft,
-  ChevronRight,
   SkipBack,
   SkipForward,
   RotateCcw,
   Headphones,
   Play,
+  Pause,
+  Volume2,
+  VolumeX,
 } from 'lucide-react';
 import listeningData from '@/data/listening.json';
 import type { ListeningPassage } from '@/types';
 
-// Map raw JSON to typed passage
 const passages: ListeningPassage[] = (listeningData as Array<{
   id: number;
   title: string;
@@ -57,6 +58,12 @@ const passages: ListeningPassage[] = (listeningData as Array<{
 
 type TabType = 'en' | 'cn' | 'bilingual';
 
+function cleanSpeakerPrefix(text: string): string {
+  return text.replace(/^[A-Z]:\s*/, '');
+}
+
+const SPEED_OPTIONS = [0.5, 0.75, 1, 1.25, 1.5] as const;
+
 export default function ListeningTranscript() {
   const { id } = useParams<{ id: string }>();
   const passageId = Number(id);
@@ -66,21 +73,21 @@ export default function ListeningTranscript() {
   const [activeSentenceIdx, setActiveSentenceIdx] = useState<number>(0);
   const [loopMode, setLoopMode] = useState(false);
   const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [speed, setSpeed] = useState(1);
+  const [volume, setVolume] = useState(0.8);
+  const [isMuted, setIsMuted] = useState(false);
 
-  const handleSentenceClick = useCallback((idx: number) => {
-    setActiveSentenceIdx(idx);
-  }, []);
+  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
-  const handlePrevSentence = useCallback(() => {
-    setActiveSentenceIdx((prev) => Math.max(0, prev - 1));
-  }, []);
-
-  const handleNextSentence = useCallback(() => {
-    if (!passage) return;
-    setActiveSentenceIdx((prev) => Math.min(passage.sentences.length - 1, prev + 1));
+  const cleanSentences = useMemo(() => {
+    if (!passage) return [];
+    return passage.sentences.map((s) => ({
+      ...s,
+      cleanText: cleanSpeakerPrefix(s.text),
+    }));
   }, [passage]);
 
-  // Split transcript_cn into paragraphs for bilingual mode
   const cnParagraphs = useMemo(() => {
     if (!passage) return [];
     return passage.transcript_cn.split('\n').filter(Boolean);
@@ -90,6 +97,102 @@ export default function ListeningTranscript() {
     if (!passage) return [];
     return passage.transcript.split('\n').filter(Boolean);
   }, [passage]);
+
+  const speakSentence = useCallback(
+    (idx: number) => {
+      if (!cleanSentences[idx]) return;
+      if (typeof window === 'undefined' || !window.speechSynthesis) return;
+
+      window.speechSynthesis.cancel();
+      const sentence = cleanSentences[idx];
+      const utterance = new SpeechSynthesisUtterance(sentence.cleanText);
+      utterance.lang = 'en-US';
+      utterance.rate = speed;
+      utterance.volume = isMuted ? 0 : volume;
+
+      utterance.onend = () => {
+        if (loopMode) {
+          setTimeout(() => speakSentence(idx), 500);
+        } else if (idx < cleanSentences.length - 1) {
+          const nextIdx = idx + 1;
+          setActiveSentenceIdx(nextIdx);
+          speakSentence(nextIdx);
+        } else {
+          setIsPlaying(false);
+        }
+      };
+
+      utterance.onerror = () => {
+        setIsPlaying(false);
+      };
+
+      utteranceRef.current = utterance;
+      window.speechSynthesis.speak(utterance);
+    },
+    [cleanSentences, speed, volume, isMuted, loopMode]
+  );
+
+  const togglePlay = useCallback(() => {
+    if (isPlaying) {
+      if (typeof window !== 'undefined' && window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+      setIsPlaying(false);
+    } else {
+      setIsPlaying(true);
+      speakSentence(activeSentenceIdx);
+    }
+  }, [isPlaying, activeSentenceIdx, speakSentence]);
+
+  const playSentence = useCallback(
+    (idx: number) => {
+      setActiveSentenceIdx(idx);
+      setIsPlaying(true);
+      if (typeof window !== 'undefined' && window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+      setTimeout(() => speakSentence(idx), 50);
+    },
+    [speakSentence]
+  );
+
+  const handlePrevSentence = useCallback(() => {
+    const newIdx = Math.max(0, activeSentenceIdx - 1);
+    setActiveSentenceIdx(newIdx);
+    if (isPlaying) {
+      if (typeof window !== 'undefined' && window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+      setTimeout(() => speakSentence(newIdx), 50);
+    }
+  }, [activeSentenceIdx, isPlaying, speakSentence]);
+
+  const handleNextSentence = useCallback(() => {
+    if (!passage) return;
+    const newIdx = Math.min(passage.sentences.length - 1, activeSentenceIdx + 1);
+    setActiveSentenceIdx(newIdx);
+    if (isPlaying) {
+      if (typeof window !== 'undefined' && window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+      setTimeout(() => speakSentence(newIdx), 50);
+    }
+  }, [passage, activeSentenceIdx, isPlaying, speakSentence]);
+
+  useEffect(() => {
+    return () => {
+      if (typeof window !== 'undefined' && window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    if (utteranceRef.current) {
+      utteranceRef.current.rate = speed;
+      utteranceRef.current.volume = isMuted ? 0 : volume;
+    }
+  }, [speed, volume, isMuted]);
 
   if (!passage) {
     return (
@@ -113,7 +216,6 @@ export default function ListeningTranscript() {
 
   return (
     <div className="max-w-4xl mx-auto">
-      {/* Back link */}
       <div className="flex items-center justify-between mb-6">
         <Link
           to={`/listening/${passage.id}`}
@@ -130,13 +232,11 @@ export default function ListeningTranscript() {
         </Link>
       </div>
 
-      {/* Header */}
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-primary-500 mb-1">{passage.title}</h1>
         <p className="text-sm text-gray-400">录音稿 · {totalSentences} 个句子</p>
       </div>
 
-      {/* Tab navigation */}
       <div className="flex items-center gap-1 mb-6 bg-gray-100 rounded-xl p-1 w-fit">
         {tabs.map((tab) => (
           <button
@@ -153,24 +253,22 @@ export default function ListeningTranscript() {
         ))}
       </div>
 
-      {/* Transcript Content */}
       <div className="bg-white rounded-xl border border-gray-100 p-6 mb-6 min-h-[400px]">
-        {/* English Transcript */}
         {activeTab === 'en' && (
           <div className="space-y-1">
-            {sentences.map((sentence, idx) => {
+            {cleanSentences.map((sentence, idx) => {
               const isActive = idx === activeSentenceIdx;
               const isHovered = idx === hoveredIdx;
 
               return (
                 <div
                   key={idx}
-                  onClick={() => handleSentenceClick(idx)}
+                  onClick={() => playSentence(idx)}
                   onMouseEnter={() => setHoveredIdx(idx)}
                   onMouseLeave={() => setHoveredIdx(null)}
-                  className={`group relative px-3 py-2 rounded-lg cursor-pointer transition-all ${
+                  className={`group relative px-3 py-3 rounded-lg cursor-pointer transition-all ${
                     isActive
-                      ? 'bg-primary-50 border-l-3 border-l-accent-400'
+                      ? 'bg-primary-50 border-l-4 border-l-accent-400'
                       : 'hover:bg-gray-50'
                   }`}
                 >
@@ -181,17 +279,19 @@ export default function ListeningTranscript() {
                   >
                     {sentence.text}
                   </span>
-                  {/* Hover play icon */}
                   {(isHovered || isActive) && (
                     <span
                       className={`absolute right-3 top-1/2 -translate-y-1/2 transition-opacity ${
                         isActive ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
                       }`}
                     >
-                      <Play size={14} className={isActive ? 'text-accent-400' : 'text-gray-400'} />
+                      {isActive && isPlaying ? (
+                        <Pause size={16} className="text-accent-400" />
+                      ) : (
+                        <Play size={16} className={isActive ? 'text-accent-400' : 'text-gray-400'} />
+                      )}
                     </span>
                   )}
-                  {/* Active indicator */}
                   {isActive && loopMode && (
                     <span className="absolute left-1 top-1/2 -translate-y-1/2">
                       <RotateCcw size={12} className="text-accent-400" />
@@ -203,7 +303,6 @@ export default function ListeningTranscript() {
           </div>
         )}
 
-        {/* Chinese Translation */}
         {activeTab === 'cn' && (
           <div className="space-y-3">
             {cnParagraphs.map((line, idx) => (
@@ -214,7 +313,6 @@ export default function ListeningTranscript() {
           </div>
         )}
 
-        {/* Bilingual View */}
         {activeTab === 'bilingual' && (
           <div className="space-y-4">
             {enParagraphs.map((enLine, idx) => {
@@ -230,10 +328,8 @@ export default function ListeningTranscript() {
         )}
       </div>
 
-      {/* Replay Controls */}
-      <div className="bg-gradient-to-r from-primary-500 to-primary-600 rounded-2xl p-4 text-white shadow-lg">
-        <div className="flex items-center justify-between">
-          {/* Sentence navigation */}
+      <div className="bg-gradient-to-r from-primary-500 to-primary-600 rounded-2xl p-5 text-white shadow-lg">
+        <div className="flex items-center justify-between flex-wrap gap-3 mb-4">
           <div className="flex items-center gap-2">
             <button
               onClick={handlePrevSentence}
@@ -242,6 +338,16 @@ export default function ListeningTranscript() {
             >
               <SkipBack size={14} />
               上一句
+            </button>
+            <button
+              onClick={togglePlay}
+              className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-md hover:scale-105 transition-transform"
+            >
+              {isPlaying ? (
+                <Pause size={18} className="text-primary-500" />
+              ) : (
+                <Play size={18} className="text-primary-500 ml-0.5" />
+              )}
             </button>
             <button
               onClick={handleNextSentence}
@@ -253,7 +359,6 @@ export default function ListeningTranscript() {
             </button>
           </div>
 
-          {/* Current sentence indicator */}
           <div className="flex items-center gap-2">
             <Headphones size={14} className="text-primary-200" />
             <span className="text-sm text-primary-200">
@@ -261,7 +366,6 @@ export default function ListeningTranscript() {
             </span>
           </div>
 
-          {/* Loop mode toggle */}
           <button
             onClick={() => setLoopMode((prev) => !prev)}
             className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm transition-all ${
@@ -275,11 +379,50 @@ export default function ListeningTranscript() {
           </button>
         </div>
 
-        {/* Current sentence preview */}
-        {activeTab === 'en' && sentences[activeSentenceIdx] && (
-          <div className="mt-3 pt-3 border-t border-white/10">
-            <p className="text-sm text-primary-200 truncate">
-              ▶ {sentences[activeSentenceIdx].text}
+        <div className="flex items-center justify-between flex-wrap gap-3 pt-3 border-t border-white/10">
+          <div className="flex items-center gap-1">
+            {SPEED_OPTIONS.map((s) => (
+              <button
+                key={s}
+                onClick={() => setSpeed(s)}
+                className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all ${
+                  speed === s
+                    ? 'bg-white text-primary-500'
+                    : 'text-primary-200 hover:bg-white/10'
+                }`}
+              >
+                {s}x
+              </button>
+            ))}
+          </div>
+
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setIsMuted((prev) => !prev)}
+              className="text-primary-200 hover:text-white transition-colors"
+            >
+              {isMuted || volume === 0 ? <VolumeX size={16} /> : <Volume2 size={16} />}
+            </button>
+            <input
+              type="range"
+              min="0"
+              max="1"
+              step="0.05"
+              value={isMuted ? 0 : volume}
+              onChange={(e) => {
+                const val = parseFloat(e.target.value);
+                setVolume(val);
+                if (val > 0) setIsMuted(false);
+              }}
+              className="w-20 accent-accent-400 h-1"
+            />
+          </div>
+        </div>
+
+        {activeTab === 'en' && cleanSentences[activeSentenceIdx] && (
+          <div className="mt-4 pt-3 border-t border-white/10">
+            <p className="text-sm text-primary-100 line-clamp-2">
+              ▶ {cleanSentences[activeSentenceIdx].text}
             </p>
           </div>
         )}

@@ -10,12 +10,12 @@ import {
   Star,
   CheckCircle,
   XCircle,
+  RotateCcw,
 } from 'lucide-react';
 import { useAppStore } from '@/store/useAppStore';
 import listeningData from '@/data/listening.json';
 import type { ListeningPassage } from '@/types';
 
-// Map raw JSON to typed passage
 const passages: ListeningPassage[] = (listeningData as Array<{
   id: number;
   title: string;
@@ -73,6 +73,10 @@ const categoryColors: Record<string, string> = {
   讲座: 'bg-purple-100 text-purple-700',
 };
 
+function cleanSpeakerPrefix(text: string): string {
+  return text.replace(/^[A-Z]:\s*/, '');
+}
+
 export default function ListeningDetail() {
   const { id } = useParams<{ id: string }>();
   const passageId = Number(id);
@@ -82,59 +86,166 @@ export default function ListeningDetail() {
   const existingProgress = passageId ? listeningProgress[passageId] : undefined;
   const isAlreadyCompleted = existingProgress?.completed ?? false;
 
-  // Audio player state
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [speed, setSpeed] = useState<number>(1);
   const [volume, setVolume] = useState(0.8);
   const [isMuted, setIsMuted] = useState(false);
+  const [currentSentenceIndex, setCurrentSentenceIndex] = useState(0);
+  const [speechSupported, setSpeechSupported] = useState(true);
   const progressRef = useRef<HTMLDivElement>(null);
 
-  // Quiz state
+  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
   const [selectedAnswers, setSelectedAnswers] = useState<Record<number, string>>(
     isAlreadyCompleted && existingProgress ? existingProgress.answers : {}
   );
   const [submitted, setSubmitted] = useState(isAlreadyCompleted);
 
-  // Simulated play timer
-  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const cleanSentences = useMemo(() => {
+    if (!passage) return [];
+    return passage.sentences.map((s) => ({
+      ...s,
+      cleanText: cleanSpeakerPrefix(s.text),
+    }));
+  }, [passage]);
 
   useEffect(() => {
-    if (isPlaying) {
+    if (typeof window !== 'undefined' && !window.speechSynthesis) {
+      setSpeechSupported(false);
+    }
+  }, []);
+
+  const stopSpeech = useCallback(() => {
+    if (typeof window !== 'undefined' && window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+    }
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
+    utteranceRef.current = null;
+  }, []);
+
+  const speakSentence = useCallback(
+    (sentenceIdx: number, fromTime?: number) => {
+      if (!passage || !cleanSentences[sentenceIdx]) return;
+      if (typeof window === 'undefined' || !window.speechSynthesis) return;
+
+      const sentence = cleanSentences[sentenceIdx];
+      const utterance = new SpeechSynthesisUtterance(sentence.cleanText);
+      utterance.lang = 'en-US';
+      utterance.rate = speed;
+      utterance.volume = isMuted ? 0 : volume;
+
+      const startTime = fromTime ?? sentence.start_time;
+
+      utterance.onend = () => {
+        if (sentenceIdx < cleanSentences.length - 1) {
+          const nextIdx = sentenceIdx + 1;
+          setCurrentSentenceIndex(nextIdx);
+          setCurrentTime(cleanSentences[nextIdx].start_time);
+          speakSentence(nextIdx);
+        } else {
+          setIsPlaying(false);
+          setCurrentTime(passage.duration);
+        }
+      };
+
+      utterance.onerror = () => {
+        setIsPlaying(false);
+      };
+
+      utteranceRef.current = utterance;
+      window.speechSynthesis.speak(utterance);
+
+      if (timerRef.current) clearInterval(timerRef.current);
       timerRef.current = setInterval(() => {
         setCurrentTime((prev) => {
-          if (passage && prev >= passage.duration) {
-            setIsPlaying(false);
-            return passage.duration;
-          }
+          if (prev >= sentence.end_time) return sentence.end_time;
           return prev + 0.1 * speed;
         });
       }, 100);
-    } else if (timerRef.current) {
-      clearInterval(timerRef.current);
-    }
-    return () => {
-      if (timerRef.current) clearInterval(timerRef.current);
-    };
-  }, [isPlaying, speed, passage]);
+    },
+    [passage, cleanSentences, speed, volume, isMuted]
+  );
 
-  const togglePlay = useCallback(() => {
-    if (!passage) return;
+  const handlePlay = useCallback(() => {
+    if (!passage || !speechSupported) return;
+
+    if (isPlaying) {
+      stopSpeech();
+      setIsPlaying(false);
+      return;
+    }
+
     if (currentTime >= passage.duration) {
       setCurrentTime(0);
+      setCurrentSentenceIndex(0);
     }
-    setIsPlaying((prev) => !prev);
-  }, [currentTime, passage]);
+
+    const startIdx = cleanSentences.findIndex(
+      (s, i) => currentTime >= s.start_time && currentTime < s.end_time
+    );
+    const idx = startIdx >= 0 ? startIdx : 0;
+
+    setCurrentSentenceIndex(idx);
+    setIsPlaying(true);
+    speakSentence(idx, currentTime);
+  }, [passage, isPlaying, currentTime, cleanSentences, speechSupported, stopSpeech, speakSentence]);
+
+  useEffect(() => {
+    return () => {
+      stopSpeech();
+    };
+  }, [stopSpeech]);
+
+  useEffect(() => {
+    if (isPlaying && utteranceRef.current) {
+      utteranceRef.current.rate = speed;
+      utteranceRef.current.volume = isMuted ? 0 : volume;
+    }
+  }, [speed, volume, isMuted, isPlaying]);
 
   const handleProgressClick = useCallback(
     (e: React.MouseEvent<HTMLDivElement>) => {
       if (!passage || !progressRef.current) return;
       const rect = progressRef.current.getBoundingClientRect();
       const ratio = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
-      setCurrentTime(ratio * passage.duration);
+      const newTime = ratio * passage.duration;
+
+      const wasPlaying = isPlaying;
+      stopSpeech();
+      setIsPlaying(false);
+
+      setCurrentTime(newTime);
+      const startIdx = cleanSentences.findIndex(
+        (s, i) => newTime >= s.start_time && newTime < s.end_time
+      );
+      const idx = startIdx >= 0 ? startIdx : 0;
+      setCurrentSentenceIndex(idx);
+
+      if (wasPlaying) {
+        setTimeout(() => {
+          setIsPlaying(true);
+          speakSentence(idx, newTime);
+        }, 100);
+      }
     },
-    [passage]
+    [passage, isPlaying, cleanSentences, stopSpeech, speakSentence]
   );
+
+  const handleReplayCurrent = useCallback(() => {
+    if (!passage || !speechSupported) return;
+    stopSpeech();
+    setIsPlaying(false);
+    setCurrentTime(cleanSentences[currentSentenceIndex]?.start_time ?? 0);
+    setTimeout(() => {
+      setIsPlaying(true);
+      speakSentence(currentSentenceIndex);
+    }, 100);
+  }, [passage, speechSupported, cleanSentences, currentSentenceIndex, stopSpeech, speakSentence]);
 
   const handleVolumeChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     const val = parseFloat(e.target.value);
@@ -146,7 +257,6 @@ export default function ListeningDetail() {
     setIsMuted((prev) => !prev);
   }, []);
 
-  // Quiz logic
   const handleSelectAnswer = useCallback((questionId: number, option: string) => {
     if (submitted) return;
     setSelectedAnswers((prev) => ({ ...prev, [questionId]: option }));
@@ -182,7 +292,6 @@ export default function ListeningDetail() {
 
   return (
     <div className="max-w-4xl mx-auto">
-      {/* Back link */}
       <Link
         to="/listening"
         className="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-primary-500 mb-6 transition-colors"
@@ -191,7 +300,6 @@ export default function ListeningDetail() {
         返回列表
       </Link>
 
-      {/* Passage Info */}
       <div className="mb-6">
         <div className="flex items-center gap-2 mb-2">
           <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${categoryColors[passage.category] || 'bg-gray-100 text-gray-600'}`}>
@@ -211,18 +319,22 @@ export default function ListeningDetail() {
         <p className="text-sm text-gray-400 mt-1">时长 {formatTime(passage.duration)}</p>
       </div>
 
-      {/* Audio Player Section */}
+      {!speechSupported && (
+        <div className="bg-warning-50 border border-warning-200 text-warning-700 rounded-xl p-4 mb-6 text-sm">
+          ⚠️ 当前浏览器不支持语音合成，请使用 Chrome、Edge 或 Safari 浏览器体验听力播放。
+        </div>
+      )}
+
       <div className="bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl p-6 mb-8 text-white shadow-lg">
-        {/* Simulation notice */}
         <div className="text-center text-sm text-primary-200 mb-4 bg-white/10 rounded-lg py-2">
-          🎧 音频播放器（模拟模式）
+          🎧 听力播放器（语音合成）
         </div>
 
-        {/* Play/Pause + Progress */}
         <div className="flex items-center gap-4 mb-4">
           <button
-            onClick={togglePlay}
-            className="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-md hover:scale-105 transition-transform flex-shrink-0"
+            onClick={handlePlay}
+            disabled={!speechSupported}
+            className="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-md hover:scale-105 transition-transform flex-shrink-0 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {isPlaying ? (
               <Pause size={22} className="text-primary-500" />
@@ -232,7 +344,6 @@ export default function ListeningDetail() {
           </button>
 
           <div className="flex-1">
-            {/* Progress bar */}
             <div
               ref={progressRef}
               onClick={handleProgressClick}
@@ -247,7 +358,6 @@ export default function ListeningDetail() {
                 style={{ left: `calc(${progressPercent}% - 6px)` }}
               />
             </div>
-            {/* Time display */}
             <div className="flex justify-between mt-1.5 text-xs text-primary-200">
               <span>{formatTime(currentTime)}</span>
               <span>{formatTime(passage.duration)}</span>
@@ -255,9 +365,7 @@ export default function ListeningDetail() {
           </div>
         </div>
 
-        {/* Controls row: Speed + Volume */}
-        <div className="flex items-center justify-between">
-          {/* Speed controls */}
+        <div className="flex items-center justify-between flex-wrap gap-3">
           <div className="flex items-center gap-1">
             {SPEED_OPTIONS.map((s) => (
               <button
@@ -274,8 +382,15 @@ export default function ListeningDetail() {
             ))}
           </div>
 
-          {/* Volume control */}
           <div className="flex items-center gap-2">
+            <button
+              onClick={handleReplayCurrent}
+              className="flex items-center gap-1 text-primary-200 hover:text-white transition-colors text-xs px-2 py-1 rounded-lg hover:bg-white/10"
+              title="复读当前句"
+            >
+              <RotateCcw size={14} />
+              复读
+            </button>
             <button onClick={toggleMute} className="text-primary-200 hover:text-white transition-colors">
               {isMuted || volume === 0 ? <VolumeX size={18} /> : <Volume2 size={18} />}
             </button>
@@ -291,10 +406,9 @@ export default function ListeningDetail() {
           </div>
         </div>
 
-        {/* Waveform visualization */}
         <div className="flex items-center justify-center gap-[3px] mt-4 h-8">
           {Array.from({ length: 40 }, (_, i) => {
-            const h = 8 + Math.sin(i * 0.7) * 10 + Math.cos(i * 1.3) * 6;
+            const h = 8 + Math.sin(i * 0.7 + (isPlaying ? Date.now() / 200 : 0)) * 10 + Math.cos(i * 1.3) * 6;
             const isActive = (i / 40) * 100 < progressPercent;
             return (
               <div
@@ -309,7 +423,6 @@ export default function ListeningDetail() {
         </div>
       </div>
 
-      {/* Questions Section */}
       <div className="mb-8">
         <h2 className="text-lg font-bold text-gray-800 mb-4">听力题目</h2>
         <div className="space-y-6">
@@ -384,8 +497,7 @@ export default function ListeningDetail() {
         </div>
       </div>
 
-      {/* Action buttons */}
-      <div className="flex items-center gap-4 mb-8">
+      <div className="flex items-center gap-4 mb-8 flex-wrap">
         {!submitted ? (
           <button
             onClick={handleSubmit}
