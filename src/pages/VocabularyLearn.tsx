@@ -1,11 +1,21 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronLeft, ChevronRight, Check, X, Trophy, Shuffle } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Check, X, Trophy, Shuffle, Volume2, VolumeX } from 'lucide-react';
 import { useAppStore } from '@/store/useAppStore';
 import vocabularyData from '@/data/vocabulary.json';
 import type { VocabularyWord } from '@/types';
 
 const words = vocabularyData as VocabularyWord[];
+
+const speakWord = (word: string, rate: number = 0.9) => {
+  if (typeof window === 'undefined' || !window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(word);
+  utterance.lang = 'en-US';
+  utterance.rate = rate;
+  utterance.pitch = 1;
+  window.speechSynthesis.speak(utterance);
+};
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -31,6 +41,22 @@ export default function VocabularyLearn() {
   const [flipped, setFlipped] = useState(false);
   const [completed, setCompleted] = useState(false);
   const [seed, setSeed] = useState(0);
+  const [autoPlay, setAutoPlay] = useState(true);
+  const [speed, setSpeed] = useState(0.9);
+  const [speechSupported, setSpeechSupported] = useState(true);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && !window.speechSynthesis) {
+      setSpeechSupported(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (autoPlay && currentWord && speechSupported) {
+      const timer = setTimeout(() => speakWord(currentWord.word, speed), 100);
+      return () => clearTimeout(timer);
+    }
+  }, [currentIndex, autoPlay, speed, speechSupported]);
 
   const todayWords = useMemo(() => {
     const masteredIds = new Set<number>();
@@ -204,13 +230,31 @@ export default function VocabularyLearn() {
           {/* Front */}
           <div className="flip-card-front absolute inset-0 bg-white rounded-2xl shadow-sm flex flex-col items-center justify-center p-8">
             <span className="text-3xl font-bold text-primary-500 mb-3">{currentWord?.word}</span>
-            <span className="text-lg text-gray-400">{currentWord?.phonetic}</span>
+            <span className="text-lg text-gray-400 mb-4">{currentWord?.phonetic}</span>
+            {speechSupported && (
+              <button
+                onClick={(e) => { e.stopPropagation(); currentWord && speakWord(currentWord.word, speed); }}
+                className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-primary-50 text-primary-500 hover:bg-primary-100 transition-colors text-sm font-medium"
+              >
+                <Volume2 size={16} />
+                播放发音
+              </button>
+            )}
             <span className="text-sm text-gray-300 mt-6">点击卡片查看释义</span>
           </div>
           {/* Back */}
           <div className="flip-card-back absolute inset-0 bg-gradient-to-br from-primary-500 to-primary-700 rounded-2xl shadow-sm flex flex-col items-center justify-center p-8 text-white">
             <span className="text-2xl font-bold mb-2">{currentWord?.word}</span>
             <span className="text-primary-200 mb-4">{currentWord?.phonetic}</span>
+            {speechSupported && (
+              <button
+                onClick={(e) => { e.stopPropagation(); currentWord && speakWord(currentWord.word, speed); }}
+                className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/20 text-white hover:bg-white/30 transition-colors text-sm font-medium mb-4"
+              >
+                <Volume2 size={16} />
+                播放发音
+              </button>
+            )}
             <span className="text-xl font-semibold mb-6">{currentWord?.meaning}</span>
             <div className="text-sm text-primary-200 space-y-1 text-center">
               <p>{currentWord?.example_en}</p>
@@ -219,6 +263,41 @@ export default function VocabularyLearn() {
           </div>
         </div>
       </div>
+
+      {/* Audio Controls */}
+      {speechSupported && (
+        <div className="bg-white rounded-2xl shadow-sm p-4">
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => setAutoPlay(!autoPlay)}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                  autoPlay ? 'bg-primary-100 text-primary-600' : 'bg-gray-100 text-gray-500'
+                }`}
+              >
+                {autoPlay ? <Volume2 size={14} /> : <VolumeX size={14} />}
+                {autoPlay ? '自动播放' : '手动播放'}
+              </button>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-gray-400">语速</span>
+              <div className="flex gap-1">
+                {[0.7, 0.9, 1.1].map(s => (
+                  <button
+                    key={s}
+                    onClick={() => setSpeed(s)}
+                    className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
+                      speed === s ? 'bg-accent-400 text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                    }`}
+                  >
+                    {s}x
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Navigation */}
       <div className="flex items-center gap-3">

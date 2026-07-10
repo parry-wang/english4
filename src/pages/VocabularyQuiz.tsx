@@ -1,11 +1,21 @@
 import { useState, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronLeft, CheckCircle, XCircle, ArrowRight, Shuffle, Settings } from 'lucide-react';
+import { ChevronLeft, CheckCircle, XCircle, ArrowRight, Shuffle, Settings, Volume2 } from 'lucide-react';
 import { useAppStore } from '@/store/useAppStore';
 import vocabularyData from '@/data/vocabulary.json';
 import type { VocabularyWord } from '@/types';
 
 const words = vocabularyData as VocabularyWord[];
+
+const speakWord = (word: string) => {
+  if (typeof window === 'undefined' || !window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(word);
+  utterance.lang = 'en-US';
+  utterance.rate = 0.9;
+  utterance.pitch = 1;
+  window.speechSynthesis.speak(utterance);
+};
 
 interface QuizQuestion {
   wordId: number;
@@ -46,7 +56,7 @@ function generateQuiz(allWords: VocabularyWord[], count: number): QuizQuestion[]
 const QUIZ_SIZE_OPTIONS = [20, 30, 50, 100];
 
 export default function VocabularyQuiz() {
-  const { updateWordProgress } = useAppStore();
+  const { wordProgress, updateWordProgress } = useAppStore();
   const [startSize, setStartSize] = useState(20);
   const [started, setStarted] = useState(false);
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
@@ -57,8 +67,27 @@ export default function VocabularyQuiz() {
   const [correctCount, setCorrectCount] = useState(0);
   const [finished, setFinished] = useState(false);
 
+  const learnedWords = useMemo(() => {
+    const learnedIds = new Set<number>();
+    Object.values(wordProgress).forEach(w => {
+      if (w.status === 'learning' || w.status === 'mastered') {
+        learnedIds.add(w.wordId);
+      }
+    });
+    return words.filter(w => learnedIds.has(w.id));
+  }, [wordProgress]);
+
+  const maxAvailableSize = useMemo(() => {
+    return Math.min(100, learnedWords.length);
+  }, [learnedWords]);
+
+  const effectiveSize = useMemo(() => {
+    return Math.min(startSize, maxAvailableSize);
+  }, [startSize, maxAvailableSize]);
+
   const handleStart = useCallback(() => {
-    setQuestions(generateQuiz(words, startSize));
+    if (learnedWords.length === 0) return;
+    setQuestions(generateQuiz(learnedWords, effectiveSize));
     setStarted(true);
     setCurrentQ(0);
     setSelectedIndex(null);
@@ -66,7 +95,7 @@ export default function VocabularyQuiz() {
     setWrongWords([]);
     setCorrectCount(0);
     setFinished(false);
-  }, [startSize]);
+  }, [learnedWords, effectiveSize]);
 
   const handleRestart = useCallback(() => {
     setStarted(false);
@@ -114,7 +143,7 @@ export default function VocabularyQuiz() {
           </Link>
           <h1 className="text-lg font-semibold text-primary-500 flex items-center gap-2">
             <Shuffle size={16} className="text-accent-400" />
-            单词测试（随机）
+            单词测试
           </h1>
           <div className="w-6" />
         </div>
@@ -125,35 +154,58 @@ export default function VocabularyQuiz() {
             <div className="w-16 h-16 bg-accent-50 rounded-full flex items-center justify-center mx-auto mb-4">
               <Settings size={28} className="text-accent-400" />
             </div>
-            <h2 className="text-xl font-bold text-primary-500 mb-1">随机单词测试</h2>
-            <p className="text-sm text-gray-500">从 {words.length} 个单词中随机抽取</p>
+            <h2 className="text-xl font-bold text-primary-500 mb-1">单词测试</h2>
+            <p className="text-sm text-gray-500 mb-3">
+              已学习 <span className="font-semibold text-accent-400">{learnedWords.length}</span> / {words.length} 词
+            </p>
+            {learnedWords.length < 10 && (
+              <p className="text-xs text-danger-400 bg-danger-50 rounded-lg px-3 py-2 inline-block">
+                建议先学习至少 10 个单词再来测试哦
+              </p>
+            )}
           </div>
 
           <div>
             <p className="text-sm font-medium text-gray-600 mb-3">选择题目数量</p>
             <div className="grid grid-cols-4 gap-2">
-              {QUIZ_SIZE_OPTIONS.map(size => (
-                <button
-                  key={size}
-                  onClick={() => setStartSize(size)}
-                  className={`py-3 rounded-xl font-medium transition-all ${
-                    startSize === size
-                      ? 'bg-primary-500 text-white shadow-md'
-                      : 'bg-gray-50 text-gray-600 hover:bg-gray-100'
-                  }`}
-                >
-                  {size}题
-                </button>
-              ))}
+              {QUIZ_SIZE_OPTIONS.map(size => {
+                const disabled = size > learnedWords.length;
+                return (
+                  <button
+                    key={size}
+                    onClick={() => !disabled && setStartSize(size)}
+                    disabled={disabled}
+                    className={`py-3 rounded-xl font-medium transition-all ${
+                      disabled
+                        ? 'bg-gray-50 text-gray-300 cursor-not-allowed'
+                        : startSize === size
+                          ? 'bg-primary-500 text-white shadow-md'
+                          : 'bg-gray-50 text-gray-600 hover:bg-gray-100'
+                    }`}
+                  >
+                    {size}题
+                  </button>
+                );
+              })}
             </div>
+            {effectiveSize < startSize && learnedWords.length > 0 && (
+              <p className="text-xs text-gray-400 mt-2 text-center">
+                已学习单词不足 {startSize} 个，将抽取 {effectiveSize} 题
+              </p>
+            )}
           </div>
 
           <button
             onClick={handleStart}
-            className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-accent-400 text-white hover:bg-accent-500 transition-colors font-semibold"
+            disabled={learnedWords.length === 0}
+            className={`w-full flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-semibold transition-colors ${
+              learnedWords.length === 0
+                ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                : 'bg-accent-400 text-white hover:bg-accent-500'
+            }`}
           >
             <Shuffle size={18} />
-            开始随机测试
+            {learnedWords.length === 0 ? '先去学习单词吧' : `开始测试（${effectiveSize}题）`}
           </button>
         </div>
       </div>
@@ -243,7 +295,18 @@ export default function VocabularyQuiz() {
         <p className="text-sm text-gray-400 mb-2">
           {question.type === 'en2cn' ? '选择正确的中文释义' : '选择对应的英文单词'}
         </p>
-        <p className="text-2xl font-bold text-primary-500 mb-6">{question.question}</p>
+        <div className="flex items-center gap-3 mb-6">
+          <p className="text-2xl font-bold text-primary-500">{question.question}</p>
+          {question.type === 'en2cn' && typeof window !== 'undefined' && window.speechSynthesis && (
+            <button
+              onClick={() => speakWord(question.question)}
+              className="p-2 rounded-full bg-primary-50 text-primary-500 hover:bg-primary-100 transition-colors"
+              title="播放发音"
+            >
+              <Volume2 size={18} />
+            </button>
+          )}
+        </div>
 
         <div className="space-y-3">
           {question.options.map((opt, idx) => {
