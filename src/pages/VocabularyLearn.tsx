@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight, Check, X, Trophy, Shuffle, Volume2, VolumeX,
 import { useAppStore } from '@/store/useAppStore';
 import vocabularyData from '@/data/vocabulary.json';
 import type { VocabularyWord } from '@/types';
-import { speak, stopSpeaking, isSpeechSupported, initSpeech } from '@/utils/speech';
+import { speak, speakImmediate, stopSpeaking, isSpeechSupported, initSpeech, prewarmSpeech, isMobileDevice } from '@/utils/speech';
 
 const words = vocabularyData as VocabularyWord[];
 
@@ -36,29 +36,38 @@ export default function VocabularyLearn() {
   const [speed, setSpeed] = useState(0.9);
   const [speechReady, setSpeechReady] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [speechActivated, setSpeechActivated] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    setIsMobile(isMobileDevice());
     if (isSpeechSupported()) {
       initSpeech().then(() => setSpeechReady(true));
     }
   }, []);
 
-  const handleSpeak = useCallback((word: string) => {
-    if (!speechReady) return;
+  const handleSpeak = useCallback((word: string, immediate: boolean = false) => {
+    if (!speechReady && !immediate) return;
     setIsSpeaking(true);
-    speak(word, {
+    const speakFn = immediate || speechActivated ? speakImmediate : speak;
+    speakFn(word, {
       rate: speed,
       onEnd: () => setIsSpeaking(false),
       onError: () => setIsSpeaking(false),
     });
-  }, [speechReady, speed]);
+    if (!speechActivated) setSpeechActivated(true);
+  }, [speechReady, speed, speechActivated]);
 
-  useEffect(() => {
-    if (autoPlay && currentWord && speechReady) {
-      const timer = setTimeout(() => handleSpeak(currentWord.word), 150);
-      return () => clearTimeout(timer);
-    }
-  }, [currentIndex, autoPlay, speechReady, handleSpeak]);
+  const handleSpeakClick = useCallback((word: string) => {
+    prewarmSpeech();
+    if (!speechActivated) setSpeechActivated(true);
+    setIsSpeaking(true);
+    speakImmediate(word, {
+      rate: speed,
+      onEnd: () => setIsSpeaking(false),
+      onError: () => setIsSpeaking(false),
+    });
+  }, [speed, speechActivated]);
 
   useEffect(() => {
     return () => stopSpeaking();
@@ -74,6 +83,13 @@ export default function VocabularyLearn() {
 
   const currentWord = todayWords[currentIndex];
   const totalWords = todayWords.length;
+
+  useEffect(() => {
+    if (autoPlay && currentWord && speechReady && speechActivated && !isMobile) {
+      const timer = setTimeout(() => handleSpeak(currentWord.word), 150);
+      return () => clearTimeout(timer);
+    }
+  }, [currentIndex, autoPlay, speechReady, speechActivated, isMobile, handleSpeak, currentWord]);
 
   const reviewedCount = useMemo(() => {
     let count = 0;
@@ -239,11 +255,11 @@ export default function VocabularyLearn() {
             <span className="text-lg text-gray-400 mb-4">{currentWord?.phonetic}</span>
             {speechReady && (
               <button
-                onClick={(e) => { e.stopPropagation(); currentWord && handleSpeak(currentWord.word); }}
+                onClick={(e) => { e.stopPropagation(); currentWord && handleSpeakClick(currentWord.word); }}
                 className={`flex items-center gap-1.5 px-4 py-2 rounded-full transition-colors text-sm font-medium ${
                   isSpeaking
                     ? 'bg-primary-500 text-white animate-pulse'
-                    : 'bg-primary-50 text-primary-500 hover:bg-primary-100'
+                    : 'bg-primary-50 text-primary-500 hover:bg-primary-100 active:scale-95'
                 }`}
               >
                 {isSpeaking ? <Volume2 size={16} /> : <Volume size={16} />}
@@ -258,11 +274,11 @@ export default function VocabularyLearn() {
             <span className="text-primary-200 mb-4">{currentWord?.phonetic}</span>
             {speechReady && (
               <button
-                onClick={(e) => { e.stopPropagation(); currentWord && handleSpeak(currentWord.word); }}
+                onClick={(e) => { e.stopPropagation(); currentWord && handleSpeakClick(currentWord.word); }}
                 className={`flex items-center gap-1.5 px-4 py-2 rounded-full transition-colors text-sm font-medium mb-4 ${
                   isSpeaking
                     ? 'bg-white text-primary-600 animate-pulse'
-                    : 'bg-white/20 text-white hover:bg-white/30'
+                    : 'bg-white/20 text-white hover:bg-white/30 active:scale-95'
                 }`}
               >
                 {isSpeaking ? <Volume2 size={16} /> : <Volume size={16} />}

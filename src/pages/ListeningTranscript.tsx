@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 import listeningData from '@/data/listening.json';
 import type { ListeningPassage } from '@/types';
-import { speak, stopSpeaking, isSpeechSupported, initSpeech } from '@/utils/speech';
+import { speak, speakImmediate, stopSpeaking, isSpeechSupported, initSpeech, prewarmSpeech } from '@/utils/speech';
 
 const passages: ListeningPassage[] = (listeningData as Array<{
   id: number;
@@ -112,7 +112,7 @@ export default function ListeningTranscript() {
 
       const sentence = cleanSentences[idx];
 
-      const utterance = speak(sentence.cleanText, {
+      const utterance = speakImmediate(sentence.cleanText, {
         rate: speed,
         volume: isMuted ? 0 : volume,
         onEnd: () => {
@@ -141,8 +141,9 @@ export default function ListeningTranscript() {
       stopSpeaking();
       setIsPlaying(false);
     } else {
+      prewarmSpeech();
       setIsPlaying(true);
-      setTimeout(() => speakSentence(activeSentenceIdx), 50);
+      setTimeout(() => speakSentence(activeSentenceIdx), 30);
     }
   }, [isPlaying, activeSentenceIdx, speakSentence]);
 
@@ -151,7 +152,8 @@ export default function ListeningTranscript() {
       setActiveSentenceIdx(idx);
       setIsPlaying(true);
       stopSpeaking();
-      setTimeout(() => speakSentence(idx), 80);
+      prewarmSpeech();
+      setTimeout(() => speakSentence(idx), 50);
     },
     [speakSentence]
   );

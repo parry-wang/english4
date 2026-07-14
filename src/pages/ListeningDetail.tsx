@@ -15,7 +15,7 @@ import {
 import { useAppStore } from '@/store/useAppStore';
 import listeningData from '@/data/listening.json';
 import type { ListeningPassage } from '@/types';
-import { speak, stopSpeaking, isSpeechSupported, initSpeech } from '@/utils/speech';
+import { speak, speakImmediate, stopSpeaking, isSpeechSupported, initSpeech, prewarmSpeech } from '@/utils/speech';
 
 const passages: ListeningPassage[] = (listeningData as Array<{
   id: number;
@@ -133,7 +133,7 @@ export default function ListeningDetail() {
 
       const sentence = cleanSentences[sentenceIdx];
 
-      const utterance = speak(sentence.cleanText, {
+      const utterance = speakImmediate(sentence.cleanText, {
         rate: speed,
         volume: isMuted ? 0 : volume,
         onEnd: () => {
@@ -174,6 +174,8 @@ export default function ListeningDetail() {
       return;
     }
 
+    prewarmSpeech();
+
     if (currentTime >= passage.duration) {
       setCurrentTime(0);
       setCurrentSentenceIndex(0);
@@ -186,7 +188,7 @@ export default function ListeningDetail() {
 
     setCurrentSentenceIndex(idx);
     setIsPlaying(true);
-    setTimeout(() => speakSentence(idx), 50);
+    setTimeout(() => speakSentence(idx), 30);
   }, [passage, isPlaying, currentTime, cleanSentences, speechReady, stopSpeech, speakSentence]);
 
   useEffect(() => {

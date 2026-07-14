@@ -1,6 +1,16 @@
 let voicesLoaded = false;
 let englishVoice: SpeechSynthesisVoice | null = null;
 let initPromise: Promise<void> | null = null;
+let isMobile = false;
+let isIOS = false;
+
+function detectDevice() {
+  if (typeof navigator === 'undefined') return;
+  isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+}
+
+detectDevice();
 
 function initSpeech(): Promise<void> {
   if (initPromise) return initPromise;
@@ -15,9 +25,13 @@ function initSpeech(): Promise<void> {
       const voices = window.speechSynthesis.getVoices();
       if (voices.length > 0) {
         voicesLoaded = true;
-        englishVoice = voices.find(v =>
-          v.lang.startsWith('en') && (v.name.includes('Google') || v.name.includes('Natural') || v.default)
-        ) || voices.find(v => v.lang.startsWith('en')) || null;
+        if (isIOS) {
+          englishVoice = voices.find(v => v.lang === 'en-US') || voices.find(v => v.lang.startsWith('en')) || null;
+        } else {
+          englishVoice = voices.find(v =>
+            v.lang.startsWith('en') && (v.name.includes('Google') || v.name.includes('Natural') || v.default)
+          ) || voices.find(v => v.lang.startsWith('en')) || null;
+        }
         resolve();
         return true;
       }
@@ -33,7 +47,7 @@ function initSpeech(): Promise<void> {
     setTimeout(() => {
       tryLoadVoices();
       resolve();
-    }, 1000);
+    }, 1500);
   });
 
   return initPromise;
@@ -43,6 +57,10 @@ export function isSpeechSupported(): boolean {
   return typeof window !== 'undefined' && !!window.speechSynthesis;
 }
 
+export function isMobileDevice(): boolean {
+  return isMobile;
+}
+
 export interface SpeakOptions {
   rate?: number;
   pitch?: number;
@@ -50,12 +68,11 @@ export interface SpeakOptions {
   onStart?: () => void;
   onEnd?: () => void;
   onError?: () => void;
+  immediate?: boolean;
 }
 
 export function speak(text: string, options: SpeakOptions = {}): SpeechSynthesisUtterance | null {
   if (!isSpeechSupported()) return null;
-
-  window.speechSynthesis.cancel();
 
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'en-US';
@@ -71,28 +88,33 @@ export function speak(text: string, options: SpeakOptions = {}): SpeechSynthesis
   if (options.onEnd) utterance.onend = options.onEnd;
   if (options.onError) utterance.onerror = options.onError;
 
-  const speakWithRetry = (retryCount: number = 0) => {
+  const doSpeak = () => {
     try {
+      window.speechSynthesis.cancel();
       window.speechSynthesis.speak(utterance);
     } catch (e) {
-      if (retryCount < 3) {
-        setTimeout(() => speakWithRetry(retryCount + 1), 100 * (retryCount + 1));
-      }
+      if (options.onError) options.onError();
     }
   };
 
-  if (voicesLoaded) {
-    speakWithRetry();
+  if (voicesLoaded && englishVoice) {
+    doSpeak();
+  } else if (options.immediate) {
+    doSpeak();
   } else {
     initSpeech().then(() => {
       if (englishVoice) {
         utterance.voice = englishVoice;
       }
-      speakWithRetry();
+      doSpeak();
     });
   }
 
   return utterance;
+}
+
+export function speakImmediate(text: string, options: SpeakOptions = {}): SpeechSynthesisUtterance | null {
+  return speak(text, { ...options, immediate: true });
 }
 
 export function stopSpeaking(): void {
@@ -115,6 +137,17 @@ export function resumeSpeaking(): void {
 
 export function isSpeaking(): boolean {
   return isSpeechSupported() && window.speechSynthesis.speaking;
+}
+
+export function prewarmSpeech(): void {
+  if (!isSpeechSupported()) return;
+  const utterance = new SpeechSynthesisUtterance('');
+  utterance.volume = 0;
+  try {
+    window.speechSynthesis.speak(utterance);
+  } catch (e) {
+    // ignore
+  }
 }
 
 export { initSpeech };

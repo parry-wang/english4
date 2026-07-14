@@ -4,7 +4,7 @@ import { ChevronLeft, CheckCircle, XCircle, ArrowRight, Shuffle, Settings, Volum
 import { useAppStore } from '@/store/useAppStore';
 import vocabularyData from '@/data/vocabulary.json';
 import type { VocabularyWord } from '@/types';
-import { speak, stopSpeaking, isSpeechSupported, initSpeech } from '@/utils/speech';
+import { speak, speakImmediate, stopSpeaking, isSpeechSupported, initSpeech, prewarmSpeech } from '@/utils/speech';
 
 const words = vocabularyData as VocabularyWord[];
 
@@ -72,8 +72,9 @@ export default function VocabularyQuiz() {
 
   const handleSpeak = useCallback((word: string) => {
     if (!speechReady) return;
+    prewarmSpeech();
     setIsSpeaking(true);
-    speak(word, {
+    speakImmediate(word, {
       rate: 0.9,
       onEnd: () => setIsSpeaking(false),
       onError: () => setIsSpeaking(false),
