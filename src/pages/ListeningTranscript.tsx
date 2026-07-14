@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import listeningData from '@/data/listening.json';
 import type { ListeningPassage } from '@/types';
+import { speak, stopSpeaking, isSpeechSupported, initSpeech } from '@/utils/speech';
 
 const passages: ListeningPassage[] = (listeningData as Array<{
   id: number;
@@ -77,6 +78,7 @@ export default function ListeningTranscript() {
   const [speed, setSpeed] = useState(1);
   const [volume, setVolume] = useState(0.8);
   const [isMuted, setIsMuted] = useState(false);
+  const [speechReady, setSpeechReady] = useState(false);
 
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
@@ -98,49 +100,49 @@ export default function ListeningTranscript() {
     return passage.transcript.split('\n').filter(Boolean);
   }, [passage]);
 
+  useEffect(() => {
+    if (isSpeechSupported()) {
+      initSpeech().then(() => setSpeechReady(true));
+    }
+  }, []);
+
   const speakSentence = useCallback(
     (idx: number) => {
-      if (!cleanSentences[idx]) return;
-      if (typeof window === 'undefined' || !window.speechSynthesis) return;
+      if (!cleanSentences[idx] || !speechReady) return;
 
-      window.speechSynthesis.cancel();
       const sentence = cleanSentences[idx];
-      const utterance = new SpeechSynthesisUtterance(sentence.cleanText);
-      utterance.lang = 'en-US';
-      utterance.rate = speed;
-      utterance.volume = isMuted ? 0 : volume;
 
-      utterance.onend = () => {
-        if (loopMode) {
-          setTimeout(() => speakSentence(idx), 500);
-        } else if (idx < cleanSentences.length - 1) {
-          const nextIdx = idx + 1;
-          setActiveSentenceIdx(nextIdx);
-          speakSentence(nextIdx);
-        } else {
+      const utterance = speak(sentence.cleanText, {
+        rate: speed,
+        volume: isMuted ? 0 : volume,
+        onEnd: () => {
+          if (loopMode) {
+            setTimeout(() => speakSentence(idx), 500);
+          } else if (idx < cleanSentences.length - 1) {
+            const nextIdx = idx + 1;
+            setActiveSentenceIdx(nextIdx);
+            speakSentence(nextIdx);
+          } else {
+            setIsPlaying(false);
+          }
+        },
+        onError: () => {
           setIsPlaying(false);
-        }
-      };
-
-      utterance.onerror = () => {
-        setIsPlaying(false);
-      };
+        },
+      });
 
       utteranceRef.current = utterance;
-      window.speechSynthesis.speak(utterance);
     },
-    [cleanSentences, speed, volume, isMuted, loopMode]
+    [cleanSentences, speed, volume, isMuted, loopMode, speechReady]
   );
 
   const togglePlay = useCallback(() => {
     if (isPlaying) {
-      if (typeof window !== 'undefined' && window.speechSynthesis) {
-        window.speechSynthesis.cancel();
-      }
+      stopSpeaking();
       setIsPlaying(false);
     } else {
       setIsPlaying(true);
-      speakSentence(activeSentenceIdx);
+      setTimeout(() => speakSentence(activeSentenceIdx), 50);
     }
   }, [isPlaying, activeSentenceIdx, speakSentence]);
 
@@ -148,10 +150,8 @@ export default function ListeningTranscript() {
     (idx: number) => {
       setActiveSentenceIdx(idx);
       setIsPlaying(true);
-      if (typeof window !== 'undefined' && window.speechSynthesis) {
-        window.speechSynthesis.cancel();
-      }
-      setTimeout(() => speakSentence(idx), 50);
+      stopSpeaking();
+      setTimeout(() => speakSentence(idx), 80);
     },
     [speakSentence]
   );
@@ -160,10 +160,8 @@ export default function ListeningTranscript() {
     const newIdx = Math.max(0, activeSentenceIdx - 1);
     setActiveSentenceIdx(newIdx);
     if (isPlaying) {
-      if (typeof window !== 'undefined' && window.speechSynthesis) {
-        window.speechSynthesis.cancel();
-      }
-      setTimeout(() => speakSentence(newIdx), 50);
+      stopSpeaking();
+      setTimeout(() => speakSentence(newIdx), 80);
     }
   }, [activeSentenceIdx, isPlaying, speakSentence]);
 
@@ -172,27 +170,16 @@ export default function ListeningTranscript() {
     const newIdx = Math.min(passage.sentences.length - 1, activeSentenceIdx + 1);
     setActiveSentenceIdx(newIdx);
     if (isPlaying) {
-      if (typeof window !== 'undefined' && window.speechSynthesis) {
-        window.speechSynthesis.cancel();
-      }
-      setTimeout(() => speakSentence(newIdx), 50);
+      stopSpeaking();
+      setTimeout(() => speakSentence(newIdx), 80);
     }
   }, [passage, activeSentenceIdx, isPlaying, speakSentence]);
 
   useEffect(() => {
     return () => {
-      if (typeof window !== 'undefined' && window.speechSynthesis) {
-        window.speechSynthesis.cancel();
-      }
+      stopSpeaking();
     };
   }, []);
-
-  useEffect(() => {
-    if (utteranceRef.current) {
-      utteranceRef.current.rate = speed;
-      utteranceRef.current.volume = isMuted ? 0 : volume;
-    }
-  }, [speed, volume, isMuted]);
 
   if (!passage) {
     return (

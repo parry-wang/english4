@@ -15,6 +15,7 @@ import {
 import { useAppStore } from '@/store/useAppStore';
 import listeningData from '@/data/listening.json';
 import type { ListeningPassage } from '@/types';
+import { speak, stopSpeaking, isSpeechSupported, initSpeech } from '@/utils/speech';
 
 const passages: ListeningPassage[] = (listeningData as Array<{
   id: number;
@@ -92,7 +93,7 @@ export default function ListeningDetail() {
   const [volume, setVolume] = useState(0.8);
   const [isMuted, setIsMuted] = useState(false);
   const [currentSentenceIndex, setCurrentSentenceIndex] = useState(0);
-  const [speechSupported, setSpeechSupported] = useState(true);
+  const [speechReady, setSpeechReady] = useState(false);
   const progressRef = useRef<HTMLDivElement>(null);
 
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
@@ -112,15 +113,13 @@ export default function ListeningDetail() {
   }, [passage]);
 
   useEffect(() => {
-    if (typeof window !== 'undefined' && !window.speechSynthesis) {
-      setSpeechSupported(false);
+    if (isSpeechSupported()) {
+      initSpeech().then(() => setSpeechReady(true));
     }
   }, []);
 
   const stopSpeech = useCallback(() => {
-    if (typeof window !== 'undefined' && window.speechSynthesis) {
-      window.speechSynthesis.cancel();
-    }
+    stopSpeaking();
     if (timerRef.current) {
       clearInterval(timerRef.current);
       timerRef.current = null;
@@ -129,36 +128,31 @@ export default function ListeningDetail() {
   }, []);
 
   const speakSentence = useCallback(
-    (sentenceIdx: number, fromTime?: number) => {
+    (sentenceIdx: number) => {
       if (!passage || !cleanSentences[sentenceIdx]) return;
-      if (typeof window === 'undefined' || !window.speechSynthesis) return;
 
       const sentence = cleanSentences[sentenceIdx];
-      const utterance = new SpeechSynthesisUtterance(sentence.cleanText);
-      utterance.lang = 'en-US';
-      utterance.rate = speed;
-      utterance.volume = isMuted ? 0 : volume;
 
-      const startTime = fromTime ?? sentence.start_time;
-
-      utterance.onend = () => {
-        if (sentenceIdx < cleanSentences.length - 1) {
-          const nextIdx = sentenceIdx + 1;
-          setCurrentSentenceIndex(nextIdx);
-          setCurrentTime(cleanSentences[nextIdx].start_time);
-          speakSentence(nextIdx);
-        } else {
+      const utterance = speak(sentence.cleanText, {
+        rate: speed,
+        volume: isMuted ? 0 : volume,
+        onEnd: () => {
+          if (sentenceIdx < cleanSentences.length - 1) {
+            const nextIdx = sentenceIdx + 1;
+            setCurrentSentenceIndex(nextIdx);
+            setCurrentTime(cleanSentences[nextIdx].start_time);
+            speakSentence(nextIdx);
+          } else {
+            setIsPlaying(false);
+            setCurrentTime(passage.duration);
+          }
+        },
+        onError: () => {
           setIsPlaying(false);
-          setCurrentTime(passage.duration);
-        }
-      };
-
-      utterance.onerror = () => {
-        setIsPlaying(false);
-      };
+        },
+      });
 
       utteranceRef.current = utterance;
-      window.speechSynthesis.speak(utterance);
 
       if (timerRef.current) clearInterval(timerRef.current);
       timerRef.current = setInterval(() => {
@@ -172,7 +166,7 @@ export default function ListeningDetail() {
   );
 
   const handlePlay = useCallback(() => {
-    if (!passage || !speechSupported) return;
+    if (!passage || !speechReady) return;
 
     if (isPlaying) {
       stopSpeech();
@@ -192,21 +186,14 @@ export default function ListeningDetail() {
 
     setCurrentSentenceIndex(idx);
     setIsPlaying(true);
-    speakSentence(idx, currentTime);
-  }, [passage, isPlaying, currentTime, cleanSentences, speechSupported, stopSpeech, speakSentence]);
+    setTimeout(() => speakSentence(idx), 50);
+  }, [passage, isPlaying, currentTime, cleanSentences, speechReady, stopSpeech, speakSentence]);
 
   useEffect(() => {
     return () => {
       stopSpeech();
     };
   }, [stopSpeech]);
-
-  useEffect(() => {
-    if (isPlaying && utteranceRef.current) {
-      utteranceRef.current.rate = speed;
-      utteranceRef.current.volume = isMuted ? 0 : volume;
-    }
-  }, [speed, volume, isMuted, isPlaying]);
 
   const handleProgressClick = useCallback(
     (e: React.MouseEvent<HTMLDivElement>) => {
@@ -229,23 +216,23 @@ export default function ListeningDetail() {
       if (wasPlaying) {
         setTimeout(() => {
           setIsPlaying(true);
-          speakSentence(idx, newTime);
-        }, 100);
+          speakSentence(idx);
+        }, 150);
       }
     },
     [passage, isPlaying, cleanSentences, stopSpeech, speakSentence]
   );
 
   const handleReplayCurrent = useCallback(() => {
-    if (!passage || !speechSupported) return;
+    if (!passage || !speechReady) return;
     stopSpeech();
     setIsPlaying(false);
     setCurrentTime(cleanSentences[currentSentenceIndex]?.start_time ?? 0);
     setTimeout(() => {
       setIsPlaying(true);
       speakSentence(currentSentenceIndex);
-    }, 100);
-  }, [passage, speechSupported, cleanSentences, currentSentenceIndex, stopSpeech, speakSentence]);
+    }, 150);
+  }, [passage, speechReady, cleanSentences, currentSentenceIndex, stopSpeech, speakSentence]);
 
   const handleVolumeChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     const val = parseFloat(e.target.value);
@@ -319,7 +306,7 @@ export default function ListeningDetail() {
         <p className="text-sm text-gray-400 mt-1">时长 {formatTime(passage.duration)}</p>
       </div>
 
-      {!speechSupported && (
+      {!speechReady && (
         <div className="bg-warning-50 border border-warning-200 text-warning-700 rounded-xl p-4 mb-6 text-sm">
           ⚠️ 当前浏览器不支持语音合成，请使用 Chrome、Edge 或 Safari 浏览器体验听力播放。
         </div>
@@ -333,7 +320,7 @@ export default function ListeningDetail() {
         <div className="flex items-center gap-4 mb-4">
           <button
             onClick={handlePlay}
-            disabled={!speechSupported}
+            disabled={!speechReady}
             className="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-md hover:scale-105 transition-transform flex-shrink-0 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {isPlaying ? (

@@ -1,21 +1,12 @@
 import { useState, useMemo, useCallback, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronLeft, ChevronRight, Check, X, Trophy, Shuffle, Volume2, VolumeX } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Check, X, Trophy, Shuffle, Volume2, VolumeX, Volume } from 'lucide-react';
 import { useAppStore } from '@/store/useAppStore';
 import vocabularyData from '@/data/vocabulary.json';
 import type { VocabularyWord } from '@/types';
+import { speak, stopSpeaking, isSpeechSupported, initSpeech } from '@/utils/speech';
 
 const words = vocabularyData as VocabularyWord[];
-
-const speakWord = (word: string, rate: number = 0.9) => {
-  if (typeof window === 'undefined' || !window.speechSynthesis) return;
-  window.speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = 'en-US';
-  utterance.rate = rate;
-  utterance.pitch = 1;
-  window.speechSynthesis.speak(utterance);
-};
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -41,22 +32,37 @@ export default function VocabularyLearn() {
   const [flipped, setFlipped] = useState(false);
   const [completed, setCompleted] = useState(false);
   const [seed, setSeed] = useState(0);
-  const [autoPlay, setAutoPlay] = useState(true);
+  const [autoPlay, setAutoPlay] = useState(false);
   const [speed, setSpeed] = useState(0.9);
-  const [speechSupported, setSpeechSupported] = useState(true);
+  const [speechReady, setSpeechReady] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
 
   useEffect(() => {
-    if (typeof window !== 'undefined' && !window.speechSynthesis) {
-      setSpeechSupported(false);
+    if (isSpeechSupported()) {
+      initSpeech().then(() => setSpeechReady(true));
     }
   }, []);
 
+  const handleSpeak = useCallback((word: string) => {
+    if (!speechReady) return;
+    setIsSpeaking(true);
+    speak(word, {
+      rate: speed,
+      onEnd: () => setIsSpeaking(false),
+      onError: () => setIsSpeaking(false),
+    });
+  }, [speechReady, speed]);
+
   useEffect(() => {
-    if (autoPlay && currentWord && speechSupported) {
-      const timer = setTimeout(() => speakWord(currentWord.word, speed), 100);
+    if (autoPlay && currentWord && speechReady) {
+      const timer = setTimeout(() => handleSpeak(currentWord.word), 150);
       return () => clearTimeout(timer);
     }
-  }, [currentIndex, autoPlay, speed, speechSupported]);
+  }, [currentIndex, autoPlay, speechReady, handleSpeak]);
+
+  useEffect(() => {
+    return () => stopSpeaking();
+  }, []);
 
   const todayWords = useMemo(() => {
     const masteredIds = new Set<number>();
@@ -231,13 +237,17 @@ export default function VocabularyLearn() {
           <div className="flip-card-front absolute inset-0 bg-white rounded-2xl shadow-sm flex flex-col items-center justify-center p-8">
             <span className="text-3xl font-bold text-primary-500 mb-3">{currentWord?.word}</span>
             <span className="text-lg text-gray-400 mb-4">{currentWord?.phonetic}</span>
-            {speechSupported && (
+            {speechReady && (
               <button
-                onClick={(e) => { e.stopPropagation(); currentWord && speakWord(currentWord.word, speed); }}
-                className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-primary-50 text-primary-500 hover:bg-primary-100 transition-colors text-sm font-medium"
+                onClick={(e) => { e.stopPropagation(); currentWord && handleSpeak(currentWord.word); }}
+                className={`flex items-center gap-1.5 px-4 py-2 rounded-full transition-colors text-sm font-medium ${
+                  isSpeaking
+                    ? 'bg-primary-500 text-white animate-pulse'
+                    : 'bg-primary-50 text-primary-500 hover:bg-primary-100'
+                }`}
               >
-                <Volume2 size={16} />
-                播放发音
+                {isSpeaking ? <Volume2 size={16} /> : <Volume size={16} />}
+                {isSpeaking ? '播放中...' : '播放发音'}
               </button>
             )}
             <span className="text-sm text-gray-300 mt-6">点击卡片查看释义</span>
@@ -246,13 +256,17 @@ export default function VocabularyLearn() {
           <div className="flip-card-back absolute inset-0 bg-gradient-to-br from-primary-500 to-primary-700 rounded-2xl shadow-sm flex flex-col items-center justify-center p-8 text-white">
             <span className="text-2xl font-bold mb-2">{currentWord?.word}</span>
             <span className="text-primary-200 mb-4">{currentWord?.phonetic}</span>
-            {speechSupported && (
+            {speechReady && (
               <button
-                onClick={(e) => { e.stopPropagation(); currentWord && speakWord(currentWord.word, speed); }}
-                className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/20 text-white hover:bg-white/30 transition-colors text-sm font-medium mb-4"
+                onClick={(e) => { e.stopPropagation(); currentWord && handleSpeak(currentWord.word); }}
+                className={`flex items-center gap-1.5 px-4 py-2 rounded-full transition-colors text-sm font-medium mb-4 ${
+                  isSpeaking
+                    ? 'bg-white text-primary-600 animate-pulse'
+                    : 'bg-white/20 text-white hover:bg-white/30'
+                }`}
               >
-                <Volume2 size={16} />
-                播放发音
+                {isSpeaking ? <Volume2 size={16} /> : <Volume size={16} />}
+                {isSpeaking ? '播放中...' : '播放发音'}
               </button>
             )}
             <span className="text-xl font-semibold mb-6">{currentWord?.meaning}</span>
@@ -265,7 +279,7 @@ export default function VocabularyLearn() {
       </div>
 
       {/* Audio Controls */}
-      {speechSupported && (
+      {speechReady && (
         <div className="bg-white rounded-2xl shadow-sm p-4">
           <div className="flex items-center justify-between gap-3">
             <div className="flex items-center gap-2">

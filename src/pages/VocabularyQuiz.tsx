@@ -1,21 +1,12 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronLeft, CheckCircle, XCircle, ArrowRight, Shuffle, Settings, Volume2 } from 'lucide-react';
+import { ChevronLeft, CheckCircle, XCircle, ArrowRight, Shuffle, Settings, Volume2, Volume } from 'lucide-react';
 import { useAppStore } from '@/store/useAppStore';
 import vocabularyData from '@/data/vocabulary.json';
 import type { VocabularyWord } from '@/types';
+import { speak, stopSpeaking, isSpeechSupported, initSpeech } from '@/utils/speech';
 
 const words = vocabularyData as VocabularyWord[];
-
-const speakWord = (word: string) => {
-  if (typeof window === 'undefined' || !window.speechSynthesis) return;
-  window.speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = 'en-US';
-  utterance.rate = 0.9;
-  utterance.pitch = 1;
-  window.speechSynthesis.speak(utterance);
-};
 
 interface QuizQuestion {
   wordId: number;
@@ -66,6 +57,28 @@ export default function VocabularyQuiz() {
   const [wrongWords, setWrongWords] = useState<VocabularyWord[]>([]);
   const [correctCount, setCorrectCount] = useState(0);
   const [finished, setFinished] = useState(false);
+  const [speechReady, setSpeechReady] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
+
+  useEffect(() => {
+    if (isSpeechSupported()) {
+      initSpeech().then(() => setSpeechReady(true));
+    }
+  }, []);
+
+  useEffect(() => {
+    return () => stopSpeaking();
+  }, []);
+
+  const handleSpeak = useCallback((word: string) => {
+    if (!speechReady) return;
+    setIsSpeaking(true);
+    speak(word, {
+      rate: 0.9,
+      onEnd: () => setIsSpeaking(false),
+      onError: () => setIsSpeaking(false),
+    });
+  }, [speechReady]);
 
   const learnedWords = useMemo(() => {
     const learnedIds = new Set<number>();
@@ -297,13 +310,17 @@ export default function VocabularyQuiz() {
         </p>
         <div className="flex items-center gap-3 mb-6">
           <p className="text-2xl font-bold text-primary-500">{question.question}</p>
-          {question.type === 'en2cn' && typeof window !== 'undefined' && window.speechSynthesis && (
+          {question.type === 'en2cn' && speechReady && (
             <button
-              onClick={() => speakWord(question.question)}
-              className="p-2 rounded-full bg-primary-50 text-primary-500 hover:bg-primary-100 transition-colors"
+              onClick={() => handleSpeak(question.question)}
+              className={`p-2 rounded-full transition-colors ${
+                isSpeaking
+                  ? 'bg-primary-500 text-white animate-pulse'
+                  : 'bg-primary-50 text-primary-500 hover:bg-primary-100'
+              }`}
               title="播放发音"
             >
-              <Volume2 size={18} />
+              {isSpeaking ? <Volume2 size={18} /> : <Volume size={18} />}
             </button>
           )}
         </div>
